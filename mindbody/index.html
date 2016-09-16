@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Urban Yoga</title>
+		<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+		<link href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet">
+		<link href="style.min.css" type="text/css" rel="stylesheet">
+
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="node_modules/jquery-sparkline/jquery.sparkline.min.js"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="node_modules/chart.js/dist/Chart.min.js"></script>
+
+		<script src="script.js"></script>
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body class="gradient_background">
+		<nav class="navbar navbar-default navbar-fixed-top hidden-lg hidden-md">
+  			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#"><img src="logo.png" class="logo"></a>
+			    </div>
+
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+						<li class="dropdown">
+				          <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dashboard </a>
+				          <ul class="dropdown-menu">
+							<li><a href="#">Dashboard</a></li>
+  				            <li><a href="#" class="active">Business Overview</a></li>
+  				            <li><a href="#">Schedule</a></li>
+  				            <li><a href="#">Reports</a></li>
+				          </ul>
+				        </li>
+						<li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign In</a>
+				          <ul class="dropdown-menu">
+							<li><a href="#">link</a></li>
+  				            <li><a href="#">link</a></li>
+  				            <li><a href="#">link</a></li>
+  				            <li><a href="#">link</a></li>
+				          </ul>
+				        </li>
+
+						<li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Classes </a>
+				          <ul class="dropdown-menu">
+							<li><a href="#">link</a></li>
+  				            <li><a href="#">link</a></li>
+  				            <li><a href="#">link</a></li>
+  				            <li><a href="#">link</a></li>
+				          </ul>
+				        </li>
+						<li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Workshop </a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				          </ul>
+				        </li>
+						<li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Appointments </a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				          </ul>
+				        </li>
+						<li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Client Home </a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				          </ul>
+				        </li>
+						<li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Retail </a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				            <li><a href="#">link</a></li>
+				          </ul>
+				        </li>
+
+				      </ul>
+
+  				</div>
+			</div>
+		</nav>
+		<div class="header hidden-sm hidden-xs">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="logo.png" class="logo">
+					</div>
+				</div>
+			</div>
+			<nav class="menu hidden-sm hidden-xs">
+				<ul>
+					<li class="active"><a href="#" data-menu="1">Dashboard</a></li>
+					<li><a href="#" data-menu="2">Sign In</a></li>
+					<li><a href="#" data-menu="3">Classes</a></li>
+					<li><a href="#" data-menu="4">Workshops</a></li>
+					<li><a href="#" data-menu="5">Appointments</a></li>
+					<li><a href="#" data-menu="6">Client Home</a></li>
+					<li><a href="#" data-menu="7">Retail</a></li>
+				</ul>
+			</nav>
+
+			<nav class="submenu hidden-sm hidden-xs">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<ul data-parentmenu="1">
+								<li><a href="#">Dashboard</a></li>
+								<li class="active"><a href="#">Business Overview</a></li>
+								<li><a href="#">Schedule</a></li>
+								<li><a href="#">Reports</a></li>
+							</ul>
+							<ul data-parentmenu="2" hidden>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+							</ul>
+							<ul data-parentmenu="3" hidden>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+							</ul>
+							<ul data-parentmenu="4" hidden>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+							</ul>
+							<ul data-parentmenu="5" hidden>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+							</ul>
+							<ul data-parentmenu="6" hidden>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+							</ul>
+							<ul data-parentmenu="7" hidden>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+								<li><a href="#">link</a></li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-2 col-sm-12 col-xs-12 sidebar">
+						<!-- Start Left Sidebar -->
+						<button class="btn btn-success btn-lg newprogrambtn"  data-toggle="modal" data-target="#myModal"><i class="glyphicon glyphicon-plus glyphicon-2x"></i><span class="newprogram">New Program</span></button><br>
+						<span class="newprogram">New Program</span>
+						<!-- End Left Sidebar -->
+					</div>
+					<div class="col-md-10 col-sm-12 col-xs-12">
+						<div class="row programs">
+							<!-- Start Content -->
+							<div class="col-md-4 col-sm-6 programtemplate program">
+								<div class="well white">
+									<h4><span class="title"></span><button class="edit btn btn-default pull-right btn-xs"><i class="glyphicon glyphicon-pencil"></i></button> </h4>
+
+									<h5>Sales by month</h5>
+
+									<canvas class="sales" width="200" height="150"></canvas>
+
+									<div class="middle">
+										<table>
+											<thead>
+												<tr><th class="left">Total Monthly</th><th class="center">Current</th><th class="right">1 - Year</th></tr>
+											</thead>
+											<tbody>
+												<tr><td class="left">Sales</td><td class="center totalsales">$30,000</td><td class="right hardlinehere"></td></tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="offset">
+										<div class="more" hidden>
+											<table>
+												<thead>
+													<tr><th class="left">Price Name</th><th>Current</th><th class="right">1 - Year</th></tr>
+												</thead>
+												<tbody class="prices">
+													<tr class="pricetemplate"><td class="left"><span class="name"></span></td><td class="center price"></td><td class="right softlinehere"></td></tr>
+												</tbody>
+											</table>
+										</div>
+
+										<a href="#" class="toggle"><span>more</span><span hidden>less</span></a>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<table class="allprograms">
+									<thead>
+										<tr>
+											<th class="left">All Programs</th>
+											<th class="center">Monthly Sales</th>
+											<th class="right">Monthly Attendance</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>Open Practice</th><td>$572.00</td><td>276 Views</td>
+										</tr>
+										<tr>
+											<td colspan="3"><a class="toggle"><span>more</span><span hidden>less</span></a><div class="more" hidden>
+
+											</div></td>
+										</tr>
+										<tr>
+											<th>Yoga Videos</th><td>$391.32</td><td>82 Views</td>
+										</tr>
+										<tr>
+											<td colspan="3"><a class="toggle"><span>more</span><span hidden>less</span></a><div class="more" hidden>
+
+											</div></td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+
+						<!-- End Content -->
+					</div>
+
+
+			</div>
+		</div>
+		<!-- Button trigger modal -->
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Add Program</h4>
+		      </div>
+		      <div class="modal-body">
+				<div class="form-group">
+     				<label for="formtitle">Program Title</label>
+     				<input type="text" class="form-control" id="formtitle" placeholder="Program Title" required>
+   				</div>
+				<div class="form-group">
+     				<label for="formtype">Program Type</label>
+     				<select class="form-control" id="formtype" required>
+						<option value="" disabled selected>Program Type</option>
+						<option value="Count Series">Count Series</option>
+						<option value="Time Series">Time Series</option>
+						<option value="Membership">Membership</option>
+					</select>
+   				</div>
+				<div class="form-group">
+					<div class="checkbox">
+		        		<label for="formscheduling">
+				        	<input type="checkbox" id="formscheduling" > Allow Online Scheduling?
+				        </label>
+				    </div>
+   				</div>
+  				<div class="form-group">
+       				<label for="formtitle">Default Capacity</label>
+       				<input type="number" class="form-control" id="formcapacity" placeholder="Default Capacity" required>
+     			</div>
+				<div class="form-group">
+     				<label for="formtype">Tabs</label>
+     				<select class="form-control multi" id="formtabs" multiple required>
+						<option value="Classes">Classes</option>
+						<option value="Appointments">Appointments</option>
+						<option value="Workshops">Workshops</option>
+						<option value="Outside">Outside</option>
+						<option value="Inside">Inside</option>
+						<option value="Gym">Gym</option>
+					</select>
+   				</div>
+
+
+
+			</div>
+
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</body>
+</html>
