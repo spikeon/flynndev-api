@@ -6,20 +6,25 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit66ea40c32cbf5df9add9d4d1c6610daf
 {
-    public static $prefixesPsr0 = array (
-        'j' => 
+    public static $prefixLengthsPsr4 = array (
+        'D' => 
         array (
-            'johnpbloch\\Composer\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/johnpbloch/wordpress-core-installer/src',
-            ),
+            'Dotenv\\' => 7,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInit66ea40c32cbf5df9add9d4d1c6610daf::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit66ea40c32cbf5df9add9d4d1c6610daf::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit66ea40c32cbf5df9add9d4d1c6610daf::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

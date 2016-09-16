@@ -1,0 +1,21 @@
+{
+  "name": "flynndev",
+  "version": "1.0.0",
+  "description": "Michael Flynn's Portfolio",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Flynn",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spikeon/flynndev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spikeon/flynndev/issues"
+  },
+  "homepage": "https://github.com/spikeon/flynndev#readme"
+}
