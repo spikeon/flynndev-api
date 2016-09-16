@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-	require('/vendor/autoload.php');
+	include('./vendor/autoload.php');
 ?>
 <html>
 	<head>
