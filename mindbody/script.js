@@ -226,6 +226,9 @@ $(function(){
 			// Prevent clicking of link default action
 			e.preventDefault();
 
+			//analytics
+			ga('send', 'event', 'More Link', 'toggle', 'Urban Yoga');
+
 			// Change from "more" to "less" or vice versa
 			$(this).find('span').toggle();
 
@@ -238,6 +241,9 @@ $(function(){
 		$('.menu a').click(function(e){
 			// Prevent clicking of link default action
 			e.preventDefault();
+
+			//analytics
+			ga('send', 'event', 'Menu Tab', 'clicked', 'Urban Yoga');
 
 			// Un-select previously active tab
 			$('.menu li').removeClass('active');
