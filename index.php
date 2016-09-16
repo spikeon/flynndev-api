@@ -15,6 +15,14 @@
 	</head>
 
 	<body>
+		<nav class="navbar navbar-light bg-faded">
+		  <a class="navbar-brand" href="http://flynndev.us">Michael Flynn's Portfolio</a>
+		  <ul class="nav navbar-nav">
+		    <li class="nav-item active">
+		      <a class="nav-link" href="/index.php">Home</a>
+		    </li>
+		  </ul>
+		</nav>		
 		<div class="container">
 
 		</div>
