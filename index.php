@@ -16,17 +16,23 @@
 
 	<body>
 		<nav class="navbar navbar-light bg-faded">
-		  <a class="navbar-brand" href="http://flynndev.us">Michael Flynn's Portfolio</a>
-		  <ul class="nav navbar-nav">
-		    <li class="nav-item active">
-		      <a class="nav-link" href="/index.php">Home</a>
-		    </li>
-		  </ul>
-		</nav>		
+			<div class="container">
+		  		<a class="navbar-brand" href="http://flynndev.us">Michael Flynn's Portfolio</a>
+		  		<ul class="nav navbar-nav">
+		    		<li class="nav-item active">
+		      			<a class="nav-link" href="/index.php">Home</a>
+		    		</li>
+		  		</ul>
+			</div>
+		</nav>
 		<div class="container">
 
 		</div>
-
+		<footer class="footer">
+		    <div class="container">
+				<span class="text-muted">Place sticky footer content here.</span>
+		    </div>
+		</footer>
 		<!-- Do Javascript Last -->
 		<script src="/node_modules/jquery/dist/jquery.min.js"></script>
 		<script src="/node_modules/tether/dist/js/tether.min.js"></script>
