@@ -30,7 +30,7 @@
 		</div>
 		<footer class="footer">
 		    <div class="container">
-				<span class="text-muted">Place sticky footer content here.</span>
+				<span class="text-muted">Copyright 2016 Michael Flynn. All rights reserved.</span>
 		    </div>
 		</footer>
 		<!-- Do Javascript Last -->
