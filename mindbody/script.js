@@ -259,4 +259,14 @@ $(function(){
 
 		});
 	}
+
+	$('button.edit').click(function(){
+		//analytics
+		ga('send', 'event', 'Edit Button', 'clicked', 'Urban Yoga');
+	});
+	$('button.newprogrambtn').click(function(){
+		//analytics
+		ga('send', 'event', 'New Program Button', 'clicked', 'Urban Yoga');
+	});
+
 });
