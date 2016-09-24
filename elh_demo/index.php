@@ -71,7 +71,10 @@
 
 
 					];
-					foreach($days as $day) { ?>
+
+					foreach($days as $i => $day) {
+						if($i == 3) echo "</div><div class='row'>";
+						?>
 						<div class='col-md-3 day'>
 							<div class='list-group'>
 								<div class='list-group-item active'>
