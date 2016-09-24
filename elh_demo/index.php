@@ -81,9 +81,9 @@
 					];
 
 					foreach($days as $i => $day) {
-						if($i == 4) echo "</div><div class='row'>";
+						//if($i == 4) echo "</div><div class='row'>";
 						?>
-						<div class='col-md-3 day'>
+						<div class='col-xs day'>
 							<div class='list-group'>
 								<div class='list-group-item active'>
 									<div class='row'>
