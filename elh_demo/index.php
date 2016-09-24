@@ -16,7 +16,7 @@
 	</head>
 
 	<body>
-		<div class='container-fluid'>
+		<div class='container'>
 			<div class='row calhead'>
 				<div class='col-md-3 text-xs-left'><button class='btn btn-primary'><i class="fa fa-chevron-left" aria-hidden="true"></i></button></div>
 				<div class='col-md-6 text-xs-center'>
@@ -81,9 +81,9 @@
 					];
 
 					foreach($days as $i => $day) {
-						//if($i == 4) echo "</div><div class='row'>";
+						if($i == 4) echo "</div><div class='row'>";
 						?>
-						<div class='col-xs day'>
+						<div class='col-md-3 day'>
 							<div class='list-group'>
 								<div class='list-group-item active'>
 									<div class='row'>
