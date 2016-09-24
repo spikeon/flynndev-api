@@ -17,7 +17,7 @@
 	<body>
 		<div class='container'>
 			<div class='row'>
-				<div class='col-md-2'>
+				<div class='col-md-3'>
 					<div class='list-group'>
 						<div class='list-group-item active'>Sunday</div>
 						<div class='list-group-item'>12:20 <button class='btn btn-primary pull-right'> Book </button></div>
