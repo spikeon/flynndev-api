@@ -15,22 +15,90 @@
 	</head>
 
 	<body>
-		<div class='container'>
+		<div class='container-fluid'>
 			<div class='row'>
-				<div class='col-md-3'>
-					<div class='list-group'>
-						<div class='list-group-item active'>Sunday</div>
-						<div class='list-group-item'>
-							<div class='row'>
-								<div class='col-md-6'>12:20</div>
-								<div class='col-md-6 text-right'><button class='btn btn-primary '> Book </button></div>
+				<?php
+					$days = [
+						[
+							'day' => 'Sunday',
+							'date' => 'Oct 23',
+							'times' => [
+								'13:00', '13:30', '14:00', '14:30'
+							]
+						],
+						[
+							'day' => 'Monday',
+							'date' => 'Oct 24',
+							'times' => [
+								'13:00', '13:30', '14:00', '14:30'
+							]
+						],
+						[
+							'day' => 'Tuesday',
+							'date' => 'Oct 25',
+							'times' => [
+								'13:00', '13:30', '14:00', '14:30'
+							]
+						],
+						[
+							'day' => 'Wednesday',
+							'date' => 'Oct 26',
+							'times' => [
+
+							]
+						],
+						[
+							'day' => 'Thursday',
+							'date' => 'Oct 27',
+							'times' => [
+								'13:00', '13:30', '14:00', '14:30'
+							]
+						],
+						[
+							'day' => 'Friday',
+							'date' => 'Oct 28',
+							'times' => [
+								'13:00', '13:30', '14:00', '14:30'
+							]
+						],
+						[
+							'day' => 'Saturday',
+							'date' => 'Oct 29',
+							'times' => [
+
+							]
+						],
+
+
+					];
+					foreach($days as $day) { ?>
+						<div class='col-md-2'>
+							<div class='list-group'>
+								<div class='list-group-item active'>
+									<div class='row'>
+										<div class='col-md-6'><?php echo $day['day']; ?></div>
+										<div class='col-md-6 text-xs-right'><?php echo $day['date']; ?></div>
+									</div>
+								</div>
+								<?php if(count($day['times']) == 0) { ?>
+									<div class='list-group-item disabled'>
+										No Classes Today
+									</div>
+
+								<?php } else { foreach($day['times'] as $time) { ?>
+									<div class='list-group-item'>
+										<div class='row'>
+											<div class='col-md-6'><?php echo $time; ?></div>
+											<div class="col-md-6 text-xs-right"><a class='btn btn-primary btn-sm' href="#"> Book </a></div>
+										</div>
+									</div>
+								<?php } } ?>
+
 							</div>
+
 						</div>
-
-					</div>
-
+					<?php } ?>
 				</div>
-			</div>
 		</div>
 		<!-- Do Javascript Last -->
 		<script src="/node_modules/jquery/dist/jquery.min.js"></script>
