@@ -15,11 +15,13 @@
 	</head>
 
 	<body>
-		<div class='container-fluid'>
+		<div class='container'>
 			<div class='row'>
-				<h3>
-					Week of Oct 23 - Oct 29
-				</h3>
+				<div class='col-md-3'><button class='btn btn-primary'><i class='glyphicon glyphicon-arrow-left'></i></button></div>
+				<div class='col-md-6'>
+					<h3>Week of Oct 23 - Oct 29</h3>
+				</div>
+				<div class='col-md-3'><button class='btn btn-primary'><i class='glyphicon glyphicon-arrow-right'></i></button></div>
 			</div>
 			<div class='row'>
 				<?php
