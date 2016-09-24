@@ -16,7 +16,7 @@
 	</head>
 
 	<body>
-		<div class='container'>
+		<div class='container-fluid'>
 			<div class='row calhead'>
 				<div class='col-md-3 text-xs-left'><button class='btn btn-primary'><i class="fa fa-chevron-left" aria-hidden="true"></i></button></div>
 				<div class='col-md-6 text-xs-center'>
