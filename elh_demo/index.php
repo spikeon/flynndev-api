@@ -23,7 +23,7 @@
 						<div class='list-group-item'>
 							<div class='row'>
 								<div class='col-md-6'>12:20</div>
-								<div class='col-md-6 text-right'><button class='btn btn-primary pull-right'> Book </button></div>
+								<div class='col-md-6 text-right'><button class='btn btn-primary '> Book </button></div>
 							</div>
 						</div>
 
