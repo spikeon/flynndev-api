@@ -72,7 +72,7 @@
 
 					];
 					foreach($days as $day) { ?>
-						<div class='col-md-1>
+						<div class='col-md-1'>
 							<div class='list-group'>
 								<div class='list-group-item active'>
 									<div class='row'>
