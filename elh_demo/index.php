@@ -11,6 +11,7 @@
 		<title>Michael Flynn's Portfolio</title>
 		<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/node_modules/tether/dist/css/tether.min.css">
+		<link rel="stylesheet" href="/resources/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/style.min.css">
 	</head>
 
@@ -114,6 +115,6 @@
 		<script src="/node_modules/jquery/dist/jquery.min.js"></script>
 		<script src="/node_modules/tether/dist/js/tether.min.js"></script>
 		<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-		<script src="/node_modules/fontawesome/index.js"></script>
+
 	</body>
 </html>
