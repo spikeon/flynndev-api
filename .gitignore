@@ -7,3 +7,7 @@
 /sitemap.xml.gz
 
 /.env
+
+/projects
+
+.repos
