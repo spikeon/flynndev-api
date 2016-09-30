@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$EUID" -ne 0 ]
-  then echo "Please run as root"
+  then echo "Please run as root or sudo"
   exit
 fi
 
@@ -37,5 +37,6 @@ else
 
 	chmod +x hooks/post-receive
 
+	echo "Repo Url: ssh://root@flynndev.us$repodir"
 
 fi
