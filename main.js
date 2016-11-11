@@ -6,7 +6,7 @@
 ga('create', 'UA-84279981-1', 'auto');
 ga('send', 'pageview');
 
-var apiUrl = "http://flyndev.us:44562/";
+var apiUrl = "http://flynndev.us:44562/";
 
 $(function() {
 
