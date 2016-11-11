@@ -20,7 +20,7 @@ $(function() {
 			var value = new Date().getFullYear() - exp.year;
 			$exp.append(
 				$("<div>").append(
-					$("<h3>",{text:exp.name}).append(
+					$("<h5>",{text:exp.name}).append(
 						$("<span>", {text: value + " Years", class: "float-xs-right"})
 					)
 				).append(
