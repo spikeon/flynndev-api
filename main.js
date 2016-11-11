@@ -11,7 +11,7 @@ var apiUrl = "http://flyndev.us:44562/";
 $(function() {
 
     // This is where the JS for my site will live
-	$.get(apiUrl + 'exp', function(data){
+	$.get(apiUrl + 'experience', function(data){
 		$exp = $('.exp');
 		var smallest = 2002;
 		for(var i in data){
