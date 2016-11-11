@@ -20,11 +20,11 @@ $(function() {
 		var max = new Date().getFullYear() - smallest;
 		for(var i in data){
 			var exp = data[i];
-			var value = exp.year - smallest;
+			var value = exp.year - new Date().getFullYear();
 			$exp.append(
 				$("<div>").append(
 					$("<h4>",{text:exp.name}).append(
-						$("<span>", {text: value + " Years", class: "pull-xs-right"})
+						$("<span>", {text: value + " Years", class: "float-xs-right"})
 					)
 				).append(
 					$("<progress class='progress progress-striped progress-info' value='" + value + "' max='" + max + "'></progress>")
