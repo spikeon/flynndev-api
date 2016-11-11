@@ -10,7 +10,7 @@ var apiUrl = "http://flynndev.us:44562/";
 
 $(function() {
 
-	$.get(apiUrl + 'experience', function(data){
+	$.get(apiUrl + 'experiences', function(data){
 		$exp = $('.exp');
 		var smallest = new Date().getFullYear();
 		for(var i in data){
