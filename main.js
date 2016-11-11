@@ -20,7 +20,7 @@ $(function() {
 		var max = new Date().getFullYear() - smallest;
 		for(var i in data){
 			var exp = data[i];
-			var value = exp.year - new Date().getFullYear();
+			var value = new Date().getFullYear() - exp.year;
 			$exp.append(
 				$("<div>").append(
 					$("<h4>",{text:exp.name}).append(
