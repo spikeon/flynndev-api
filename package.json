@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Michael Flynn's Portfolio",
   "main": "index.php",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "Michael Flynn",
   "license": "GPL-3.0",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
+    "font-awesome": "^4.7.0"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
