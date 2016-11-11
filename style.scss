@@ -1,3 +1,4 @@
+//compileOnSave: true
 .footer {
     position: absolute;
     bottom: 0;
@@ -14,4 +15,8 @@
 .calhead {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.exp h3 span{
+	font-size: 0.8em;
 }
