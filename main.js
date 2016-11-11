@@ -6,8 +6,23 @@
 ga('create', 'UA-84279981-1', 'auto');
 ga('send', 'pageview');
 
+var apiUrl = "http://flyndev.us:44562/";
+
 $(function() {
 
     // This is where the JS for my site will live
+	$.get(apiUrl + 'experience', function(data){
+		$exp = $('.exp');
+		var smallest = 2002;
+		for(var i in data){
+			if(data.year < smallest) smallest = data.year;
+		}
+		var max = new Date().getFullYear() - smallest;
+		for(var i in data){
+			var exp = data[i];
+
+			var $new = $("<div>").append($("<h4>",{text:exp.name})).append($("<progress class='progress progress-striped progress-info' value='"+( exp.year - smallest )+"' max='" + max + "'></progress>"))
+		}
+	}, 'json');
 
 });
