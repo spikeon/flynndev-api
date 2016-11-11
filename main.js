@@ -21,7 +21,7 @@ $(function() {
 		for(var i in data){
 			var exp = data[i];
 
-			var $new = $("<div>").append($("<h4>",{text:exp.name})).append($("<progress class='progress progress-striped progress-info' value='"+( exp.year - smallest )+"' max='" + max + "'></progress>"))
+			$exp.append($("<div>").append($("<h4>",{text:exp.name})).append($("<progress class='progress progress-striped progress-info' value='"+( exp.year - smallest )+"' max='" + max + "'></progress>")));
 		}
 	}, 'json');
 
