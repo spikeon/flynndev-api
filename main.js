@@ -18,10 +18,15 @@ $(function() {
 		for(var i in data){
 			var exp = data[i];
 			var value = new Date().getFullYear() - exp.year;
+			var lessthan = false;
+			if(value == 0){
+				lessthan = true;
+				value = 1;
+			}
 			$exp.append(
 				$("<div>").append(
 					$("<h5>",{text:exp.name}).append(
-						$("<span>", {text: value + " Years", class: "float-xs-right"})
+						$("<span>", { (lessthan ? " < " : "") text: value + " Year" + (value > 1 ? "s":""), class: "float-xs-right"})
 					)
 				).append(
 					$("<progress class='progress progress-striped progress-info' value='" + value + "' max='" + max + "'></progress>")
