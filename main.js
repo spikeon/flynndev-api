@@ -20,8 +20,16 @@ $(function() {
 		var max = new Date().getFullYear() - smallest;
 		for(var i in data){
 			var exp = data[i];
-
-			$exp.append($("<div>").append($("<h4>",{text:exp.name})).append($("<progress class='progress progress-striped progress-info' value='"+( exp.year - smallest )+"' max='" + max + "'></progress>")));
+			var value = exp.year - smallest;
+			$exp.append(
+				$("<div>").append(
+					$("<h4>",{text:exp.name}).append(
+						$("<span>", {text: value + " Years", class: "pull-xs-right"})
+					)
+				).append(
+					$("<progress class='progress progress-striped progress-info' value='" + value + "' max='" + max + "'></progress>")
+				)
+			);
 		}
 	}, 'json');
 
