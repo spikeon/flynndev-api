@@ -16,7 +16,7 @@
 	</head>
 
 	<body>
-		<nav class="navbar navbar-dark navbar-static-top bg-inverse">
+		<nav class="navbar navbar-light navbar-static-top bg-faded">
 			<div class="container">
 		  		<a class="navbar-brand" href="http://flynndev.us">Michael Flynn's Portfolio</a>
 		  		<ul class="nav navbar-nav">
