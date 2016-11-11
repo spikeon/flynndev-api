@@ -12,8 +12,9 @@ $(function() {
 
 	$.get(apiUrl + 'experience', function(data){
 		$exp = $('.exp');
-		var smallest = new Date().getFullYear() - 15;
+		var smallest = new Date().getFullYear();
 		for(var i in data){ if(data.year < smallest) smallest = data.year; }
+		smallest = smallest - 1;
 		var max = new Date().getFullYear() - smallest;
 		for(var i in data){
 			var exp = data[i];
