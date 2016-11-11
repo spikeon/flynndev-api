@@ -26,10 +26,17 @@ $(function() {
 			$exp.append(
 				$("<div>").append(
 					$("<h5>",{text:exp.name}).append(
-						$("<span>", { (lessthan ? " < " : "") text: value + " Year" + (value > 1 ? "s":"")), class: "float-xs-right"})
+						$("<span>", {
+							 text: 	(lessthan ? " < " : "") + value + " Year" + (value > 1 ? "s":""),
+							 class: "float-xs-right"
+						 })
 					)
 				).append(
-					$("<progress class='progress progress-striped progress-info' value='" + value + "' max='" + max + "'></progress>")
+					$("<progress>",{
+						class: "progress progress-striped progress-info",
+						value: value,
+						max: max
+					})
 				)
 			);
 		}
