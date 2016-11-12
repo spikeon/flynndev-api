@@ -8,7 +8,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.5",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "4.7.0"
   },
   "devDependencies": {},
   "repository": {
