@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { Headers, Http } from '@angular/http';
 
+import { PortfolioApiHeaders } from '../headers';
+
+import { Config }				from '../config';
+
 declare var jQuery: any;
 
 
@@ -18,9 +22,32 @@ export class AppComponent {
 			this.token = localStorage.getItem('token');
 			this.user = JSON.parse(localStorage.getItem('user'));
 			this.error = "";
+			this.checkToken();
 		}
 
-		private headers = new Headers({'Content-Type': 'application/json'});
+		private headers = PortfolioApiHeaders;
+
+		checkToken() {
+			if (!this.token) return;
+			this.http.get(Config.url('auth','check'), { headers: this.headers })
+			.map(response => response.json())
+			.subscribe(
+				data => {
+					if (data.result) console.log("Token Still Valid");
+					else {
+						console.log("Token Invalid");
+						this.token = "";
+					}
+				},
+				err => {
+					console.log('Token Check Failed');
+					this.token = "";
+				},
+				() => {
+					console.log('Token Check Complete')
+				}
+			);
+		}
 
 		logout(event) {
 			event.preventDefault();
@@ -29,7 +56,6 @@ export class AppComponent {
 
 			localStorage.removeItem('token');
 			localStorage.removeItem('user');
-
 		}
 
 		login (event, username, password) {
@@ -39,7 +65,7 @@ export class AppComponent {
 			this.error = "";
 
 			this.http.post(
-				'http://flynndev.us:44562/auth',
+				Config.url('auth'),
 				JSON.stringify({username, password}),
 				{headers: this.headers})
 				.map(response => response.json())
