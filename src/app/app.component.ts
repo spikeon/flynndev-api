@@ -15,6 +15,7 @@ export class AppComponent implements OnInit {
 		public token;
 		public user;
 		public error;
+		public message;
 
 		constructor( public api: PortfolioApiService ) {}
 
@@ -26,6 +27,7 @@ export class AppComponent implements OnInit {
 			this.token = localStorage.getItem('token');
 			this.user = JSON.parse(localStorage.getItem('user'));
 			this.error = "";
+			this.message = "";
 			this.checkToken();
 		}
 
@@ -53,10 +55,33 @@ export class AppComponent implements OnInit {
 		logout(event) {
 			event.preventDefault();
 			this.token = "";
+			this.message = "";
 			this.user = {};
 
 			localStorage.removeItem('token');
 			localStorage.removeItem('user');
+		}
+
+		register ( event, name, username, password ) {
+			event.preventDefault();
+			this.error = "";
+			this.message = "";
+			this.api._post( { name, username, password }, 'auth', 'register')
+				.subscribe(
+					data => {
+						jQuery('#registerModal').modal('hide');
+						jQuery('#loginModal').modal('show');
+						this.message = "Register Successfull";
+						console.log('Register Successfull')
+					},
+					err => {
+						console.log('Register Failed');
+						this.error = "Register Failed";
+					},
+					() => {
+						console.log('Register Complete');
+					}
+				);
 		}
 
 		login (event, username, password) {

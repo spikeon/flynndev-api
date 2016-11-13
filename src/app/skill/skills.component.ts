@@ -18,6 +18,7 @@ export class SkillsComponent implements OnInit {
 		) { }
 
 	processSkills() {
+
 		// Reset Values
 		this.min = 10000;
 		this.max = 0;

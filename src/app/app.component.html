@@ -24,7 +24,6 @@
 	<div class="container">
 		<h2>Projects</h2>
 		<div class="projects row">
-
 			<div class="col-md-3 col-sm-6 project">
 				<div class="thumbnail">
       				<img src="http://placehold.it/200x150" alt="placeholder">
@@ -45,7 +44,6 @@
       				<img src="http://placehold.it/200x150" alt="placeholder">
 				</div>
 			</div>
-
 		</div>
 	</div>
 </div>
@@ -66,6 +64,9 @@
 					<div class="alert alert-danger" *ngIf="error">
 						{{error}}
 					</div>
+					<div class="alert alert-info" *ngIf="message">
+						{{message}}
+					</div>
 					<div class="form-group">
 						<label for="username">Username</label>
 						<input type="text" #username class="form-control" id="username" placeholder="Username">
@@ -73,6 +74,44 @@
 					<div class="form-group">
 						<label for="username">Password</label>
 						<input type="password" #password class="form-control" id="password" placeholder="Password">
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal" data-target="#registerModal" data-toggle="modal">Register</button>
+					<button type="submit" class="btn btn-primary">Login</button>
+				</div>
+
+			</div><!-- /.modal-content -->
+		</form>
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" tabindex="-1" role="dialog" id="registerModal">
+	<div class="modal-dialog" role="document">
+		<form role="form" (submit)="register($event, name.value, username.value, password.value)">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Register</h4>
+				</div>
+				<div class="modal-body">
+					<div class="alert alert-danger" *ngIf="error">
+						{{error}}
+					</div>
+					<div class="alert alert-info" *ngIf="message">
+						{{message}}
+					</div>
+					<div class="form-group">
+						<label for="registerusername">Name</label>
+						<input type="text" #name class="form-control" id="registername" placeholder="Name">
+					</div>
+					<div class="form-group">
+						<label for="registerusername">Username</label>
+						<input type="text" #username class="form-control" id="registerusername" placeholder="Username">
+					</div>
+					<div class="form-group">
+						<label for="registerpassword">Password</label>
+						<input type="password" #password class="form-control" id="registerpassword" placeholder="Password">
 					</div>
 				</div>
 				<div class="modal-footer">
