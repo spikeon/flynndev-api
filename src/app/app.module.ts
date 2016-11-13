@@ -1,12 +1,12 @@
 import './rxjs-extensions';
-import { NgModule }      from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule }   from '@angular/forms';
-import { HttpModule }    from '@angular/http';
+import { NgModule }			from '@angular/core';
+import { BrowserModule }	from '@angular/platform-browser';
+import { FormsModule }  	from '@angular/forms';
+import { HttpModule }   	from '@angular/http';
 
-import { AppComponent } from './app.component';
-import { ExperiencesComponent } from './experiences.component'
-import { ExperienceService } from './experience.service';
+import { AppComponent } 	from './app.component';
+import { SkillsComponent }	from './skills.component'
+import { SkillService }		from './skill.service';
 
 @NgModule({
 	imports: [
@@ -15,9 +15,9 @@ import { ExperienceService } from './experience.service';
 	],
 	declarations: [
 		AppComponent,
-		ExperiencesComponent
+		SkillsComponent
 	],
 	bootstrap: [ AppComponent ],
-	providers: [ ExperienceService]
+	providers: [ SkillService ]
 })
 export class AppModule { }

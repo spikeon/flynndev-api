@@ -11,7 +11,7 @@ import { SkillService } from './skill.service';
 export class SkillsComponent implements OnInit {
 	max: number;
 	min: number;
-	experiences: Skill[];
+	skills: Skill[];
 
 	constructor(
 		private skillService: SkillService,
@@ -21,7 +21,7 @@ getSkills(): void {
 	this.min = 10000;
 	this.max = 0;
 	this.skillService
-		.getExperiences()
+		.getSkills()
 		.then( skills => this.skills = skills)
 
 		.then( () => {
