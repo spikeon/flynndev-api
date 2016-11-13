@@ -1,9 +1,7 @@
-import { Component } from '@angular/core';
-import { Headers, Http } from '@angular/http';
+import { Component, OnInit }	from '@angular/core';
+import { Headers, Http } 		from '@angular/http';
 
-import { PortfolioApiHeaders } from '../headers';
-
-import { Config }				from '../config';
+import { PortfolioApiService } 	from './portfolio-api.service';
 
 declare var jQuery: any;
 
@@ -12,25 +10,28 @@ declare var jQuery: any;
 	selector: 'my-app',
 	templateUrl: './app.component.html'
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 
 		public token;
 		public user;
 		public error;
 
-		constructor( public http: Http) {
+		constructor( public api: PortfolioApiService ) {}
+
+		ngOnInit() {
+			this.loadStorage();
+		}
+
+		loadStorage() {
 			this.token = localStorage.getItem('token');
 			this.user = JSON.parse(localStorage.getItem('user'));
 			this.error = "";
 			this.checkToken();
 		}
 
-		private headers = PortfolioApiHeaders;
-
 		checkToken() {
 			if (!this.token) return;
-			this.http.get(Config.url('auth','check'), { headers: this.headers })
-			.map(response => response.json())
+			this.api._get('auth', 'check')
 			.subscribe(
 				data => {
 					if (data.result) console.log("Token Still Valid");
@@ -59,16 +60,9 @@ export class AppComponent {
 		}
 
 		login (event, username, password) {
-
 			event.preventDefault();
-
 			this.error = "";
-
-			this.http.post(
-				Config.url('auth'),
-				JSON.stringify({username, password}),
-				{headers: this.headers})
-				.map(response => response.json())
+			this.api._post({username, password}, 'auth')
 				.subscribe(
 					data => {
 						this.user = data.user;
@@ -77,7 +71,6 @@ export class AppComponent {
 						localStorage.setItem('user', JSON.stringify(this.user));
 						jQuery('#loginModal').modal('hide');
 						console.log('Login Successfull')
-
 					},
 					err => {
 						console.log('Login Failed');

@@ -4,9 +4,10 @@ import { BrowserModule }	from '@angular/platform-browser';
 import { FormsModule }  	from '@angular/forms';
 import { HttpModule }   	from '@angular/http';
 
-import { AppComponent } 	from './app.component';
-import { SkillsComponent }	from './skills.component'
-import { SkillService }		from './skill.service';
+import {
+	AppComponent ,
+	SkillsComponent,
+	PortfolioApiService }		from './index';
 
 @NgModule({
 	imports: [
@@ -17,7 +18,11 @@ import { SkillService }		from './skill.service';
 		AppComponent,
 		SkillsComponent
 	],
-	bootstrap: [ AppComponent ],
-	providers: [ SkillService ]
+	bootstrap: [
+		AppComponent
+	],
+	providers: [
+		PortfolioApiService
+	]
 })
 export class AppModule { }
