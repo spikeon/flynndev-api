@@ -1,4 +1,4 @@
-export class Experience {
+export class Skill {
 	id: number;
 	name: string;
 	year: number;

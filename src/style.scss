@@ -1,5 +1,18 @@
 body{
-	background: #0147A7;
-    color: #fff;
-	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 70px;
+	
+	nav.navbar{
+		.navbar-right {
+			margin-left: 30px;
+		}
+		.userinfo{
+			font-size: 1.2em;
+			i {
+				font-size: 1.2em;
+				margin-right: 10px;
+			}
+		}
+	}
+}
+.modal{
 }

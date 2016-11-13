@@ -27,7 +27,7 @@ module.exports = {
 				loader: 'html'
 			},
 			{
-				test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
+				test: /\.(png|jpe?g|gif|svg|ico)$/,
 				loader: 'file?name=assets/[name].[hash].[ext]'
 			},
 			{
@@ -45,10 +45,15 @@ module.exports = {
 				loaders: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
 			},
 			{
-				test: /\.(woff2?|ttf|eot|svg)$/,
-				loader: 'url?limit=10000'
-			}
-
+	          test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+	          // Limiting the size of the woff fonts breaks font-awesome ONLY for the extract text plugin
+	          // loader: "url?limit=10000"
+	          loader: "url"
+	        },
+	        {
+	          test: /\.(ttf|eot|svg)(\?[\s\S]+)?$/,
+	          loader: 'file'
+	        },
 			]
 		},
 
