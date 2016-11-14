@@ -7,6 +7,8 @@ import { HttpModule }   	from '@angular/http';
 import {
 	AppComponent ,
 	SkillsComponent,
+	UsersComponent,
+	UserComponent,
 	PortfolioApiService }		from './index';
 
 @NgModule({
@@ -16,7 +18,9 @@ import {
 	],
 	declarations: [
 		AppComponent,
-		SkillsComponent
+		SkillsComponent,
+		UsersComponent,
+		UserComponent
 	],
 	bootstrap: [
 		AppComponent

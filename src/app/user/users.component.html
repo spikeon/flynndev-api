@@ -1,0 +1,6 @@
+<table class="table users">
+	<thead><tr><th>ID</th><th>Name</th><th>Username</th><th  *ngIf="api.isAdmin()"></th></tr></thead>
+	<tbody>
+		<tr class="user" *ngFor="let user of users" user [user]="user" [users]="users"></tr>
+	</tbody>
+</table>

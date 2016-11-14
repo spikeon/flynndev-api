@@ -1,10 +1,10 @@
 import { Http, Headers}	from '@angular/http';
-import { Injectable, OnInit }	from '@angular/core';
+import { Injectable }	from '@angular/core';
 
 declare var jQuery: any;
 
 @Injectable()
-export class PortfolioApiService implements OnInit {
+export class PortfolioApiService {
 	public token;
 	public user;
 	public loginerror;
@@ -13,12 +13,10 @@ export class PortfolioApiService implements OnInit {
 	public registermessage;
 	public apiUrl = "http://flynndev.us:44562";
 
-	constructor ( public http: Http ) { }
-
-	ngOnInit () {
+	constructor ( public http: Http ) {
 		this.resetAlerts();
 		this.loadStorage();
-	};
+	}
 
 	resetAlerts() {
 		this.loginerror = "";
@@ -28,7 +26,7 @@ export class PortfolioApiService implements OnInit {
 	}
 
 	hasUser() { return this.token ? true : false; };
-
+	isAdmin() { return this.user.admin === 1 ? true : false; }
 	url (...segments) {
 		let url = this.apiUrl;
 		for (let segment of segments) url += `/${segment}`;
@@ -67,7 +65,7 @@ export class PortfolioApiService implements OnInit {
 	_delete (...segments) {
 		return	this.http.delete(
 			this.url(...segments),
-			{headers: this.headers});
+			{ headers: this.headers });
 	}
 
 
@@ -113,6 +111,7 @@ export class PortfolioApiService implements OnInit {
 
 	logout(event) {
 		event.preventDefault();
+		this.flushUser();
 		this.resetAlerts();
 	}
 
@@ -143,9 +142,9 @@ export class PortfolioApiService implements OnInit {
 	}
 
 	getUser(globaly = true) {
-		let token = JSON.parse(localStorage.getItem('user'));
-		if (globaly) this.token = token;
-		return token;
+		let user = JSON.parse(localStorage.getItem('user'));
+		if (globaly) this.user = user;
+		return user;
 	}
 
 	setToken(token) {
