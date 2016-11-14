@@ -54,12 +54,12 @@
 			<h2>My Skills</h2>
 			<skills></skills>
 		</div>
-		<div class="col-md-6" *ngIf="!api.token">
+		<div class="col-md-6" *ngIf="api.hasUser()">
 			<h2>Users</h2>
 
 		</div>
 </div>
-<div class="modal fade" tabindex="-1" role="dialog" id="loginModal">
+<div class="modal fade" tabindex="-1" role="dialog" id="loginModal" *ngIf="!api.hasUser()">
 	<div class="modal-dialog" role="document">
 		<form role="form" (submit)="api.login($event, loginusername.value, loginpassword.value)">
 			<div class="modal-content">
@@ -68,12 +68,8 @@
 					<h4 class="modal-title">Login</h4>
 				</div>
 				<div class="modal-body">
-					<div class="alert alert-danger" *ngIf="api.error">
-						{{error}}
-					</div>
-					<div class="alert alert-info" *ngIf="api.message">
-						{{message}}
-					</div>
+					<div class="alert alert-danger" *ngIf="api.loginerror"> {{api.loginerror}} </div>
+					<div class="alert alert-info" *ngIf="api.loginmessage"> {{api.loginmessage}} </div>
 					<div class="form-group">
 						<label for="loginusername">Username</label>
 						<input type="text" #loginusername class="form-control" id="loginusername" placeholder="Username">
@@ -87,12 +83,11 @@
 					<button type="button" class="btn btn-link" data-dismiss="modal" data-target="#registerModal" data-toggle="modal">Register</button>
 					<button type="submit" class="btn btn-primary">Login</button>
 				</div>
-
-			</div><!-- /.modal-content -->
+			</div>
 		</form>
-	</div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-<div class="modal fade" tabindex="-1" role="dialog" id="registerModal">
+	</div>
+</div>
+<div class="modal fade" tabindex="-1" role="dialog" id="registerModal" *ngIf="!api.hasUser()">
 	<div class="modal-dialog" role="document">
 		<form role="form" (submit)="api.register($event, registername.value, registerusername.value, registerpassword.value)">
 			<div class="modal-content">
@@ -101,12 +96,8 @@
 					<h4 class="modal-title">Register</h4>
 				</div>
 				<div class="modal-body">
-					<div class="alert alert-danger" *ngIf="api.error">
-						{{error}}
-					</div>
-					<div class="alert alert-info" *ngIf="api.message">
-						{{message}}
-					</div>
+					<div class="alert alert-danger" *ngIf="api.registererror">{{api.registererror}}</div>
+					<div class="alert alert-info" *ngIf="api.registermessage">{{api.registermessage}}</div>
 					<div class="form-group">
 						<label for="registerusername">Name</label>
 						<input type="text" #registername class="form-control" id="registername" placeholder="Name">
@@ -124,8 +115,7 @@
 					<button type="button" class="btn btn-link" data-dismiss="modal"  data-target="#loginModal" data-toggle="modal">Login</button>
 					<button type="submit" class="btn btn-primary">Register</button>
 				</div>
-
-			</div><!-- /.modal-content -->
+			</div>
 		</form>
-	</div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+	</div>
+</div>

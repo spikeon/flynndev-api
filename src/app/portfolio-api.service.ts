@@ -4,18 +4,30 @@ import { Injectable, OnInit }	from '@angular/core';
 declare var jQuery: any;
 
 @Injectable()
-export class PortfolioApiService {
+export class PortfolioApiService implements OnInit {
 	public token;
 	public user;
-	public error;
-	public message;
+	public loginerror;
+	public loginmessage;
+	public registererror;
+	public registermessage;
 	public apiUrl = "http://flynndev.us:44562";
 
-	constructor ( public http: Http ) {
+	constructor ( public http: Http ) { }
+
+	ngOnInit () {
+		this.resetAlerts();
 		this.loadStorage();
+	};
+
+	resetAlerts() {
+		this.loginerror = "";
+		this.loginmessage = "";
+		this.registererror = "";
+		this.registermessage = "";
 	}
 
-	hasUser () { return this.token ? true : false; }
+	hasUser() { return this.token ? true : false; };
 
 	url (...segments) {
 		let url = this.apiUrl;
@@ -60,23 +72,14 @@ export class PortfolioApiService {
 
 
 	get 	( type, id ) 			{ return this._get(type, id); }
-
 	list 	( type ) 				{ return this._get(type); }
-
 	add 	( type, data = {} ) 	{ return this._post(data, type); }
-
 	delete	( type, id ) 			{ return this._delete(type, id); }
-
 	update	( type, object ) 		{ return this._put(object, type); }
 
-
-
-
 	loadStorage() {
-		this.token = localStorage.getItem('token');
-		this.user = JSON.parse(localStorage.getItem('user'));
-		this.error = "";
-		this.message = "";
+		this.getToken();
+		this.getUser();
 		this.checkToken();
 	}
 
@@ -88,12 +91,12 @@ export class PortfolioApiService {
 				if (data.result) console.log("Token Still Valid");
 				else {
 					console.log("Token Invalid");
-					this.token = "";
+					this.flushUser();
 				}
 			},
 			err => {
 				console.log('Token Check Failed');
-				this.token = "";
+				this.flushUser();
 			},
 			() => {
 				console.log('Token Check Complete')
@@ -101,31 +104,32 @@ export class PortfolioApiService {
 		);
 	}
 
-	logout(event) {
-		event.preventDefault();
+	flushUser() {
 		this.token = "";
-		this.message = "";
 		this.user = {};
-
 		localStorage.removeItem('token');
 		localStorage.removeItem('user');
 	}
 
+	logout(event) {
+		event.preventDefault();
+		this.resetAlerts();
+	}
+
 	register ( event, name, username, password ) {
 		event.preventDefault();
-		this.error = "";
-		this.message = "";
+		this.resetAlerts();
 		this._post( { name, username, password }, 'auth', 'register')
 			.subscribe(
 				data => {
 					jQuery('#registerModal').modal('hide');
 					jQuery('#loginModal').modal('show');
-					this.message = "Register Successfull";
+					this.loginmessage = "Register Successfull";
 					console.log('Register Successfull')
 				},
 				err => {
 					console.log('Register Failed');
-					this.error = "Register Failed";
+					this.registererror = "Register Failed";
 				},
 				() => {
 					console.log('Register Complete');
@@ -133,23 +137,42 @@ export class PortfolioApiService {
 			);
 	}
 
+	setUser(user) {
+		this.user = user;
+		localStorage.setItem('user', JSON.stringify(user));
+	}
+
+	getUser(globaly = true) {
+		let token = JSON.parse(localStorage.getItem('user'));
+		if (globaly) this.token = token;
+		return token;
+	}
+
+	setToken(token) {
+		this.token = token;
+		localStorage.setItem('token', token);
+	}
+
+	getToken(globaly = true) {
+		let token = localStorage.getItem('token');
+		if (globaly) this.token = token;
+		return token;
+	}
+
 	login (event, username, password) {
 		event.preventDefault();
-		this.error = "";
+		this.resetAlerts();
 		this._post( {username, password}, 'auth' )
 			.subscribe(
 				data => {
-					this.user = data.user;
-					this.token = data.token;
-					localStorage.setItem('token', this.token);
-					localStorage.setItem('user', JSON.stringify(this.user));
+					this.setUser(data.user);
+					this.setToken(data.token);
 					jQuery('#loginModal').modal('hide');
 					console.log('Login Successfull')
 				},
 				err => {
 					console.log('Login Failed');
-					console.log(err);
-					this.error = "Login Failed";
+					this.loginerror = "Login Failed";
 				},
 				() => {
 					console.log('Login Complete')
