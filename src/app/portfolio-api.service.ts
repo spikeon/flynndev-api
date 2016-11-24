@@ -33,15 +33,17 @@ export class PortfolioApiService {
 		return url;
 	};
 
-	public headers = new Headers({
-		'Content-Type': 'application/json',
-		'x-access-token' : localStorage.getItem('token')
-	});
+	getHeaders (){
+		return new Headers({
+			'Content-Type': 'application/json',
+			'x-access-token' : this.token
+		});
+	}
 
 	_get (...segments) {
 		return this.http.get(
 			this.url(...segments),
-			{ headers: this.headers })
+			{ headers: this.getHeaders() })
 			.map(response => response.json());
 	}
 
@@ -50,7 +52,7 @@ export class PortfolioApiService {
 		return this.http.post(
 			this.url(...segments),
 			JSON.stringify(data),
-			{headers: this.headers})
+			{headers: this.getHeaders()})
 			.map(response => response.json());
 	}
 
@@ -58,14 +60,14 @@ export class PortfolioApiService {
 		return this.http.put(
 			this.url(...segments),
 			JSON.stringify(data),
-			{headers: this.headers})
+			{headers: this.getHeaders()})
 			.map(response => response.json());
 	}
 
 	_delete (...segments) {
 		return	this.http.delete(
 			this.url(...segments),
-			{ headers: this.headers });
+			{ headers: this.getHeaders() });
 	}
 
 
@@ -164,7 +166,6 @@ export class PortfolioApiService {
 		this._post( {username, password}, 'auth' )
 			.subscribe(
 				data => {
-					// TODO: Figure out why this isn't working until a page reload for sending token with the API request
 					this.setUser(data.user);
 					this.setToken(data.token);
 					jQuery('#loginModal').modal('hide');
@@ -180,6 +181,4 @@ export class PortfolioApiService {
 			);
 
 	}
-
-
 }
