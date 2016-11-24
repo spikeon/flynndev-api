@@ -26,8 +26,14 @@ export class PortfolioApiService {
 		this.registermessage = "";
 	}
 
-	hasUser() { return !!this.token; };
-	isAdmin() { return this.user.admin === 1; }
+	hasUser() {
+		return !!this.token;
+	}
+
+	isAdmin() {
+		if( ! this.user ) return false;
+		return this.user.admin === 1;
+	}
 	url (...segments) {
 		let url = this.apiUrl;
 		for (let segment of segments) url += `/${segment}`;
