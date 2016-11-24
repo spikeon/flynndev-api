@@ -1,7 +1,7 @@
 import { Http, Headers}	from '@angular/http';
 import { Injectable }	from '@angular/core';
 
-declare var jQuery: any;
+declare let jQuery: any;
 
 @Injectable()
 export class PortfolioApiService {
@@ -25,8 +25,8 @@ export class PortfolioApiService {
 		this.registermessage = "";
 	}
 
-	hasUser() { return this.token ? true : false; };
-	isAdmin() { return this.user.admin === 1 ? true : false; }
+	hasUser() { return !!this.token; };
+	isAdmin() { return this.user.admin === 1; }
 	url (...segments) {
 		let url = this.apiUrl;
 		for (let segment of segments) url += `/${segment}`;
@@ -72,7 +72,7 @@ export class PortfolioApiService {
 	get 	( type, id ) 			{ return this._get(type, id); }
 	list 	( type ) 				{ return this._get(type); }
 	add 	( type, data = {} ) 	{ return this._post(data, type); }
-	delete	( type, id ) 			{ return this._delete(type, id); }
+	del	    ( type, id ) 			{ return this._delete(type, id); }
 	update	( type, object ) 		{ return this._put(object, type); }
 
 	loadStorage() {
@@ -92,7 +92,7 @@ export class PortfolioApiService {
 					this.flushUser();
 				}
 			},
-			err => {
+			() => {
 				console.log('Token Check Failed');
 				this.flushUser();
 			},
@@ -120,13 +120,13 @@ export class PortfolioApiService {
 		this.resetAlerts();
 		this._post( { name, username, password }, 'auth', 'register')
 			.subscribe(
-				data => {
+				() => {
 					jQuery('#registerModal').modal('hide');
 					jQuery('#loginModal').modal('show');
-					this.loginmessage = "Register Successfull";
-					console.log('Register Successfull')
+					this.loginmessage = "Register Successful";
+					console.log('Register Successful')
 				},
-				err => {
+				() => {
 					console.log('Register Failed');
 					this.registererror = "Register Failed";
 				},
@@ -141,9 +141,9 @@ export class PortfolioApiService {
 		localStorage.setItem('user', JSON.stringify(user));
 	}
 
-	getUser(globaly = true) {
+	getUser(globally = true) {
 		let user = JSON.parse(localStorage.getItem('user'));
-		if (globaly) this.user = user;
+		if (globally) this.user = user;
 		return user;
 	}
 
@@ -152,9 +152,9 @@ export class PortfolioApiService {
 		localStorage.setItem('token', token);
 	}
 
-	getToken(globaly = true) {
+	getToken(globally = true) {
 		let token = localStorage.getItem('token');
-		if (globaly) this.token = token;
+		if (globally) this.token = token;
 		return token;
 	}
 
@@ -167,9 +167,9 @@ export class PortfolioApiService {
 					this.setUser(data.user);
 					this.setToken(data.token);
 					jQuery('#loginModal').modal('hide');
-					console.log('Login Successfull')
+					console.log('Login Successful');
 				},
-				err => {
+				() => {
 					console.log('Login Failed');
 					this.loginerror = "Login Failed";
 				},

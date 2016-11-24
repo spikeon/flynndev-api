@@ -1,8 +1,8 @@
-import { Component, OnInit, Input } 	from '@angular/core';
+import { Component, Input } 	from '@angular/core';
 
 import { PortfolioApiService }	from '../portfolio-api.service';
 
-declare var jQuery: any;
+declare let jQuery: any;
 
 @Component({
 	selector: '[user]',
@@ -49,10 +49,10 @@ export class UserComponent {
 
 	}
 
-	delete(e) {
+	del(e) {
 		e.preventDefault();
-		this.api.delete('users', this.user.id).subscribe(
-			data => {
+		this.api.del('users', this.user.id).subscribe(
+			() => {
 				let index = this.users.indexOf(this.user);
 				this.users.splice(index, 1);
 				console.log("User Deleted");
@@ -64,10 +64,8 @@ export class UserComponent {
 	promote(e) {
 		e.preventDefault();
 		this.api._get('users', 'promote', this.user.id).subscribe(
-			data => {
+			() => {
 				this.user.admin = 1;
-				let index = this.users.indexOf(this.user);
-				//this.users[index].admin = 1;
 				console.log("User Promoted");
 			},
 			err => console.log(err),
@@ -77,16 +75,12 @@ export class UserComponent {
 	demote(e) {
 		e.preventDefault();
 		this.api._get('users', 'demote', this.user.id).subscribe(
-			data => {
+			() => {
 				this.user.admin = 0;
-				let index = this.users.indexOf(this.user);
-				//this.users[index].admin = 0;
 				console.log("User Promoted");
 			},
 			err => console.log(err),
 			() => console.log("User Promote Complete")
 		);
 	}
-
-
 }
