@@ -1,0 +1,13 @@
+<projects></projects>
+
+<div class="container">
+	<div class="row">
+		<div [ngClass]="{ 'col-md-6' : api.hasUser(), 'col-md-12' : !api.hasUser() }">
+			<h2>My Skills</h2>
+			<skills></skills>
+		</div>
+		<div class="col-md-6" *ngIf="api.hasUser()">
+			<h2>Users</h2>
+			<users></users>
+		</div>
+	</div>

@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" routerLink="/">
 				FlynnDev
 				</a>
 		</div>
@@ -23,45 +23,8 @@
 	</div>
 </nav>
 
-<div class="jumbotron">
-	<div class="container">
-		<h2>Projects</h2>
-		<div class="projects row">
-			<div class="col-md-3 col-sm-6 project">
-				<div class="thumbnail">
-      				<img src="http://placehold.it/200x150" alt="placeholder">
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 project">
-				<div class="thumbnail">
-      				<img src="http://placehold.it/200x150" alt="placeholder">
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 project">
-				<div class="thumbnail">
-      				<img src="http://placehold.it/200x150" alt="placeholder">
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 project">
-				<div class="thumbnail">
-      				<img src="http://placehold.it/200x150" alt="placeholder">
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<router-outlet></router-outlet>
 
-<div class="container">
-	<div class="row">
-		<div [ngClass]="{ 'col-md-6' : api.hasUser(), 'col-md-12' : !api.hasUser() }">
-			<h2>My Skills</h2>
-			<skills></skills>
-		</div>
-		<div class="col-md-6" *ngIf="api.hasUser()">
-			<h2>Users</h2>
-			<users></users>
-		</div>
-</div>
 <div class="modal fade" tabindex="-1" role="dialog" id="loginModal" *ngIf="!api.hasUser()">
 	<div class="modal-dialog" role="document">
 		<form role="form" (submit)="api.login($event, loginusername.value, loginpassword.value)">

@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
-	"deploy": "npm run build && git add . && git commit && git push live master",
+    "deploy": "npm run build && git add . && git commit && git push live master",
     "autodeploy": "npm run build && git add . && git commit -m 'Auto Deployment' && git push live master"
   },
   "author": "Michael Flynn",
@@ -40,6 +40,7 @@
     "jquery": "3.1.1",
     "postcss": "5.2.5",
     "postcss-loader": "1.1.1",
+    "recursive-readdir-sync": "1.0.6",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
     "systemjs": "0.19.39",
