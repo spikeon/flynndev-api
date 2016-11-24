@@ -6,7 +6,6 @@ import { LoggerService }        from '../logger.service';
 
 import { ActivatedRoute } from '@angular/router';
 
-declare let fs: any;
 declare let jQuery: any;
 
 @Component({
@@ -16,6 +15,8 @@ declare let jQuery: any;
 export class ProjectComponent implements OnInit {
 	sub;
 	project = {};
+	files = [];
+	currentFile;
 
 	constructor(
 		public api: PortfolioApiService,
@@ -33,18 +34,21 @@ export class ProjectComponent implements OnInit {
 			this.api.get('projects', id).subscribe(
 				project => {
 					this.project = project;
+					this.files = project.files;
 				},
 				err => this.log.err('Failed to get Project'),
 				() => this.log.info('Project Load Complete')
 			);
 		});
-
-
 	}
 
 	ngOnDestroy() {
 		// Clean sub to avoid memory leak
 		this.sub.unsubscribe();
+	}
+
+	openFile(file){
+		this.currentFile = file;
 	}
 
 }

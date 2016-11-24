@@ -13,3 +13,4 @@ import 'jquery';
 import 'bootstrap-loader';
 import 'font-awesome-loader';
 import './style.scss';
+import 'highlight.js';
