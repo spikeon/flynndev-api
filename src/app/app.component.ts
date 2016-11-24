@@ -2,7 +2,7 @@ import { Component, OnInit }	from '@angular/core';
 import { Headers, Http } 		from '@angular/http';
 
 import { PortfolioApiService } 	from './portfolio-api.service';
-
+import { LoggerService }        from './logger.service';
 
 @Component({
 	selector: 'my-app',
@@ -10,6 +10,9 @@ import { PortfolioApiService } 	from './portfolio-api.service';
 })
 export class AppComponent {
 
-		constructor( public api: PortfolioApiService ) {}
+		constructor(
+			public api: PortfolioApiService,
+		    public log: LoggerService
+		) {}
 
 }

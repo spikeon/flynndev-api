@@ -2,6 +2,7 @@ import { Component, OnInit } 	from '@angular/core';
 
 import { PortfolioApiService }	from '../portfolio-api.service';
 
+import { LoggerService }               from '../logger.service';
 
 @Component({
 	selector: 'skills',
@@ -15,6 +16,7 @@ export class SkillsComponent implements OnInit {
 
 	constructor(
 		public api: PortfolioApiService,
+	    public log: LoggerService
 		) { }
 
 	processSkills() {
@@ -60,8 +62,8 @@ export class SkillsComponent implements OnInit {
 				this.skills = skills;
 				this.processSkills();
 			},
-			err		=> console.log('Failed to get skills'),
-			()		=> console.log('Skills Complete')
+			err		=> this.log.err('Failed to get skills'),
+			()		=> this.log.info('Skills Complete')
 		);
 
 	}

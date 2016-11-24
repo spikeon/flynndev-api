@@ -2,6 +2,8 @@ import { Component, Input } 	from '@angular/core';
 
 import { PortfolioApiService }	from '../portfolio-api.service';
 
+import { LoggerService }               from '../logger.service';
+
 declare let jQuery: any;
 
 @Component({
@@ -12,7 +14,8 @@ export class UserComponent {
 	@Input( ) user: any;
 	@Input( ) users: any[];
 
-	constructor( public api: PortfolioApiService ) { }
+	constructor( public api: PortfolioApiService, public log: LoggerService ) { }
+
 	canDelete() {
 		// if I am admin
 		if ( ! this.api.isAdmin() ) return false;
@@ -22,6 +25,7 @@ export class UserComponent {
 
 		return true;
 	}
+
 	canPromote() {
 		// if I am admin
 		if ( ! this.api.isAdmin() ) return false;
@@ -35,6 +39,7 @@ export class UserComponent {
 		return true;
 
 	}
+
 	canDemote() {
 		// if I am admin
 		if ( ! this.api.isAdmin() ) return false;
@@ -55,32 +60,34 @@ export class UserComponent {
 			() => {
 				let index = this.users.indexOf(this.user);
 				this.users.splice(index, 1);
-				console.log("User Deleted");
+				this.log.info("User Deleted");
 			},
-			err => console.log(err),
-			() => console.log("User Delete Complete")
+			err => this.log.err(err),
+			() => this.log.info("User Delete Complete")
 		);
 	}
+
 	promote(e) {
 		e.preventDefault();
 		this.api._get('users', 'promote', this.user.id).subscribe(
 			() => {
 				this.user.admin = 1;
-				console.log("User Promoted");
+				this.log.info("User Promoted");
 			},
-			err => console.log(err),
-			() => console.log("User Promote Complete")
+			err => this.log.err(err),
+			() => this.log.info("User Promote Complete")
 		);
 	}
+
 	demote(e) {
 		e.preventDefault();
 		this.api._get('users', 'demote', this.user.id).subscribe(
 			() => {
 				this.user.admin = 0;
-				console.log("User Promoted");
+				this.log.info("User Promoted");
 			},
-			err => console.log(err),
-			() => console.log("User Promote Complete")
+			err => this.log.err(err),
+			() => this.log.info("User Promote Complete")
 		);
 	}
 }

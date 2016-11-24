@@ -1,15 +1,17 @@
 import './rxjs-extensions';
 import { NgModule }			from '@angular/core';
 import { BrowserModule }	from '@angular/platform-browser';
-import { FormsModule }  	from '@angular/forms';
+
 import { HttpModule }   	from '@angular/http';
 
 import {
 	AppComponent ,
 	SkillsComponent,
 	UsersComponent,
-	UserComponent,
-	PortfolioApiService }		from './index';
+	UserComponent }		from './index';
+
+import { LoggerService } from './logger.service';
+import { PortfolioApiService } from './portfolio-api.service';
 
 @NgModule({
 	imports: [
@@ -26,7 +28,8 @@ import {
 		AppComponent
 	],
 	providers: [
-		PortfolioApiService
+		PortfolioApiService,
+		LoggerService
 	]
 })
 export class AppModule { }

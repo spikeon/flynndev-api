@@ -1,5 +1,6 @@
 import { Http, Headers}	from '@angular/http';
 import { Injectable }	from '@angular/core';
+import { LoggerService }       from './logger.service';
 
 declare let jQuery: any;
 
@@ -13,7 +14,7 @@ export class PortfolioApiService {
 	public registermessage;
 	public apiUrl = "http://flynndev.us:44562";
 
-	constructor ( public http: Http ) {
+	constructor ( public http: Http, public log: LoggerService ) {
 		this.resetAlerts();
 		this.loadStorage();
 	}
@@ -48,7 +49,6 @@ export class PortfolioApiService {
 	}
 
 	_post (data = {}, ...segments) {
-		console.log(this.url(...segments));
 		return this.http.post(
 			this.url(...segments),
 			JSON.stringify(data),
@@ -88,18 +88,17 @@ export class PortfolioApiService {
 		this._get('auth', 'check')
 		.subscribe(
 			data => {
-				if (data.result) console.log("Token Still Valid");
-				else {
-					console.log("Token Invalid");
+				if ( ! data.result ){
+					this.log.info("Token Invalid");
 					this.flushUser();
 				}
 			},
 			() => {
-				console.log('Token Check Failed');
+				this.log.info('Token Check Failed');
 				this.flushUser();
 			},
 			() => {
-				console.log('Token Check Complete')
+				this.log.info('Token Check Complete')
 			}
 		);
 	}
@@ -126,14 +125,14 @@ export class PortfolioApiService {
 					jQuery('#registerModal').modal('hide');
 					jQuery('#loginModal').modal('show');
 					this.loginmessage = "Register Successful";
-					console.log('Register Successful')
+					this.log.info('Register Successful')
 				},
 				() => {
-					console.log('Register Failed');
+					this.log.info('Register Failed');
 					this.registererror = "Register Failed";
 				},
 				() => {
-					console.log('Register Complete');
+					this.log.info('Register Complete');
 				}
 			);
 	}
@@ -169,14 +168,14 @@ export class PortfolioApiService {
 					this.setUser(data.user);
 					this.setToken(data.token);
 					jQuery('#loginModal').modal('hide');
-					console.log('Login Successful');
+					this.log.info('Login Successful');
 				},
 				() => {
-					console.log('Login Failed');
+					this.log.info('Login Failed');
 					this.loginerror = "Login Failed";
 				},
 				() => {
-					console.log('Login Complete')
+					this.log.info('Login Complete')
 				}
 			);
 

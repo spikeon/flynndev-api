@@ -2,6 +2,7 @@ import { Component, OnInit } 	from '@angular/core';
 
 import { PortfolioApiService }	from '../portfolio-api.service';
 
+import { LoggerService }               from '../logger.service';
 
 declare var jQuery: any;
 
@@ -12,7 +13,7 @@ declare var jQuery: any;
 export class UsersComponent implements OnInit {
 	users = [];
 
-	constructor( public api: PortfolioApiService ) { }
+	constructor( public api: PortfolioApiService, public log: LoggerService ) { }
 
 	list() {
 
@@ -21,8 +22,8 @@ export class UsersComponent implements OnInit {
 			users	=> {
 				this.users = users;
 			},
-			err		=> console.log('Failed to get users'),
-			()		=> console.log('Users Complete')
+			err		=> this.log.err('Failed to get users'),
+			()		=> this.log.info('Users Complete')
 		);
 
 	}
