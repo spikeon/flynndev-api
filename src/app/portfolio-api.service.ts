@@ -164,6 +164,7 @@ export class PortfolioApiService {
 		this._post( {username, password}, 'auth' )
 			.subscribe(
 				data => {
+					// TODO: Figure out why this isn't working until a page reload for sending token with the API request
 					this.setUser(data.user);
 					this.setToken(data.token);
 					jQuery('#loginModal').modal('hide');
