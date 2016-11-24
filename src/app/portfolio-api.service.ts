@@ -108,6 +108,7 @@ export class PortfolioApiService {
 		this.user = {};
 		localStorage.removeItem('token');
 		localStorage.removeItem('user');
+		localStorage.removeItem('showLog')
 	}
 
 	logout(event) {
