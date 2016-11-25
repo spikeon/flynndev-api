@@ -34,9 +34,11 @@ export class ProjectComponent implements OnInit {
 			this.api.get('projects', id).subscribe(
 				project => {
 					this.project = project;
-					if(project.files.length > 0) {
-						this.currentFile = project.files[0];
+					if(project.files.length > 0) this.openFile(project.files[0]);
+					else{
+						this.openFile({ name: '404', content : " /* Sorry, this project doesn't have any files currently */ " })
 					}
+
 				},
 				err => this.log.err('Failed to get Project'),
 				() => this.log.info('Project Load Complete')
@@ -52,6 +54,9 @@ export class ProjectComponent implements OnInit {
 
 	openFile(file){
 		this.currentFile = file;
+		let $code = jQuery('.codearea');
+		let highlighted = hljs.highlightAuto(file.content);
+		$code.html(highlighted.value);
 	}
 
 }
