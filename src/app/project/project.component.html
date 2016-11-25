@@ -7,12 +7,12 @@
 	<h2>Files</h2>
 	<div class="row">
 		<div class="col-md-3">
-			<li *ngFor="let file of files"><a (click)="openFile(file)">{{file.name}}</a></li>
+			<ul class="list-group">
+				<li *ngFor="let file of project.files" class="list-group-item" [ngClass]="{active: file == currentFile}" (click)="openFile(file)">{{file.path}}</li>
+			</ul>
 		</div>
 		<div class="col-md-9">
-			<pre><code>
-				{{currentFile.content}}
-			</code></pre>
+			<pre class="codearea"><code>{{currentFile.content}}</code></pre>
 		</div>
 	</div>
 </div>

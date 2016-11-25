@@ -3,9 +3,7 @@
 		<h2>Projects</h2>
 		<div class="projects row">
 			<div class="col-md-3 col-sm-6 project" *ngFor="let project of projects">
-				<div class="thumbnail" (click)="open(project)">
-					<img src="http://placehold.it/200x150" alt="placeholder">
-				</div>
+				<img src="{{project.thumb}}" class="img-circle" alt="placeholder" (click)="open(project)">
 			</div>
 		</div>
 	</div>

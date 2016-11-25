@@ -13,4 +13,5 @@ import 'jquery';
 import 'bootstrap-loader';
 import 'font-awesome-loader';
 import './style.scss';
-import 'highlight.js';
+//import '../node_modules/highlight.js/lib/highlight.js';
+//import '../node_modules/highlight.js/styles/darkula.css';

@@ -12,6 +12,7 @@ export class AppComponent {
 		constructor(
 			public api: PortfolioApiService,
 		    public log: LoggerService
-		) {}
+		) {
+		}
 
 }

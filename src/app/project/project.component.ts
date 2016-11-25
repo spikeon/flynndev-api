@@ -4,9 +4,10 @@ import { PortfolioApiService }	from '../portfolio-api.service';
 
 import { LoggerService }        from '../logger.service';
 
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute }       from '@angular/router';
 
 declare let jQuery: any;
+declare let hljs: any;
 
 @Component({
 	selector: 'project',
@@ -15,8 +16,7 @@ declare let jQuery: any;
 export class ProjectComponent implements OnInit {
 	sub;
 	project = {};
-	files = [];
-	currentFile;
+	currentFile = { content : " Choose a file from the left to view it's content " };
 
 	constructor(
 		public api: PortfolioApiService,
@@ -34,12 +34,15 @@ export class ProjectComponent implements OnInit {
 			this.api.get('projects', id).subscribe(
 				project => {
 					this.project = project;
-					this.files = project.files;
+					if(project.files.length > 0) {
+						this.currentFile = project.files[0];
+					}
 				},
 				err => this.log.err('Failed to get Project'),
 				() => this.log.info('Project Load Complete')
 			);
 		});
+
 	}
 
 	ngOnDestroy() {
