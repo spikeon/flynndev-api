@@ -1,9 +1,9 @@
 <div class="jumbotron">
 	<div class="container">
 		<h2>
-			<img *ngif="project.thumb" src="{{project.thumb}}" class="img-circle project-head-img">
+			<img *ngIf="project.thumb" src="{{project.thumb}}" class="img-circle project-head-img">
 			{{project.name}}
-			<a *ngif="project.url" class="tag tag-default" href="{{project.url}}">View Live</a>
+			<a *ngIf="project.url" class="tag tag-default" href="{{project.url}}">View Live</a>
 		</h2>
 	</div>
 </div>
