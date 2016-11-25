@@ -26,8 +26,10 @@ body{
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border-right: 0px;
+  background-color: #2b2b2b;
   .list-group {
 	margin-bottom: 0px;
+	background-color: #2b2b2b;
 	.list-group-item {
 	  padding: 7px 15px;
 
@@ -43,9 +45,11 @@ body{
 	  }
 	  &:first-child {
 		border-top-right-radius: 0px;
+		border-top-left-radius: 0px;
 	  }
 	  &:last-child {
 		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px;
 	  }
 	}
   }
