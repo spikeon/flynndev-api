@@ -24,7 +24,7 @@ import { PortfolioApiService } from './portfolio-api.service';
 const appRoutes: Routes = [
 	{ path: 'project/:id', component: ProjectComponent },
 	{ path: '', component: HomeComponent },
-	{ path: '**', component: PageNotFoundComponent }
+	//{ path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
