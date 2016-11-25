@@ -33,6 +33,7 @@ export class ProjectComponent implements OnInit {
 			// Retrieve Pet with Id route param
 			this.api.get('projects', id).subscribe(
 				project => {
+					this.log.info(project);
 					this.project = project;
 					if(project.files.length > 0) this.openFile(project.files[0]);
 					else{
