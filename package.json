@@ -54,9 +54,7 @@
     "webpack": "1.13.3",
     "webpack-dev-server": "1.16.2",
     "webpack-merge": "^0.14.0",
-    "zone.js": "^0.6.25"
-  },
-  "devDependencies": {
+    "zone.js": "^0.6.25",
     "@types/core-js": "^0.9.34",
     "@types/jasmine": "^2.5.35",
     "@types/node": "^6.0.45",
@@ -76,7 +74,6 @@
     "node-sass": "3.11.3",
     "null-loader": "^0.1.1",
     "phantomjs-prebuilt": "^2.1.7",
-    "postcss-loader": "1.1.1",
     "raw-loader": "^0.5.1",
     "resolve-url-loader": "1.6.0",
     "rimraf": "^2.5.2",
