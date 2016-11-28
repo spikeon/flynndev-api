@@ -38,6 +38,9 @@ body{
 	  border-left: 0px;
 
 	  border-color: #3b3b3b;
+	  &:hover{
+		background-color: #4b4b4b;
+	  }
 	  &.active {
 		color: #fff;
 		background-color: #cb7832;
