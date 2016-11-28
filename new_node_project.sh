@@ -36,7 +36,7 @@ else
 	echo "git --work-tree=$projectdir --git-dir=$repodir checkout -f" >> hooks/post-receive
 	echo "cd $projectdir" >> hooks/post-receive
 	echo "npm install" >> hooks/post-receive
-	echp "forever-service install $name" >> hooks/post-receive
+	echo "forever-service install $name" >> hooks/post-receive
 	echo "service $name restart" >> hooks/post-receive
 
 	chmod +x hooks/post-receive
