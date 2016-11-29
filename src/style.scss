@@ -116,8 +116,10 @@ div.circle-img {
 		margin-top: 10px;
 		padding: 10px;
 		border: 1px solid #ddd;
+		line-height: 16px;
 		&:hover {
 		  background-color: #4b4b4b;
+		  text-decoration: none;
 		}
 		&.active {
 		  color: #fff;
@@ -131,7 +133,7 @@ div.circle-img {
 	  margin-top: 20px;
 	  font-weight: bold;
 	  padding: 10px;
-
+	  line-height: 16px;
 	  border-radius: 4px;
 	  background-color: #ccc;
 	}
