@@ -118,7 +118,8 @@ div.circle-img {
 		border: 1px solid #ddd;
 		line-height: 16px;
 		&:hover {
-		  background-color: #4b4b4b;
+		  background-color: #ddd;
+		  border-color: #eee;
 		  text-decoration: none;
 		}
 		&.active {
