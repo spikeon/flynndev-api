@@ -128,17 +128,17 @@ div.circle-img {
 	}
 
 	h5 {
+	  margin-top: 10px;
 	  font-weight: bold;
-	  padding-bottom: 10px;
-	  padding-left: 10px;
-	  margin-bottom: 0px;
+	  padding: 10px;
+
 	  border-radius: 4px;
 	  background-color: #ccc;
 	}
 
 	pre.code {
-	  padding: 0px;
-
+	  padding: 0;
+	  border: 0;
 
 	  code {
 		height: 500px;
