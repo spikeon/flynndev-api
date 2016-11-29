@@ -140,6 +140,8 @@ div.circle-img {
   .gallery-current {
 	height: 500px;
 	overflow: hidden;
+	border: 1px solid #ccc;
+	border-raduis: 4px;
 	img {
 		width: 100%;
 
