@@ -153,9 +153,6 @@ div.circle-img {
 	border: 3px solid #ccc;
 	border-radius: 4px;
 	background-color: #ccc;
-
-	.gallery-item{
-	  text-align: center;
-	}
+	display: flex;
   }
 }
