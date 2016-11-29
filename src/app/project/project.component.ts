@@ -15,7 +15,14 @@ declare let hljs: any;
 })
 export class ProjectComponent implements OnInit {
 	sub;
-	project = { files : [], gallery : [] };
+	files = [];
+	gallery = [];
+	id;
+	name;
+	about;
+	thumb;
+	url;
+
 	currentFile = { name : "Loading...", content : " Choose a file from the left to view it's content " };
 	currentImage = "";
 
@@ -24,6 +31,16 @@ export class ProjectComponent implements OnInit {
 		public log: LoggerService,
 	    public route: ActivatedRoute
 	) { }
+
+	loadFromObj(project){
+		this.id = project.id;
+		this.name = project.name;
+		this.about = project.about;
+		this.thumb = project.thumb;
+		this.url = project.url;
+		this.files = project.files;
+		this.gallery = project.gallery;
+	}
 
 	ngOnInit() {
 		// Subscribe to route params
@@ -34,9 +51,9 @@ export class ProjectComponent implements OnInit {
 			this.api.get('projects', id).subscribe(
 				project => {
 					this.log.info(project);
-					this.project = project;
-					this.changeFile(project.files.length > 0 ? project.files[0] : { name: '404', content : " /* Sorry, this project doesn't have any files currently */ " });
-					this.changeImage(project.gallery[0]);
+					this.loadFromObj(project);
+					this.changeFile(this.files.length > 0 ? this.files[0] : { name: '404', content : " /* Sorry, this project doesn't have any files currently */ " });
+					this.changeImage(this.gallery[0]);
 				},
 				err => this.log.err('Failed to get Project'),
 				() => this.log.info('Project Load Complete')
