@@ -135,3 +135,20 @@ div.circle-img {
 	}
   }
 }
+
+.gallery {
+  .gallery-current {
+	height: 500px;
+	overflow: hidden;
+	img {
+		width: 100%;
+
+	}
+  }
+
+  .gallery-list {
+	.gallery-item{
+
+	}
+  }
+}

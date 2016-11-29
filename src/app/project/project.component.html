@@ -10,11 +10,15 @@
 
 <div class="jumbotron">
 	<div class="container">
-		<img src="{{currentImage}}">
-		<div class="row">
-			<div class="col-md-2"  *ngFor="let image of project.gallery" [ngClass]="{active: image == currentImage}" (click)="changeImage(image)">
-				<div class="circle-img project-gallery-thumb">
-					<img src="{{image}}">
+		<div class="gallery">
+			<div class="gallery-current">
+				<img src="{{currentImage}}">
+			</div>
+			<div class="row gallery-list">
+				<div class="col-md-2 gallery-item"  *ngFor="let image of project.gallery" [ngClass]="{active: image == currentImage}" (click)="changeImage(image)">
+					<div class="circle-img project-gallery-thumb">
+						<img src="{{image}}">
+					</div>
 				</div>
 			</div>
 		</div>
