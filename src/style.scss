@@ -103,7 +103,7 @@ div.circle-img {
 	}
   }
   .files {
-	background-color: #2b2b2b;
+	background-color: #ccc;
 
 	.fileslist {
 	  overflow: scroll;
@@ -111,12 +111,12 @@ div.circle-img {
 	  padding-bottom: 20px;
 	  a {
 		display: block;
-		background-color: #ccc;
+		background-color: #bbb;
 		color: #000;
 		border-radius: 4px;
 		margin-top: 10px;
 		padding: 10px;
-		border: 1px solid #ddd;
+		border: 1px solid #aaa;
 		line-height: 16px;
 		&:hover {
 		  background-color: #ddd;
@@ -142,8 +142,6 @@ div.circle-img {
 
 	pre.code {
 	  padding: 0;
-	  border: 0;
-	  border-radius: 0;
 	  code {}
 	}
 
