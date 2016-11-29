@@ -87,14 +87,16 @@ div.circle-img{
   height: 200px;
   border-radius: 50%;
   img {
-	width: 200px;
+	max-height: 200px;
+	max-width: 200px;
   }
   &.project-head-img{
 	width: 100px;
 	height: 100px;
 	margin-right: 50px;
 	img {
-	  width: 100px;
+	  max-height: 100px;
+	  max-width: 100px;
 	}
   }
 }
