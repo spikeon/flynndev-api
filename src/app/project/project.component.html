@@ -8,11 +8,11 @@
 
 	<div class="jumbotron">
 		<div class="container">
-			<div class="gallery">
+			<div class="gallery" *ngIf="project.gallery.length > 0">
 				<div class="gallery-current">
 					<img src="{{currentImage}}">
 				</div>
-				<div class="gallery-list">
+				<div class="gallery-list" *ngIf="project.gallery.length > 1">
 					<div class="circle-img gallery-item project-gallery-thumb" *ngFor="let image of project.gallery" [ngClass]="{active: image == currentImage}" (click)="changeImage(image)">
 						<img src="{{image}}">
 					</div>
