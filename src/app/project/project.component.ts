@@ -15,7 +15,7 @@ declare let hljs: any;
 })
 export class ProjectComponent implements OnInit {
 	sub;
-	project = {};
+	project = { files : [], gallery : [] };
 	currentFile = { name : "Loading...", content : " Choose a file from the left to view it's content " };
 	currentImage = "";
 

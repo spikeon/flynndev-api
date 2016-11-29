@@ -6,9 +6,9 @@
 		</div>
 	</div>
 
-	<div class="jumbotron">
+	<div class="jumbotron"  *ngIf="project.gallery.length > 0">
 		<div class="container">
-			<div class="gallery" *ngIf="project.gallery.length > 0">
+			<div class="gallery">
 				<div class="gallery-current">
 					<img src="{{currentImage}}">
 				</div>
