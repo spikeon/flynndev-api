@@ -16,7 +16,8 @@ declare let hljs: any;
 export class ProjectComponent implements OnInit {
 	sub;
 	project = {};
-	currentFile = { content : " Choose a file from the left to view it's content " };
+	currentFile = { name : "Loading...", content : " Choose a file from the left to view it's content " };
+	currentImage = "";
 
 	constructor(
 		public api: PortfolioApiService,
@@ -30,16 +31,12 @@ export class ProjectComponent implements OnInit {
 
 			let id = params['id'];
 
-			// Retrieve Pet with Id route param
 			this.api.get('projects', id).subscribe(
 				project => {
 					this.log.info(project);
 					this.project = project;
-					if(project.files.length > 0) this.openFile(project.files[0]);
-					else{
-						this.openFile({ name: '404', content : " /* Sorry, this project doesn't have any files currently */ " })
-					}
-
+					this.openFile(project.files.length > 0 ? project.files[0] : { name: '404', content : " /* Sorry, this project doesn't have any files currently */ " });
+					this.changeImage(project.gallery[0]);
 				},
 				err => this.log.err('Failed to get Project'),
 				() => this.log.info('Project Load Complete')
@@ -58,6 +55,10 @@ export class ProjectComponent implements OnInit {
 		let $code = jQuery('.codearea');
 		let highlighted = hljs.highlightAuto(file.content);
 		$code.html(highlighted.value);
+	}
+
+	changeImage(image){
+		this.currentImage = image;
 	}
 
 }

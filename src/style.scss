@@ -119,16 +119,19 @@ div.circle-img {
   &:hover .title {
 	  display: flex;
   }
-
+  &.project-gallery-thumb{
+	width: 100px;
+	height: 100px;
+	img {
+	  height: 100px;
+	}
+  }
   &.project-head-img {
 	width: 150px;
 	height: 150px;
 	margin-right: 50px;
 	img {
 	  height: 150px;
-	}
-	.title {
-	  line-height: 145px;
 	}
   }
 }
