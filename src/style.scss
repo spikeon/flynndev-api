@@ -1,6 +1,6 @@
 body {
   padding-top: 70px;
-
+  
   nav.navbar {
 	.navbar-right {
 	  margin-left: 30px;
@@ -28,7 +28,7 @@ div.circle-img {
   img {
 	height: 200px;
   }
-
+  
   .title {
 	position: absolute;
 	top: 0;
@@ -47,9 +47,9 @@ div.circle-img {
 	  text-align:center;
 	}
   }
-
+  
   &:hover .title {
-	  display: flex;
+	display: flex;
   }
   &.project-gallery-thumb{
 	width: 100px;
@@ -73,24 +73,27 @@ div.circle-img {
 	align-items: center;
 	justify-content: space-between;
   }
-
+  
   .about {
 	padding-bottom: 50px;
   }
-
+  
   .gallery {
 	.gallery-current {
+	  
 	  height: 500px;
 	  overflow: hidden;
 	  border: 3px solid #ccc;
 	  border-radius: 4px;
+	  
 	  img {
-		  width: 100%;
-
+		width: 100%;
+		
 	  }
 	}
-
+	
 	.gallery-list {
+	  
 	  margin-top: 10px;
 	  border: 3px solid #ccc;
 	  border-radius: 4px;
@@ -98,9 +101,12 @@ div.circle-img {
 	  display: flex;
 	  align-items: center;
 	  flex-wrap: wrap;
+	  
 	  .gallery-item{
+		
 		margin-left: 10px;
 		margin-right: 10px;
+		
 		&.active{
 		  border-color: #cb7832;
 		}
@@ -108,13 +114,17 @@ div.circle-img {
 	}
   }
   .files {
+	
 	background-color: #ccc;
-
+	
 	.fileslist {
+	  
 	  overflow: scroll;
 	  padding-top: 10px;
 	  padding-bottom: 20px;
+	  
 	  a {
+		
 		display: block;
 		background-color: #bbb;
 		color: #000;
@@ -123,11 +133,13 @@ div.circle-img {
 		padding: 10px;
 		border: 1px solid #aaa;
 		line-height: 16px;
+		
 		&:hover {
 		  background-color: #ddd;
 		  border-color: #eee;
 		  text-decoration: none;
 		}
+		
 		&.active {
 		  text-decoration: none;
 		  color: #fff;
@@ -136,7 +148,7 @@ div.circle-img {
 		}
 	  }
 	}
-
+	
 	h5 {
 	  margin-top: 20px;
 	  font-weight: bold;
@@ -147,11 +159,13 @@ div.circle-img {
 	  border-color: #3b3b3b;
 	  color: #fff;
 	}
-
+	
 	pre.code {
 	  padding: 0;
-	  code {}
+	  code {
+		padding: 10px;
+	  }
 	}
-
+	
   }
 }
