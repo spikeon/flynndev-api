@@ -34,7 +34,8 @@
 					<a *ngFor="let file of project.files" href="#" [ngClass]="{active: file == currentFile}" (click)="openFile($event, file)">{{file.path}}</a>
 				</div>
 				<div class="col-md-9">
-					<pre class="code"><h5>{{currentFile.name}}</h5><code class="codearea hljs"></code></pre>
+					<h5>{{currentFile.name}}</h5>
+					<pre class="code"><code class="codearea hljs"></code></pre>
 				</div>
 			</div>
 
