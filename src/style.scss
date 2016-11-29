@@ -156,6 +156,12 @@ div.circle-img {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	.gallery-item{
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  &.active{
+		border-color: #cb7832;
+	  }
+	}
   }
 }

@@ -15,7 +15,7 @@
 				<img src="{{currentImage}}">
 			</div>
 			<div class="gallery-list">
-				<div class="circle-img project-gallery-thumb" *ngFor="let image of project.gallery" [ngClass]="{active: image == currentImage}" (click)="changeImage(image)">
+				<div class="circle-img gallery-item project-gallery-thumb" *ngFor="let image of project.gallery" [ngClass]="{active: image == currentImage}" (click)="changeImage(image)">
 					<img src="{{image}}">
 				</div>
 			</div>
