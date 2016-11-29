@@ -91,12 +91,7 @@ div.circle-img{
   border:  3px solid #ccc;
   position: relative;
   img {  height: 200px;  }
-  &.project-head-img{
-	width: 150px;
-	height: 150px;
-	margin-right: 50px;
-	img {  height: 150px; }
-  }
+
   .title{
 	position: absolute;
 	top: 0;
@@ -105,13 +100,26 @@ div.circle-img{
 	right: 0;
 	background-color: #ccc;
 	opacity: 0.5;
-	line-height: 100%;
+	line-height: 195px;
+	font-size: 24px;
+	font-weight: bold;
 	text-align: center;
 	display:none;
   }
+
   &:hover{
 	.title {
 	  display: block;
+	}
+  }
+
+  &.project-head-img{
+	width: 150px;
+	height: 150px;
+	margin-right: 50px;
+	img {  height: 150px; }
+	.title{
+	  line-height: 145px;
 	}
   }
 }
