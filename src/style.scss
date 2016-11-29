@@ -135,32 +135,38 @@ div.circle-img {
 	}
   }
 }
-
-.gallery {
-  .gallery-current {
-	height: 500px;
-	overflow: hidden;
-	border: 3px solid #ccc;
-	border-radius: 4px;
-	img {
-		width: 100%;
-
-	}
-  }
-
-  .gallery-list {
-	margin-top: 10px;
-	border: 3px solid #ccc;
-	border-radius: 4px;
-	background-color: #ccc;
+.project{
+  .top{
 	display: flex;
 	align-items: center;
-	flex-wrap: wrap;
-	.gallery-item{
-	  margin-left: 10px;
-	  margin-right: 10px;
-	  &.active{
-		border-color: #cb7832;
+	justify-content: space-between;
+  }
+  .gallery {
+	.gallery-current {
+	  height: 500px;
+	  overflow: hidden;
+	  border: 3px solid #ccc;
+	  border-radius: 4px;
+	  img {
+		  width: 100%;
+
+	  }
+	}
+
+	.gallery-list {
+	  margin-top: 10px;
+	  border: 3px solid #ccc;
+	  border-radius: 4px;
+	  background-color: #ccc;
+	  display: flex;
+	  align-items: center;
+	  flex-wrap: wrap;
+	  .gallery-item{
+		margin-left: 10px;
+		margin-right: 10px;
+		&.active{
+		  border-color: #cb7832;
+		}
 	  }
 	}
   }
