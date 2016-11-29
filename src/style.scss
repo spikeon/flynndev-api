@@ -128,7 +128,7 @@ div.circle-img {
 	}
 
 	h5 {
-	  margin-top: 10px;
+	  margin-top: 20px;
 	  font-weight: bold;
 	  padding: 10px;
 
@@ -139,11 +139,8 @@ div.circle-img {
 	pre.code {
 	  padding: 0;
 	  border: 0;
-
-	  code {
-		height: 500px;
-		overflow: scroll;
-	  }
+	  border-radius: 0;
+	  code {}
 	}
 
   }
