@@ -1,7 +1,7 @@
 {
   "name": "flynndev",
   "version": "1.0.0",
-  "description": "Michael Flynn's Portfolio",
+  "description": "FlynnDev",
   "main": "index.html",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8090",
