@@ -35,7 +35,7 @@ export class ProjectComponent implements OnInit {
 				project => {
 					this.log.info(project);
 					this.project = project;
-					this.openFile(project.files.length > 0 ? project.files[0] : { name: '404', content : " /* Sorry, this project doesn't have any files currently */ " });
+					this.changeFile(project.files.length > 0 ? project.files[0] : { name: '404', content : " /* Sorry, this project doesn't have any files currently */ " });
 					this.changeImage(project.gallery[0]);
 				},
 				err => this.log.err('Failed to get Project'),
@@ -50,7 +50,12 @@ export class ProjectComponent implements OnInit {
 		this.sub.unsubscribe();
 	}
 
-	openFile(file){
+	openFile(e, file){
+		e.preventDefault();
+		this.changeFile(file);
+	}
+
+	changeFile(file){
 		this.currentFile = file;
 		let $code = jQuery('.codearea');
 		let highlighted = hljs.highlightAuto(file.content);

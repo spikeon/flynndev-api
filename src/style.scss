@@ -15,27 +15,6 @@ body {
   }
 }
 
-pre.code {
-  padding: 0px;
-  background: #4b4b4b;
-  border-color: #2b2b2b;
-  color: #ccc;
-  border-left: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-
-  h5 {
-	font-weight: bold;
-	border-bottom: 1px solid #3b3b3b;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	margin-bottom: 0px;
-  }
-  code {
-	height: 500px;
-	overflow: scroll;
-  }
-}
 
 div.circle-img {
   overflow: hidden;
@@ -125,42 +104,45 @@ div.circle-img {
   }
   .files {
 	background-color: #2b2b2b;
+
 	.fileslist {
-	  height: 538px;
 	  overflow: scroll;
-	  margin-right: 0px;
-	  float: left;
-	  width: 30%;
-
-	  .list-group {
-		margin-bottom: 0px;
-
-		.list-group-item {
-		  padding: 7px 15px;
-
-		  background-color: #2b2b2b;
-		  color: #ccc;
-		  border-left: 0px;
-
-		  border-color: #3b3b3b;
-		  &:hover {
-			background-color: #4b4b4b;
-		  }
-		  &.active {
-			color: #fff;
-			background-color: #cb7832;
-			border-color: #cb7832;
-		  }
-		  &:first-child {
-			border-top-right-radius: 0px;
-			border-top-left-radius: 0px;
-		  }
-		  &:last-child {
-			border-bottom-right-radius: 0px;
-			border-bottom-left-radius: 0px;
-		  }
+	  a {
+		display: block;
+		background-color: #ccc;
+		color: #000;
+		border-radius: 4px;
+		&:hover {
+		  background-color: #4b4b4b;
+		}
+		&.active {
+		  color: #fff;
+		  background-color: #cb7832;
+		  border-color: #cb7832;
 		}
 	  }
 	}
+	pre.code {
+	  padding: 0px;
+	  background: #4b4b4b;
+	  color: #ccc;
+	  border-left: 0px;
+	  border-top-left-radius: 0px;
+	  border-bottom-left-radius: 0px;
+
+	  h5 {
+		font-weight: bold;
+		border-bottom: 1px solid #3b3b3b;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		margin-bottom: 0px;
+	  }
+
+	  code {
+		height: 500px;
+		overflow: scroll;
+	  }
+	}
+
   }
 }

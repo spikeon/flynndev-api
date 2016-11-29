@@ -26,14 +26,18 @@
 			<h2>About</h2>
 			<div [innerHtml]="project.about"></div>
 		</div>
-
-		<div class="files">
-			<div class="fileslist">
-				<ul class="list-group">
-					<li *ngFor="let file of project.files" class="list-group-item" [ngClass]="{active: file == currentFile}" (click)="openFile(file)">{{file.path}}</li>
-				</ul>
+	</div>
+	<div class="files">
+		<div class="container">
+			<div class="row">
+				<div class="fileslist col-md-3">
+					<a *ngFor="let file of project.files" href="#" [ngClass]="{active: file == currentFile}" (click)="openFile($event, file)">{{file.path}}</a>
+				</div>
+				<div class="col-md-9">
+					<pre class="code"><h5>{{currentFile.name}}</h5><code class="codearea hljs"></code></pre>
+				</div>
 			</div>
-			<pre class="code"><h5>{{currentFile.name}}</h5><code class="codearea hljs"></code></pre>
+
 		</div>
 	</div>
 </div>
