@@ -155,5 +155,7 @@ div.circle-img {
 	background-color: #ccc;
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
   }
 }
