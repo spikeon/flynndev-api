@@ -1,10 +1,12 @@
 <div class="project">
-	<div class="container top">
-		<div *ngIf="project.thumb"  class=" circle-img project-head-img">
-			<img src="{{project.thumb}}">
+	<div class="container ">
+		<div class="top">
+			<div *ngIf="project.thumb"  class=" circle-img project-head-img">
+				<img src="{{project.thumb}}">
+			</div>
+			<h2>{{project.name}}</h2>
+			<a *ngIf="project.url" class="btn btn-default" href="{{project.url}}">View Running</a>
 		</div>
-		<h2>{{project.name}}</h2>
-		<a *ngIf="project.url" class="btn btn-default" href="{{project.url}}">View Running</a>
 	</div>
 
 	<div class="jumbotron">
