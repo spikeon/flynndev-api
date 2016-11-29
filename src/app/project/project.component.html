@@ -1,36 +1,38 @@
-<div class="container top">
-	<div *ngIf="project.thumb"  class=" circle-img project-head-img">
-		<img src="{{project.thumb}}">
+<div class="project">
+	<div class="container top">
+		<div *ngIf="project.thumb"  class=" circle-img project-head-img">
+			<img src="{{project.thumb}}">
+		</div>
+		<h2>{{project.name}}</h2>
+		<a *ngIf="project.url" class="btn btn-default" href="{{project.url}}">View Running</a>
 	</div>
-	<h2>{{project.name}}</h2>
-	<a *ngIf="project.url" class="btn btn-default" href="{{project.url}}">View Running</a>
-</div>
 
-<div class="jumbotron">
-	<div class="container">
-		<div class="gallery">
-			<div class="gallery-current">
-				<img src="{{currentImage}}">
-			</div>
-			<div class="gallery-list">
-				<div class="circle-img gallery-item project-gallery-thumb" *ngFor="let image of project.gallery" [ngClass]="{active: image == currentImage}" (click)="changeImage(image)">
-					<img src="{{image}}">
+	<div class="jumbotron">
+		<div class="container">
+			<div class="gallery">
+				<div class="gallery-current">
+					<img src="{{currentImage}}">
+				</div>
+				<div class="gallery-list">
+					<div class="circle-img gallery-item project-gallery-thumb" *ngFor="let image of project.gallery" [ngClass]="{active: image == currentImage}" (click)="changeImage(image)">
+						<img src="{{image}}">
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="container">
-	<div class="about" [innerHtml]="project.about"></div>
-	<div class="files">
-		<h2>Files</h2>
+	<div class="container">
+		<div class="about" [innerHtml]="project.about"></div>
 		<div class="files">
-			<div class="fileslist">
-				<ul class="list-group">
-					<li *ngFor="let file of project.files" class="list-group-item" [ngClass]="{active: file == currentFile}" (click)="openFile(file)">{{file.path}}</li>
-				</ul>
+			<h2>Files</h2>
+			<div class="files">
+				<div class="fileslist">
+					<ul class="list-group">
+						<li *ngFor="let file of project.files" class="list-group-item" [ngClass]="{active: file == currentFile}" (click)="openFile(file)">{{file.path}}</li>
+					</ul>
+				</div>
+				<pre class="code"><h5>{{currentFile.name}}</h5><code class="codearea hljs"></code></pre>
 			</div>
-			<pre class="code"><h5>{{currentFile.name}}</h5><code class="codearea hljs"></code></pre>
 		</div>
 	</div>
 </div>
