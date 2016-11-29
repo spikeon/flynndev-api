@@ -86,6 +86,8 @@ div.circle-img{
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #3b3b3b;
   img {  height: 200px;  }
   &.project-head-img{
 	width: 100px;
