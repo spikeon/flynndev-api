@@ -3,8 +3,8 @@
 		<h2>Projects</h2>
 		<div class="projects row">
 			<div class="col-md-3 col-sm-6 project" *ngFor="let project of projects">
-				<div class="circle-img">
-					<img *ngIf="project.thumb" src="{{project.thumb}}" alt="placeholder" (click)="open(project)">
+				<div *ngIf="project.thumb" class="circle-img">
+					<img  src="{{project.thumb}}" alt="placeholder" (click)="open(project)">
 				</div>
 				<span *ngIf="!project.thumb" class="text-image"  (click)="open(project)">{{project.name}}</span>
 			</div>
