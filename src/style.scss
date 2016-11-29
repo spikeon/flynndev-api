@@ -87,13 +87,14 @@ div.circle-img{
   height: 200px;
   border-radius: 50%;
   display: inline-block;
-  border: 1px solid #3b3b3b;
+  vertical-align: middle;
+  border:  3px solid #ccc;
   img {  height: 200px;  }
   &.project-head-img{
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	margin-right: 50px;
-	img {  height: 100px; }
+	img {  height: 150px; }
   }
 }
 
