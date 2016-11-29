@@ -140,8 +140,8 @@ div.circle-img {
   .gallery-current {
 	height: 500px;
 	overflow: hidden;
-	border: 1px solid #ccc;
-	border-raduis: 4px;
+	border: 3px solid #ccc;
+	border-radius: 4px;
 	img {
 		width: 100%;
 
@@ -150,6 +150,10 @@ div.circle-img {
 
   .gallery-list {
 	margin-top: 10px;
+	border: 3px solid #ccc;
+	border-radius: 4px;
+	background-color: #ccc;
+
 	.gallery-item{
 	  text-align: center;
 	}
