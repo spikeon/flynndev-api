@@ -89,6 +89,7 @@ div.circle-img{
   display: inline-block;
   vertical-align: middle;
   border:  3px solid #ccc;
+  position: relative;
   img {  height: 200px;  }
   &.project-head-img{
 	width: 150px;
@@ -96,15 +97,21 @@ div.circle-img{
 	margin-right: 50px;
 	img {  height: 150px; }
   }
-}
-
-
-.text-image{
-  display: inline-block;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  line-height: 200px;
-  text-align: center;
-  background-color: #ccc;
+  .title{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: #ccc;
+	opacity: 0.5;
+	line-height: 100%;
+	text-align: center;
+	display:none;
+  }
+  &:hover{
+	.title {
+	  display: block;
+	}
+  }
 }
