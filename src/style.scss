@@ -15,51 +15,6 @@ body {
   }
 }
 
-.modal {
-}
-
-.fileslist {
-  height: 538px;
-  overflow: scroll;
-  margin-right: 0px;
-  float: left;
-  width: 30%;
-  border: 1px solid #2b2b2b;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border-right: 0px;
-  background-color: #2b2b2b;
-  .list-group {
-	margin-bottom: 0px;
-	background-color: #2b2b2b;
-	.list-group-item {
-	  padding: 7px 15px;
-
-	  background-color: #2b2b2b;
-	  color: #ccc;
-	  border-left: 0px;
-
-	  border-color: #3b3b3b;
-	  &:hover {
-		background-color: #4b4b4b;
-	  }
-	  &.active {
-		color: #fff;
-		background-color: #cb7832;
-		border-color: #cb7832;
-	  }
-	  &:first-child {
-		border-top-right-radius: 0px;
-		border-top-left-radius: 0px;
-	  }
-	  &:last-child {
-		border-bottom-right-radius: 0px;
-		border-bottom-left-radius: 0px;
-	  }
-	}
-  }
-}
-
 pre.code {
   padding: 0px;
   background: #4b4b4b;
@@ -73,9 +28,7 @@ pre.code {
 	font-weight: bold;
 	border-bottom: 1px solid #3b3b3b;
 	padding-bottom: 10px;
-	//margin-left: -10px;
 	padding-left: 10px;
-	//margin-right: -10px;
 	margin-bottom: 0px;
   }
   code {
@@ -127,11 +80,11 @@ div.circle-img {
 	}
   }
   &.project-head-img {
-	width: 150px;
-	height: 150px;
-	margin-right: 50px;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
 	img {
-	  height: 150px;
+	  height: 100px;
 	}
   }
 }
@@ -166,6 +119,48 @@ div.circle-img {
 		margin-right: 10px;
 		&.active{
 		  border-color: #cb7832;
+		}
+	  }
+	}
+  }
+
+  .fileslist {
+	height: 538px;
+	overflow: scroll;
+	margin-right: 0px;
+	float: left;
+	width: 30%;
+	border: 1px solid #2b2b2b;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-right: 0px;
+	background-color: #2b2b2b;
+	.list-group {
+	  margin-bottom: 0px;
+	  background-color: #2b2b2b;
+	  .list-group-item {
+		padding: 7px 15px;
+
+		background-color: #2b2b2b;
+		color: #ccc;
+		border-left: 0px;
+
+		border-color: #3b3b3b;
+		&:hover {
+		  background-color: #4b4b4b;
+		}
+		&.active {
+		  color: #fff;
+		  background-color: #cb7832;
+		  border-color: #cb7832;
+		}
+		&:first-child {
+		  border-top-right-radius: 0px;
+		  border-top-left-radius: 0px;
+		}
+		&:last-child {
+		  border-bottom-right-radius: 0px;
+		  border-bottom-left-radius: 0px;
 		}
 	  }
 	}
