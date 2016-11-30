@@ -8,4 +8,6 @@ var compiler            = webpack(config);
 
 var server              = new WebpackDevServer(compiler);
 
+var FontAwesome = require('font-awesome-loader');
+
 server.listen(80);
