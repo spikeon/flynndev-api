@@ -4,11 +4,12 @@
   "description": "FlynnDev",
   "main": "index.html",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 8090",
+	"start" : "node app.js",
+    "old_start": "webpack-dev-server --inline --progress --port 8090",
     "test": "karma start",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
-    "deploy": "npm run build && git add . && git commit && git push live master",
-    "autodeploy": "npm run build && git add . && git commit -m 'Auto Deployment' && git push live master"
+    "deploy": "git add . && git commit && git push live master",
+    "autodeploy": "git add . && git commit -m 'Auto Deployment' && git push live master"
   },
   "author": "Michael Flynn",
   "licenses": [
