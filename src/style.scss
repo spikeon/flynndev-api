@@ -15,19 +15,25 @@ body {
   }
 }
 
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  
+  justify-content: center;
+  .project-img{
+	margin: 10px;
+	
+  }
+}
 
 div.circle-img {
-  overflow: hidden;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  display: inline-block;
-  vertical-align: middle;
   border: 3px solid #ccc;
   position: relative;
-  img {
-	height: 200px;
-  }
   
   .title {
 	position: absolute;
@@ -54,17 +60,11 @@ div.circle-img {
   &.project-gallery-thumb{
 	width: 100px;
 	height: 100px;
-	img {
-	  height: 100px;
-	}
   }
   &.project-head-img {
 	width: 100px;
 	height: 100px;
 	margin-right: 20px;
-	img {
-	  height: 100px;
-	}
   }
 }
 .project{
@@ -168,4 +168,16 @@ div.circle-img {
 	}
 	
   }
+}
+
+.img-fill {
+  display:			flex;
+  justify-content:	center;
+  align-items:		center;
+  overflow:			hidden
+}
+.img-fill img {
+  flex-shrink:		0;
+  min-width:		100%;
+  min-height:		100%
 }

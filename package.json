@@ -76,10 +76,10 @@
     "universal-ga": "1.0.1",
     "url-loader": "0.5.7",
     "webpack": "1.13.3",
+    "webpack-dev-middleware": "1.8.4",
     "webpack-dev-server": "1.16.2",
     "webpack-merge": "^0.14.0",
     "zone.js": "^0.6.25"
   },
-  "liveurl" : "http://flynndev.us"
-
+  "liveurl": "http://flynndev.us"
 }

@@ -1,0 +1,10 @@
+{
+  "apps" : [
+	{
+	  "name": "flynndev",
+	  "script": "./app.js",
+	  "watch": true,
+	  "ignore_watch": [ "./log.txt" ]
+	}
+  ]
+}

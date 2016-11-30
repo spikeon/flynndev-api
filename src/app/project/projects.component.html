@@ -1,13 +1,11 @@
 <div class="jumbotron">
 	<div class="container">
 		<h2>Projects</h2>
-		<div class="projects row">
-			<div class="col-md-3 col-sm-6 project" *ngFor="let project of projects">
-				<div class="circle-img" (click)="open(project)">
-					<img  *ngIf="project.thumb" src="{{project.thumb}}" alt="placeholder" >
-					<div class="title">
-						<p>{{project.name}}</p>
-					</div>
+		<div class="projects">
+			<div class="circle-img img-fill project-img" *ngFor="let project of projects" (click)="open(project)">
+				<img  *ngIf="project.thumb" src="{{project.thumb}}" alt="placeholder" >
+				<div class="title">
+					<p>{{project.name}}</p>
 				</div>
 			</div>
 		</div>

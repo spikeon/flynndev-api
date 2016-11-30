@@ -13,6 +13,11 @@ echo -n "Enter repo name and press [ENTER]: "
 read name
 echo
 
+echo -n "Enter repo main .js file and press [ENTER]: "
+read app
+echo
+
+
 grep -i "$name" "$repos"
 
 if  [ $? == 0 ]; then
@@ -23,7 +28,7 @@ else
 	echo "$name" >> "$repos"
 
 	repodir="/var/repo/$name.git"
-	projectdir="/var/www/node/projects/$name"
+	projectdir="/var/www/projects/$name"
 
 	mkdir "$repodir"
 	mkdir "$projectdir"
@@ -36,8 +41,9 @@ else
 	echo "git --work-tree=$projectdir --git-dir=$repodir checkout -f" >> hooks/post-receive
 	echo "cd $projectdir" >> hooks/post-receive
 	echo "npm install" >> hooks/post-receive
-	echo "forever-service install $name" >> hooks/post-receive
-	echo "service $name restart" >> hooks/post-receive
+	# echo "forever-service install $name" >> hooks/post-receive
+	echo "pm2 start $app --watch --name \"$name\""
+	# echo "service $name restart" >> hooks/post-receive
 
 	chmod +x hooks/post-receive
 
