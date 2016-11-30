@@ -12,7 +12,7 @@ import 'rxjs';
 import 'jquery';
 
 import 'bootstrap-loader';
-import 'font-awesome-loader!../node_modules/font-awesome-loader/font-awesome.config.js';
+import 'font-awesome-loader';
 import './style.scss';
 
 //import '../node_modules/highlight.js/lib/highlight.js';

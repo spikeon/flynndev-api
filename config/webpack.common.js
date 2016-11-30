@@ -14,9 +14,9 @@ module.exports = {
 
 	resolve: {
 		extensions: ['', '.ts', '.js', '.json', '.css', '.scss', '.html'],
-		fallback: path.join(__dirname, "node_modules")
+		//fallback: path.join(__dirname, "node_modules")
 	},
-	resolveLoader: { fallback: path.join(__dirname, "node_modules") },
+	//resolveLoader: { fallback: path.join(__dirname, "node_modules") },
 
 	module: {
 		loaders: [
