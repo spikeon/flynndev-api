@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/project/project.component.html" afterPath="$PROJECT_DIR$/src/app/project/project.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/project/projects.component.html" afterPath="$PROJECT_DIR$/src/app/project/projects.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style.scss" afterPath="$PROJECT_DIR$/src/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/project/project.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="107" lean-forward="false" selection-start-line="3" selection-start-column="107" selection-end-line="3" selection-end-column="107" />
+              <caret line="3" column="102" lean-forward="false" selection-start-line="3" selection-start-column="102" selection-end-line="3" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -477,7 +475,7 @@
       <workItem from="1479973985202" duration="27338000" />
       <workItem from="1480138572345" duration="837000" />
       <workItem from="1480329485253" duration="32000" />
-      <workItem from="1480329541764" duration="33834000" />
+      <workItem from="1480329541764" duration="33891000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -511,7 +509,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62484000" />
+    <option name="totallyTimeSpent" value="62541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -976,7 +974,7 @@
     <entry file="file://$PROJECT_DIR$/src/app/project/project.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="107" lean-forward="false" selection-start-line="3" selection-start-column="107" selection-end-line="3" selection-end-column="107" />
+          <caret line="3" column="102" lean-forward="false" selection-start-line="3" selection-start-column="102" selection-end-line="3" selection-end-column="102" />
           <folding />
         </state>
       </provider>
