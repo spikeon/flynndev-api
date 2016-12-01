@@ -10,4 +10,4 @@ var server              = new WebpackDevServer(compiler, {
 	historyApiFallback: true
 });
 
-server.listen(80);
+server.listen(8080);
