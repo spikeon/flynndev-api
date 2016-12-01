@@ -4,6 +4,10 @@ body {
   font-family: "serenity",sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "coquette",fantasy;
+}
+
 nav.navbar {
   .navbar-brand{
 	font-family: "coquette",fantasy;
@@ -171,6 +175,7 @@ div.circle-img {
 	}
 	
 	h5 {
+	  font-family: "serenity",sans-serif;
 	  margin-top: 20px;
 	  font-weight: bold;
 	  padding: 10px;
@@ -201,8 +206,4 @@ div.circle-img {
   flex-shrink:		0;
   min-width:		100%;
   min-height:		100%
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "coquette",fantasy;
 }
