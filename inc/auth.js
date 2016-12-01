@@ -10,22 +10,22 @@ module.exports 	= {
 			jwt.verify(token, config.secret, function(err, decoded){
 				if(err) req.decoded = false;
 				else{
-					console.log("Token Decoded");
+					//console.log("Token Decoded");
 					req.decoded = decoded;
-					console.log(decoded);
+					//console.log(decoded);
 					next();
 				}
 			});
 		} else {
 			req.decoded = false;
-			console.log("No Token");
+			//console.log("No Token");
 			next();
 		}
 	},
 
 	Token : function(req,res,next){
 		if(req.decoded !== false){
-			console.log("Auth Passed");
+			//console.log("Auth Passed");
 			next();
 		} 
 		else return res.status(403).send({success: false, message: 'No Token Provided'});
