@@ -1,9 +1,12 @@
 {
   "apps" : [
 	{
-	  "name": "flynndev",
-	  "script": "./app.js",
-	  "watch": true
+	  "name": "FlynnDev",
+	  "script": "./server.js"
+	},
+	{
+	  "name" : "FlynnDev-Dev",
+	  "script" : "./app.js"
 	}
   ]
 }

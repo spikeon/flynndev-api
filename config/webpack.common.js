@@ -1,9 +1,9 @@
-var webpack = require('webpack');
+var webpack           = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var helpers = require('./helpers');
-var path = require('path');
-const autoprefixer = require('autoprefixer');
+var helpers           = require('./helpers');
+var path              = require('path');
+const autoprefixer    = require('autoprefixer');
 
 module.exports = {
 	entry: {
@@ -14,9 +14,7 @@ module.exports = {
 
 	resolve: {
 		extensions: ['', '.ts', '.js', '.json', '.css', '.scss', '.html'],
-		//fallback: path.join(__dirname, "node_modules")
 	},
-	//resolveLoader: { fallback: path.join(__dirname, "node_modules") },
 
 	module: {
 		loaders: [
@@ -48,8 +46,6 @@ module.exports = {
 			},
 			{
 	          test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-	          // Limiting the size of the woff fonts breaks font-awesome ONLY for the extract text plugin
-	          // loader: "url?limit=10000"
 	          loader: "url"
 	        },
 	        {
