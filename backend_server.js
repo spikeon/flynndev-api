@@ -20,7 +20,7 @@ let parseUrlencoded = bodyParser.urlencoded({extended: false});
 let errorHandler    = require('./inc/error-handler');
 let crossSite       = require('./inc/cross-site');
 
-app.use(morgan('prod'));
+app.use(morgan('tiny'));
 
 app.use(crossSite);
 

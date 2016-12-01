@@ -63,8 +63,6 @@ let buildProject = function(folder, all = false) {
 
 	let ignores = fs.existsSync(full_folder + '/.projectignores') ? config.ignore.concat(getProjectFile('.projectignores', full_folder).split("\n")) : config.ignore;
 
-	//let url = config.web_root + folder;
-
 	let gallery = [];
 
 	for(let i = 1; i < 10; i++){
@@ -76,6 +74,7 @@ let buildProject = function(folder, all = false) {
 		id      :   folder,
 		thumb   :   fs.existsSync(`${full_folder}/thumb.png`) ? `${config.web_root}projects/${folder}/thumb` : false,
 		url     :   info.liveurl,
+		apidoc  :   info.apidoc.url ? info.apidoc.url : false,
 		name    :   info.description ? info.description : folder,
 		files   :   all ? walkSync(full_folder, [], ignores, full_folder) : [],
 		gallery :   gallery,
@@ -173,16 +172,12 @@ router
 		else{
 			let thumb_path = `${root_path}${folder}/thumb.png`;
 			if(fs.existsSync(thumb_path)){
-				console.log(`Got to sharp ${size}px`);
 				sharp(thumb_path)
 					.resize(size, size)
 					.min()
 					.png()
 					.toBuffer(
 						(err, file_content, info) => {
-							console.log(err);
-							if(err) throw err;
-							console.log(info);
 							res.type('png');
 							res.send(file_content);
 						}
@@ -236,9 +231,6 @@ router
 					.png()
 					.toBuffer(
 						(err, file_content, info) => {
-							console.log(err);
-							if(err) throw err;
-							console.log(info);
 							res.type('png');
 							res.send(file_content);
 						}
