@@ -32,7 +32,9 @@ nav.navbar {
   }
 }
 
-
+.projects_outer{
+  background-color: #eee;
+}
 .projects{
   display: flex;
   flex-wrap: wrap;
@@ -85,6 +87,7 @@ div.circle-img {
 	margin-right: 20px;
   }
 }
+
 .project{
   .top{
 	display: flex;
