@@ -1,6 +1,6 @@
 var express		= require('express');
 var jwt			= require('jsonwebtoken');
-var config		= require('./config');
+var config		= require('./../config/api_config');
 
 module.exports 	= {
 

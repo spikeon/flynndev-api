@@ -12,7 +12,7 @@
 	},
 	{
 	  "name"   : "FlynnDev-Dev",
-	  "script" : "./app.js",
+	  "script" : "./dev_server.js",
 	  "watch" : true
 	}
   ]

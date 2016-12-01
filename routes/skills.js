@@ -1,7 +1,7 @@
 let express 	= require('express');
 let router 		= express.Router();
-let auth		= require('../auth');
-let db 			= require('../db');
+let auth		= require('../inc/auth');
+let db 			= require('../inc/db');
 
 
 /**

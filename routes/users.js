@@ -1,7 +1,7 @@
 let express = require('express');
 let router = express.Router();
-let auth = require('../auth');
-let db = require('../db');
+let auth = require('../inc/auth');
+let db = require('../inc/db');
 /**
  * @apiDefine authCheck Authentication Token
  * @apiParam {String} token Auth Token - Can be post, get, or header x-access-token

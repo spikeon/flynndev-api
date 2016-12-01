@@ -1,8 +1,8 @@
 let express 		= require('express');
 let router 			= express.Router();
 let jwt				= require('jsonwebtoken');
-let config			= require('../config');
-let db 				= require('../db');
+let config			= require('../config/api_config');
+let db 				= require('../inc/db');
 
 router
 

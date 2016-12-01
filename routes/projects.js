@@ -1,8 +1,8 @@
 let express             = require('express');
 let router              = express.Router();
-let auth                = require('../auth');
-let db                  = require('../db');
-let config              = require('../config');
+let auth                = require('../inc/auth');
+let db                  = require('../inc/db');
+let config              = require('../config/api_config');
 let os                  = require('os');
 let fs                  = require('fs');
 let path                = require('path');
@@ -10,8 +10,8 @@ let multimatch          = require('multimatch');
 let showdown            = require('showdown');
 let sd                  = new showdown.Converter();
 let sharp               = require('sharp');
-let requireUncached     = require('../require-uncached');
-let walkSync            = require('../walk-sync');
+let requireUncached     = require('../inc/require-uncached');
+let walkSync            = require('../inc/walk-sync');
 
 
 let getProjects = function(){
