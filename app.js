@@ -7,7 +7,10 @@ var config              = require("./webpack.config.js");
 var compiler            = webpack(config);
 
 var server              = new WebpackDevServer(compiler, {
-	historyApiFallback: true
+	historyApiFallback: true,
+	setup : function(app){
+		app.use('/projects', express.static('/var/www/projects/'));
+	}
 });
 
-server.listen(8080);
+server.listen(80);
