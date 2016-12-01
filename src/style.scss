@@ -1,8 +1,16 @@
+$bg : #f4ecd5;
+$fg : #214007;
+
+.btn-primary{
+  background-color: $fg;
+  border: darken($fg, 10);
+}
+
 body {
   padding-top: 65px;
   
   nav.navbar {
-	background-color: #f4ecd5;
+	background-color: $bg;
 	height: 65px;
 	.navbar-brand img{
 	  position: relative;
