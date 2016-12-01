@@ -6,6 +6,8 @@ var config              = require("./webpack.config.js");
 
 var compiler            = webpack(config);
 
-var server              = new WebpackDevServer(compiler);
+var server              = new WebpackDevServer(compiler, {
+	historyApiFallback: true
+});
 
 server.listen(80);
