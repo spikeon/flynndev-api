@@ -1,6 +1,4 @@
 dist
-new_node_project.sh
-new_project.sh
-public
 api_config.js
 *.psd
+api

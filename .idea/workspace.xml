@@ -2,96 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/cross-site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/error-handler.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/api_data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/api_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/api_project.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/api_project.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/locale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/pt_br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/locales/zh_cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/utils/handlebars_helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/utils/send_sample_request.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/diff_match_patch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/handlebars.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/lodash.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/path-to-regexp/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/path-to-regexp/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/polyfill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-apollo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-clj.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-dart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-erlang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-go.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-hs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-lisp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-llvm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-lua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-matlab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-ml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-mumps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-n.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-pascal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-proto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-r.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-rd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-scala.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-sql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-tcl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-tex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-vb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-vhdl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-wiki.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-xq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/lang-yaml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/prettify/run_prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/require.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/semver.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/webfontloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/dev_server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/auth.js" afterPath="$PROJECT_DIR$/inc/auth.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config.example.js" afterPath="$PROJECT_DIR$/config/api_config.example.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config/api_config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/db.js" afterPath="$PROJECT_DIR$/inc/db.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/logo.psd" afterPath="$PROJECT_DIR$/thumb.psd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/require-uncached.js" afterPath="$PROJECT_DIR$/inc/require-uncached.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/walk-sync.js" afterPath="$PROJECT_DIR$/inc/walk-sync.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.projectignores" afterPath="$PROJECT_DIR$/.projectignores" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend_server.js" afterPath="$PROJECT_DIR$/backend_server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend_server.js" afterPath="$PROJECT_DIR$/frontend_server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pm2.json" afterPath="$PROJECT_DIR$/pm2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/auth.js" afterPath="$PROJECT_DIR$/routes/auth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/projects.js" afterPath="$PROJECT_DIR$/routes/projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/skills.js" afterPath="$PROJECT_DIR$/routes/skills.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/routes/users.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -122,36 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="86" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="frontend_server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend_server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+              <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
+            <state relative-caret-position="1335">
               <caret line="89" column="36" lean-forward="false" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
               <folding />
             </state>
@@ -163,6 +59,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".projectignores" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.projectignores">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -182,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/inc/walk-sync.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+              <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -202,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/inc/cross-site.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -287,7 +193,6 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/auth.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.projectignores" />
         <option value="$PROJECT_DIR$/config.example.js" />
         <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/error-handler.js" />
@@ -297,6 +202,7 @@
         <option value="$PROJECT_DIR$/dev_server.js" />
         <option value="$PROJECT_DIR$/frontend_server.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.projectignores" />
       </list>
     </option>
   </component>
@@ -548,7 +454,7 @@
       <workItem from="1479973985202" duration="27338000" />
       <workItem from="1480138572345" duration="837000" />
       <workItem from="1480329485253" duration="32000" />
-      <workItem from="1480329541764" duration="43626000" />
+      <workItem from="1480329541764" duration="43766000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -582,11 +488,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72276000" />
+    <option name="totallyTimeSpent" value="72416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18114798" sideWeight="0.6307238" order="0" side_tool="false" content_ui="combo" />
@@ -595,7 +501,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18114798" sideWeight="0.36927623" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -953,14 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.projectignores">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/api_config.example.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1002,7 +900,7 @@
     <entry file="file://$PROJECT_DIR$/inc/cross-site.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1042,7 +940,7 @@
     <entry file="file://$PROJECT_DIR$/inc/walk-sync.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1055,18 +953,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend_server.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        <state relative-caret-position="1335">
+          <caret line="89" column="36" lean-forward="false" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/frontend_server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="89" column="36" lean-forward="false" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+        <state relative-caret-position="60">
+          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.projectignores">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
       </provider>
