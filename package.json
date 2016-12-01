@@ -4,9 +4,7 @@
   "description": 	"FlynnDev",
   "main": 			"index.html",
   "scripts": {
-    "start": 		"node app.js",
-    "old_start": 	"webpack-dev-server --inline --progress --port 8090",
-    "build": 		"rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+    "build": 		"apidoc -i routes/ -o public/ && rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
     "deploy": 		"npm run build && git add . && git commit && git push live master",
     "autodeploy": 	"npm run build && git add . && git commit -m 'Auto Deployment' && git push live master",
 	"devdeploy": 	"git add . && git commit -m 'Auto Deployment' && git push live master"
@@ -71,7 +69,22 @@
     "webpack-dev-middleware": "1.8.4",
     "webpack-dev-server": "1.16.2",
     "webpack-merge": "^0.14.0",
-    "zone.js": "^0.6.25"
+    "zone.js": "^0.6.25",
+	"apidoc": "0.16.1",
+	"body-parser": "^1.15.2",
+	"jsonwebtoken": "^7.1.9",
+	"minimatch": "3.0.3",
+	"morgan": "^1.7.0",
+	"multimatch": "2.1.0",
+	"mysql": "^2.12.0",
+	"nodemon": "^1.11.0",
+	"sharp": "0.16.2",
+	"showdown": "1.5.0"
+  },
+  "apidoc": {
+	"name": "Portfolio API",
+	"title": "Portfolio API",
+	"url": "http://flynndev.us:44562"
   },
   "liveurl": "http://flynndev.us"
 }

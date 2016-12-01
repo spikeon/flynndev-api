@@ -1,3 +1,6 @@
 dist
 new_node_project.sh
 new_project.sh
+public
+config.js
+*.psd

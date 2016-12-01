@@ -2,7 +2,11 @@
   "apps" : [
 	{
 	  "name": "FlynnDev",
-	  "script": "./server.js"
+	  "script": "./frontend_server.js"
+	},
+	{
+	  "name": "FlynnDev-API",
+	  "script": "./backend_server.js"
 	},
 	{
 	  "name" : "FlynnDev-Dev",
