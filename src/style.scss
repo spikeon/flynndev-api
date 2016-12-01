@@ -3,10 +3,10 @@ $fg : #214007;
 
 .btn-primary{
   background-color: $fg;
-  border: darken($fg, 10%);
-  &:hover{
-	background-color: darken($fg, 10%);
-	border: darken($fg, 20%);
+  border: darken($fg, 4%);
+  &:hover, &:active{
+	background-color: darken($fg, 4%);
+	border: darken($fg, 8%);
   }
 }
 
