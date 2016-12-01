@@ -14,7 +14,7 @@
 				</div>
 				<div class="gallery-list" *ngIf="gallery.length > 1">
 					<div class="circle-img gallery-item img-fill project-gallery-thumb" *ngFor="let image of gallery" [ngClass]="{active: image == currentImage}" (click)="changeImage(image)">
-						<img src="{{image}}">
+						<img src="{{image}}/100">
 					</div>
 				</div>
 			</div>

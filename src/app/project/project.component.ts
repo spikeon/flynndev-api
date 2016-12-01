@@ -25,6 +25,7 @@ export class ProjectComponent implements OnInit {
 
 	currentFile = { name : "Loading...", content : " Choose a file from the left to view it's content " };
 	currentImage = "";
+	//currentThumb;
 
 	constructor(
 		public api: PortfolioApiService,
@@ -81,6 +82,7 @@ export class ProjectComponent implements OnInit {
 
 	changeImage(image){
 		this.currentImage = image;
+		//this.currentThumb = image .'/150';
 	}
 
 }
