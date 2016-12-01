@@ -9,7 +9,7 @@ var compiler            = webpack(config);
 var server              = new WebpackDevServer(compiler, {
 	historyApiFallback: true,
 	setup : function(app){
-		app.use('/projects', express.static('/var/www/projects/'));
+		app.use('/live_projects', express.static('/var/www/projects/'));
 	}
 });
 
