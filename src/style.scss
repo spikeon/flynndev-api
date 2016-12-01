@@ -71,8 +71,17 @@ div.circle-img {
   .top{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin-bottom: 20px;
+	.circle-img{
+	  flex-grow: 0;
+	}
+	h2{
+	  flex-grow: 1;
+	}
+	.btn{
+	  flex-grow: 0;
+	}
   }
   
   .about {
