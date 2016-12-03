@@ -166,7 +166,7 @@ router
 	 */
 	.get('/:id/thumb/:size', function(req, res){
 		let folder = req.params.id;
-		let size = req.params.size * 1;
+		const size = Number(req.params.size);
 		let root_path = get_root(folder);
 		if( ! root_path ) res.sendStatus(404);
 		else{
@@ -218,7 +218,7 @@ router
 	 */
 	.get('/:id/gallery/:i/:size', function(req, res){
 		let folder = req.params.id;
-		let size = req.params.size * 1;
+		const size = Number(req.params.size);
 		let i = req.params.i;
 		let root_path = get_root(folder);
 		if( ! root_path ) res.sendStatus(404);
@@ -238,8 +238,6 @@ router
 			}
 			else res.sendStatus(404);
 		}
-	})
-
- ;
+	});
 
 module.exports = router;
