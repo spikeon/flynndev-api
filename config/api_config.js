@@ -7,7 +7,7 @@ module.exports = {
 		'password' 	: '7e8983abd51a92fb4249fa644bc359bf3aba7eb13d6222bb',
 		'database' 	: 'portfolio'
 	},
-	'loginTime' 	: '1440m',
+	'loginTime' 	: '1m',
 	'projects_root' : [
 		'/var/projects/',
 		'/var/node/'
