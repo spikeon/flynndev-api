@@ -151,26 +151,6 @@ div.circle-img {
 	  padding-top: 15px;
 	  background-color: #eee;
 	  border-radius: 4px;
-	  position: relative;
-	  padding-left: 70px;
-	  .circle-icon{
-		z-index: 10;
-		width: 100px;
-		height: 100px;
-		background-color: #eee;
-		border-radius: 50px;
-		position: absolute;
-		left: -50px;
-		line-height: 100px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		top: -20px;
-		font-size: 24px;
-	  }
-	  p{
-		z-index: 15;
-	  }
 	}
   }
   .files {
