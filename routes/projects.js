@@ -75,7 +75,7 @@ let buildProject = function(folder, all = false) {
 		thumb   :   fs.existsSync(`${full_folder}/thumb.png`) ? `${config.web_root}projects/${folder}/thumb` : false,
 		url     :   info.liveurl,
 		apidoc  :   info.apidoc && info.apidoc.url ? info.apidoc.url : false,
-		github  :   info.githuburl ?? info.githuburl : false,
+		github  :   info.githuburl ? info.githuburl : false,
 		name    :   info.description ? info.description : folder,
 		files   :   all ? walkSync(full_folder, [], ignores, full_folder) : [],
 		gallery :   gallery,
