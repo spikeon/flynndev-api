@@ -15,7 +15,8 @@ import {
 	ProjectComponent,
 	ProjectsComponent,
 	HomeComponent,
-	PageNotFoundComponent
+	PageNotFoundComponent,
+	ProtectedComponent
 	}		from './index';
 
 import { LoggerService } from './logger.service';
@@ -41,7 +42,8 @@ const appRoutes: Routes = [
 		ProjectComponent,
 		ProjectsComponent,
 		HomeComponent,
-		PageNotFoundComponent
+		PageNotFoundComponent,
+		ProtectedComponent
 	],
 	bootstrap: [
 		AppComponent
