@@ -147,8 +147,21 @@ div.circle-img {
 	}
   }
   .login-for-files {
-	padding-top: 15px;
-	background-color: #eee;
+	.container{
+	  padding-top: 15px;
+	  background-color: #eee;
+	  border-radius: 4px;
+	  .circle-icon{
+		width: 100px;
+		height: 100px;
+		background-color: #eee;
+		border-radius: 50px;
+		position: absolute;
+		left: -50px;
+		line-height: 100px;
+		
+	  }
+	}
   }
   .files {
 	
