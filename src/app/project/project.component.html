@@ -29,7 +29,7 @@
 			<div [innerHtml]="about"></div>
 		</div>
 	</div>
-	<div class="files">
+	<div class="files" *ngIf="api.hasUser()">
 		<div class="container">
 			<div class="row">
 				<div class="fileslist col-md-3">
@@ -41,5 +41,8 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="login-for-files" *ngIf="!api.hasUser()">
+		<p>Please <button type="button" class="btn btn-link" data-dismiss="modal" data-target="#loginModal" data-toggle="modal">Login</button> or <button type="button" class="btn btn-link" data-dismiss="modal" data-target="#registerModal" data-toggle="modal">Register</button> to view the source code for this project. </p>
 	</div>
 </div>
