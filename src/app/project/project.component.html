@@ -24,18 +24,18 @@
 	</div>
 	<div class="container">
 		<ul class="nav nav-tabs" role="tablist">
-			<li role="presentation" *ngIf="about" [ngClass]="{'active' : files}"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
-			<li role="presentation"  [ngClass]="{'active' : ! files }"><a href="#files" aria-controls="files" role="tab" data-toggle="tab">Files</a></li>
+			<li role="presentation" *ngIf="about" [ngClass]="{'active' : about}"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+			<li role="presentation"  [ngClass]="{'active' : ! about }"><a href="#files" aria-controls="files" role="tab" data-toggle="tab">Files</a></li>
 		</ul>
 		<div class="tab-content">
 
-			<div role="tabpanel" class="tab-pane" id="about" *ngIf="about"  [ngClass]="{'active' : files}">
+			<div role="tabpanel" class="tab-pane" id="about" *ngIf="about"  [ngClass]="{'active' : about}">
 				<div class="about" *ngIf="about">
 					<h2>About</h2>
 					<div [innerHtml]="about"></div>
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="files"  [ngClass]="{'active' : ! files }">
+			<div role="tabpanel" class="tab-pane" id="files"  [ngClass]="{'active' : ! about }">
 				<div class="files" *ngIf="api.hasUser()">
 					<div class="row">
 						<div class="fileslist col-md-3">
@@ -47,9 +47,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="login-for-files" *ngIf="!api.hasUser()">
-					<protected></protected>
-				</div>
+				<protected *ngIf="!api.hasUser()"></protected>
 			</div>
 		</div>
 	</div>
