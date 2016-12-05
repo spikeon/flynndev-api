@@ -23,6 +23,7 @@ export class ProjectComponent implements OnInit {
 	thumb;
 	url;
 	apidoc;
+	github;
 
 	currentFile = { name : "Loading...", content : " Choose a file from the left to view it's content " };
 	currentImage = "";
@@ -43,6 +44,7 @@ export class ProjectComponent implements OnInit {
 		this.files = project.files;
 		this.gallery = project.gallery;
 		this.apidoc = project.apidoc;
+		this.github = project.github;
 	}
 
 	ngOnInit() {

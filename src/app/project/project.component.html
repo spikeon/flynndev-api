@@ -3,6 +3,7 @@
 		<div class="top">
 			<div *ngIf="thumb"  class=" circle-img img-fill project-head-img"> <img src="{{thumb}}/100"> </div>
 			<h2>{{name}}</h2>
+			<a *ngIf="github" class="btn btn-default" href="{{github}}"><i class="fa fa-github"></i> View on GitHub</a>
 			<a *ngIf="apidoc" class="btn btn-default" href="{{apidoc}}">View ApiDoc</a>
 			<a *ngIf="url" class="btn btn-primary" href="{{url}}">View Live</a>
 		</div>
