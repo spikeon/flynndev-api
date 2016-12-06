@@ -9,7 +9,8 @@ export class LoggerService {
 	}
 
 	_load(){
-		this._set(localStorage.getItem('showLog') == "y");
+		//this._set(localStorage.getItem('showLog') == "y");
+		this.on();
 	}
 
 	_set(b){
