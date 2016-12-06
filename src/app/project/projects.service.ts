@@ -51,7 +51,10 @@ export class ProjectsService {
 			()		=> this.log.info('Projects Full Complete')
 		);
 	}
-
+	openAll(e){
+		e.preventDefault();
+		this.router.navigate(['/project']);
+	}
 	open(e, project:Project):void{
 		e.preventDefault();
 		this.log.info(`Project ${project.name} Clicked`);
