@@ -1,10 +1,11 @@
-import { Component, OnInit } 	from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } 	from '@angular/core';
 
 import { PortfolioApiService }	from '../portfolio-api.service';
 
 import { LoggerService }        from '../logger.service';
 
 import { ActivatedRoute }       from '@angular/router';
+import {ProjectsService} from "./projects.service";
 
 declare let jQuery: any;
 declare let hljs: any;
@@ -13,63 +14,24 @@ declare let hljs: any;
 	selector: 'project',
 	templateUrl: './project.component.html'
 })
-export class ProjectComponent implements OnInit {
-	sub;
-	files = [];
-	gallery = [];
-	id;
-	name;
-	about;
-	thumb;
-	url;
-	apidoc;
-	github;
+export class ProjectComponent implements OnInit, AfterViewInit {
+	@ViewChild('codeoutput') code:ElementRef;
 
 	currentFile = { name : "Loading...", content : " Choose a file from the left to view it's content " };
 	currentImage = "";
-	//currentThumb;
 
 	constructor(
 		public api: PortfolioApiService,
 		public log: LoggerService,
-	    public route: ActivatedRoute
+	    public route: ActivatedRoute,
+	    public projects: ProjectsService
 	) { }
 
-	loadFromObj(project){
-		this.id = project.id;
-		this.name = project.name;
-		this.about = project.about;
-		this.thumb = project.thumb;
-		this.url = project.url;
-		this.files = project.files;
-		this.gallery = project.gallery;
-		this.apidoc = project.apidoc;
-		this.github = project.github;
-	}
+	ngOnInit() { }
 
-	ngOnInit() {
-		// Subscribe to route params
-		this.sub = this.route.params.subscribe(params => {
-
-			let id = params['id'];
-
-			this.api.get('projects', id).subscribe(
-				project => {
-					this.log.info(project);
-					this.loadFromObj(project);
-					this.changeFile(this.files.length > 0 ? this.files[0] : { name: '404', content : " /* Sorry, this project doesn't have any files currently */ " });
-					this.changeImage(this.gallery[0]);
-				},
-				err => this.log.err('Failed to get Project'),
-				() => this.log.info('Project Load Complete')
-			);
-		});
-
-	}
-
-	ngOnDestroy() {
-		// Clean sub to avoid memory leak
-		this.sub.unsubscribe();
+	ngAfterViewInit(){
+		this.changeFile(this.projects.currentProject.files.length > 0 ? this.projects.currentProject.files[0] : { name: '404', content : " /* Sorry, this project doesn't have any files currently */ " });
+		this.changeImage(this.projects.currentProject.gallery[0]);
 	}
 
 	openFile(e, file){
@@ -79,14 +41,13 @@ export class ProjectComponent implements OnInit {
 
 	changeFile(file){
 		this.currentFile = file;
-		let $code = jQuery('.codearea');
+		let $code = jQuery(this.code.nativeElement);
 		let highlighted = hljs.highlightAuto(file.content);
 		$code.html(highlighted.value);
 	}
 
 	changeImage(image){
 		this.currentImage = image;
-		//this.currentThumb = image .'/150';
 	}
 
 }

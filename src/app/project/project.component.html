@@ -1,22 +1,22 @@
 <div class="project">
 	<div class="container ">
 		<div class="top">
-			<div *ngIf="thumb"  class=" circle-img img-fill project-head-img"> <img src="{{thumb}}/100"> </div>
-			<h2>{{name}}</h2>
-			<a *ngIf="github" class="btn btn-default" href="{{github}}"><i class="fa fa-github"></i> View on GitHub</a>
-			<a *ngIf="apidoc" class="btn btn-default" href="{{apidoc}}">View ApiDoc</a>
-			<a *ngIf="url" class="btn btn-primary" href="{{url}}">View Live</a>
+			<div *ngIf="thumb"  class=" circle-img img-fill project-head-img"> <img src="{{projects.currentProject.thumb}}/100"> </div>
+			<h2>{{projects.currentProject.name}}</h2>
+			<a *ngIf="projects.currentProject.github" class="btn btn-default" href="{{projects.currentProject.github}}"><i class="fa fa-github"></i> View on GitHub</a>
+			<a *ngIf="projects.currentProject.apidoc" class="btn btn-default" href="{{projects.currentProject.apidoc}}">View ApiDoc</a>
+			<a *ngIf="projects.currentProject.url" class="btn btn-primary" href="{{projects.currentProject.url}}">View Live</a>
 		</div>
 	</div>
 
-	<div class="jumbotron"  *ngIf="gallery.length > 0">
+	<div class="jumbotron"  *ngIf="projects.currentProject.gallery.length > 0">
 		<div class="container">
 			<div class="gallery">
 				<div class="gallery-current">
 					<img src="{{currentImage}}">
 				</div>
 				<div class="gallery-list" *ngIf="gallery.length > 1">
-					<div class="circle-img gallery-item img-fill project-gallery-thumb" *ngFor="let image of gallery" [ngClass]="{active: image == currentImage}" (click)="changeImage(image)">
+					<div class="circle-img gallery-item img-fill project-gallery-thumb" *ngFor="let image of projects.currentProject.gallery" [ngClass]="{active: image == currentImage}" (click)="changeImage(image)">
 						<img src="{{image}}/100">
 					</div>
 				</div>
@@ -25,26 +25,26 @@
 	</div>
 	<div class="container">
 		<ul class="nav nav-tabs" role="tablist">
-			<li role="presentation" *ngIf="about" [ngClass]="{'active' : about}"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
-			<li role="presentation"  [ngClass]="{'active' : ! about }"><a href="#files" aria-controls="files" role="tab" data-toggle="tab">Files</a></li>
+			<li role="presentation" *ngIf="projects.currentProject.about" [ngClass]="{'active' : projects.currentProject.about}"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+			<li role="presentation"  [ngClass]="{'active' : ! projects.currentProject.about }"><a href="#files" aria-controls="files" role="tab" data-toggle="tab">Files</a></li>
 		</ul>
 		<div class="tab-content">
 
-			<div role="tabpanel" class="tab-pane" id="about" *ngIf="about"  [ngClass]="{'active' : about}">
-				<div class="about" *ngIf="about">
+			<div role="tabpanel" class="tab-pane" id="about" *ngIf="projects.currentProject.about"  [ngClass]="{'active' : projects.currentProject.about}">
+				<div class="about" *ngIf="projects.currentProject.about">
 					<h2>About</h2>
-					<div [innerHtml]="about"></div>
+					<div [innerHtml]="projects.currentProject.about"></div>
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="files"  [ngClass]="{'active' : ! about }">
+			<div role="tabpanel" class="tab-pane" id="files"  [ngClass]="{'active' : ! projects.currentProject.about }">
 				<div class="files" *ngIf="api.hasUser()">
 					<div class="row">
 						<div class="fileslist col-md-3">
-							<a *ngFor="let file of files" href="#" [ngClass]="{active: file == currentFile}" (click)="openFile($event, file)">{{file.path}}</a>
+							<a *ngFor="let file of projects.currentProject.files" href="#" [ngClass]="{active: file == currentFile}" (click)="openFile($event, file)">{{file.path}}</a>
 						</div>
 						<div class="col-md-9">
 							<h5>{{currentFile.name}}</h5>
-							<pre class="code"><code class="codearea hljs"></code></pre>
+							<pre class="code"><code #codearea class="codearea hljs"></code></pre>
 						</div>
 					</div>
 				</div>
