@@ -13,6 +13,8 @@ export class ProjectsService {
 	featuredProjects: Array<Project> = [];
 	fullProjectsById: Projects = {};
 	currentProject:Project;
+	tags: Array<string>;
+	currentTags: Array<string>;
 
 	constructor (
 		public api: PortfolioApiService,
@@ -29,6 +31,11 @@ export class ProjectsService {
 				this.log.info(this.projects);
 				for(let i in this.projects){
 					if(this.projects[i].featured) this.featuredProjects.push(this.projects[i]);
+					if(this.projects[i].tags){
+						for(let tag of this.projects[i].tags){
+							this.tags.push(tag);
+						}
+					}
 				}
 				this.log.info(this.featuredProjects);
 			},
@@ -45,10 +52,33 @@ export class ProjectsService {
 		);
 	}
 
-	open(project){
+	open(e, project:Project):void{
+		e.preventDefault();
 		this.log.info(`Project ${project.name} Clicked`);
 		this.currentProject = this.fullProjectsById[project.id];
 		this.router.navigate(['/project', project.id]);
 	}
+
+	toggleTag(e, tag:string):void{
+		e.preventDefault();
+		let i = this.tags.indexOf(tag);
+		if (i === -1) this.tags.push(tag);
+		else this.tags.splice( i, 1);
+	}
+
+	tagStatus(tag:string){
+		if(this.tags.indexOf(tag) === -1) return false;
+		return true;
+	}
+
+	isTagged(project){
+		if(this.tags.length == 0) return true;
+		else{
+			if(!project.tags) return false;
+			for(let tag of project.tags) if(this.tagStatus(tag)) return true;
+			return false;
+		}
+	}
+
 
 }

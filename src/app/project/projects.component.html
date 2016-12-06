@@ -1,11 +1,20 @@
 <div class="projects_outer">
 	<div class="container">
 		<h2>Projects</h2>
-		<div class="projects">
-			<div class="circle-img img-fill project-img" *ngFor="let project of projects.projects" (click)="projects.open(project)">
-				<img  *ngIf="project.thumb" src="{{project.thumb}}/200" alt="placeholder" >
-				<div class="title">
-					<p>{{project.name}}</p>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="list-group">
+					<div class="list-group-item" *ngFor="let tag of projects.tags" (click)="projects.toggleTag(tag)" [ngClass]="{'active':projects.tagStatus(tag)}"></div>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div class="projects">
+					<div class="circle-img img-fill project-img" *ngFor="let project of projects.projects" (click)="projects.open($event, project)" *ngIf="projects.isTagged(project)">
+						<img  *ngIf="project.thumb" src="{{project.thumb}}/200" alt="placeholder" >
+						<div class="title">
+							<p>{{project.name}}</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
