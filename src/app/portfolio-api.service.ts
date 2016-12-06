@@ -84,8 +84,8 @@ export class PortfolioApiService {
 	update	( type, object ) 		{ return this._put(object, type); }
 
 	loadStorage() {
-		this.getToken();
-		this.getUser();
+		this.getToken(true);
+		this.getUser(true);
 		this.checkToken();
 	}
 
