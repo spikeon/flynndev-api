@@ -26,7 +26,7 @@ import { ProjectsService } from "./project/projects.service";
 
 const appRoutes: Routes = [
 	{ path: '', component: HomeComponent },
-	{ path: 'project/', component: ProjectsComponent },
+	{ path: 'project', component: ProjectsComponent },
 	{ path: 'project/:id', component: ProjectComponent },
 	{ path: '**', component: PageNotFoundComponent }
 ];
