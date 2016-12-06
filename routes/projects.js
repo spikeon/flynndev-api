@@ -14,7 +14,7 @@ let requireUncached     = require('../inc/require-uncached');
 let walkSync            = require('../inc/walk-sync');
 
 
-let getProjects = function(){
+let getProjects = function(all = false){
 
 	let projects = [];
 
@@ -23,7 +23,7 @@ let getProjects = function(){
 		let files = fs.readdirSync(root_path);
 
 		files.forEach(function(file) {
-			let project = buildProject(file);
+			let project = buildProject(file, all);
 			if(project) projects.push(project);
 		});
 
@@ -119,6 +119,28 @@ router
 	.get('/',  function(req, res){
 		res.json(getProjects());
 	})
+
+	/**
+	 * @api {get} /projects/all Get All Projects (Full)
+	 * @apiName GetProjectsFull
+	 * @apiGroup Project
+	 * @apiVersion 1.0.0
+	 *
+	 * @apiSuccess {Object[]} projects Array of Projects
+	 * @apiSuccessExample {json} Success
+	 *	[
+	 *		{
+	 *			"id" 		: 1,
+	 *			"name" 		: "John Doe",
+	 *			...
+ 	 *		},
+	 *		...
+	 *	]
+	 */
+	.get('/all',  function(req, res){
+		res.json(getProjects(true));
+	})
+
 
 	/**
 	 * @api {get} /projects/:id Get Project

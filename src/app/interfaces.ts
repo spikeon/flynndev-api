@@ -11,3 +11,6 @@ export interface Project {
 	tags?:Array<string>;
 	featured:boolean;
 }
+export interface Projects {
+	[index:string] : Project
+}

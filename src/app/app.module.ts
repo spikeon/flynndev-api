@@ -22,7 +22,7 @@ import {
 
 import { LoggerService } from './logger.service';
 import { PortfolioApiService } from './portfolio-api.service';
-import { ProjectsService } from "./project/project.service";
+import { ProjectsService } from "./project/projects.service";
 
 const appRoutes: Routes = [
 	{ path: '', component: HomeComponent },
