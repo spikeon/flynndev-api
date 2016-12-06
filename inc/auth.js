@@ -1,11 +1,11 @@
 var express		= require('express');
 var jwt			= require('jsonwebtoken');
-var config		= require('./../config/api_config');
+var config		= require('../config/api_config');
 
 module.exports 	= {
 
 	Init : function(req,res,next){
-		var token = req.body.token || req.query.token || req.headers['x-access-token'];
+		var token = req.headers['x-access-token'];
 		if(token) jwt.verify(token, config.secret, (err, decoded) => { req.decoded = err ? false : decoded; });
 		else req.decoded = false;
 

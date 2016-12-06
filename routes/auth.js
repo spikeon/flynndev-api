@@ -80,7 +80,7 @@ router
 		let password 	= req.body.password;
 		let admin 		= 0;
 
-		if(!name) 		res.status(400).json({error: "Name Required"});
+		if(!name) 		    res.status(400).json({error: "Name Required"});
 		else if(!username) 	res.status(400).json({error: "Username Required"});
 		else if(!password) 	res.status(400).json({error: "Password Required"});
 		else db.query(
@@ -113,7 +113,7 @@ router
 	 *	}
 	 */
 
-	.get('/check', function(req,res){
+	.get('/check', function(req, res){
 		if(req.decoded)	res.json({ result: true });
 		else 			res.json({ result: false });
 	});
