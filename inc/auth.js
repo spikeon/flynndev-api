@@ -6,7 +6,10 @@ module.exports 	= {
 
 	Init : function(req,res,next){
 		var token = req.headers['x-access-token'];
-		if(token) jwt.verify(token, config.secret, (err, decoded) => { req.decoded = err ? false : decoded; });
+		if(token) jwt.verify(token, config.secret, (err, decoded) => {
+			console.log(err);
+			req.decoded = err ? false : decoded;
+		});
 		else req.decoded = false;
 
 		next();

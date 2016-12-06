@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/auth.js" afterPath="$PROJECT_DIR$/inc/auth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/auth.js" afterPath="$PROJECT_DIR$/routes/auth.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,8 +76,8 @@
       <file leaf-file-name="auth.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+            <state relative-caret-position="135">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -575,7 +574,7 @@
       <workItem from="1480638279308" duration="2502000" />
       <workItem from="1480747059647" duration="503000" />
       <workItem from="1480895532997" duration="12767000" />
-      <workItem from="1480944055062" duration="6822000" />
+      <workItem from="1480944055062" duration="6919000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -609,7 +608,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96205000" />
+    <option name="totallyTimeSpent" value="96302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -2055,8 +2054,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
