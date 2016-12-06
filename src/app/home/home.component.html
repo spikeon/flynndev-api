@@ -2,7 +2,7 @@
 
 <div class="container">
 	<div class="row">
-		<div [ngClass]="{ 'col-md-6' : api.hasUser(), 'col-md-12' : !api.hasUser() }">
+		<div [ngClass]="{ 'col-md-6' : api.isAdmin(), 'col-md-12' : !api.isAdmin() }">
 			<h2>My Skills</h2>
 			<skills></skills>
 		</div>
