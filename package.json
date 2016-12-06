@@ -87,5 +87,17 @@
     "title": "Portfolio API",
     "url": "http://flynndev.us/api"
   },
-  "liveurl": "http://flynndev.us"
+  "liveurl": "http://flynndev.us",
+  "featured": true,
+  "tags": [
+    "Angular2",
+    "Bootstrap",
+    "jQuery",
+    "Webpack",
+    "ApiDoc",
+    "Express",
+    "API",
+    "Node.js",
+    "JWT"
+  ]
 }

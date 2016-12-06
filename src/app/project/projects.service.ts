@@ -33,7 +33,7 @@ export class ProjectsService {
 					if(this.projects[i].featured) this.featuredProjects.push(this.projects[i]);
 					if(this.projects[i].tags){
 						for(let tag of this.projects[i].tags){
-							this.tags.push(tag);
+							this.addTag(tag);
 						}
 					}
 				}
@@ -57,6 +57,10 @@ export class ProjectsService {
 		this.log.info(`Project ${project.name} Clicked`);
 		this.currentProject = this.fullProjectsById[project.id];
 		this.router.navigate(['/project', project.id]);
+	}
+
+	addTag(tag){
+		if(this.tags.indexOf(tag) == -1) this.tags.push(tag);
 	}
 
 	toggleTag(e, tag:string):void{
