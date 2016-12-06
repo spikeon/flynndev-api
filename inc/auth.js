@@ -2,7 +2,7 @@ var express		= require('express');
 var jwt			= require('jsonwebtoken');
 var config		= require('../config/api_config');
 
-let debug = true;
+let debug = false;
 
 module.exports 	= {
 
