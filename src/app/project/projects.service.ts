@@ -60,7 +60,11 @@ export class ProjectsService {
 	}
 
 	addTag(tag){
-		if(this.tags.indexOf(tag) == -1) this.tags.push(tag);
+		if(this.tags.indexOf(tag) == -1) {
+			this.tags.push(tag);
+			this.tags.sort();
+		}
+
 	}
 
 	toggleTag(e, tag:string):void{
