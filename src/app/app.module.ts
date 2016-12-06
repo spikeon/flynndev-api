@@ -16,15 +16,18 @@ import {
 	ProjectsComponent,
 	HomeComponent,
 	PageNotFoundComponent,
-	ProtectedComponent
+	ProtectedComponent,
+	FeaturedProjectsComponent
 	}		from './index';
 
 import { LoggerService } from './logger.service';
 import { PortfolioApiService } from './portfolio-api.service';
+import { ProjectsService } from "./project/project.service";
 
 const appRoutes: Routes = [
-	{ path: 'project/:id', component: ProjectComponent },
 	{ path: '', component: HomeComponent },
+	{ path: 'project/', component: ProjectsComponent },
+	{ path: 'project/:id', component: ProjectComponent },
 	{ path: '**', component: PageNotFoundComponent }
 ];
 
@@ -43,14 +46,16 @@ const appRoutes: Routes = [
 		ProjectsComponent,
 		HomeComponent,
 		PageNotFoundComponent,
-		ProtectedComponent
+		ProtectedComponent,
+		FeaturedProjectsComponent
 	],
 	bootstrap: [
 		AppComponent
 	],
 	providers: [
 		PortfolioApiService,
-		LoggerService
+		LoggerService,
+		ProjectsService
 	]
 })
 export class AppModule { }

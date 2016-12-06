@@ -72,15 +72,16 @@ let buildProject = function(folder, all = false) {
 
 	let project     = {
 		id      :   folder,
-		thumb   :   fs.existsSync(`${full_folder}/thumb.png`) ? `${config.web_root}projects/${folder}/thumb` : false,
+		thumb   :   fs.existsSync(`${full_folder}/thumb.png`) ? `${config.web_root}projects/${folder}/thumb` : "",
 		url     :   info.liveurl,
-		apidoc  :   info.apidoc && info.apidoc.url ? info.apidoc.url : false,
-		github  :   info.githuburl ? info.githuburl : false,
+		apidoc  :   info.apidoc && info.apidoc.url ? info.apidoc.url : "",
+		github  :   info.githuburl ? info.githuburl : "",
 		name    :   info.description ? info.description : folder,
 		files   :   all ? walkSync(full_folder, [], ignores, full_folder) : [],
 		gallery :   gallery,
 		about   :   all ? getProjectMd('ABOUT.md', full_folder) : "",
-
+		tags    :   info.tags ? info.tags : [],
+		featured:   info.featured ? true : false,
 	};
 
 	return project;
