@@ -86,7 +86,7 @@ export class PortfolioApiService {
 	loadStorage() {
 		this.loadToken();
 		this.loadUser();
-		//this.checkToken();
+		this.checkToken();
 	}
 
 	checkToken() {
