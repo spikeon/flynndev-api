@@ -173,6 +173,7 @@ router
 		else{
 			let thumb_path = `${root_path}${folder}/thumb.png`;
 			if(fs.existsSync(thumb_path)){
+				sharp.cache(false);
 				sharp(thumb_path)
 					.resize(size, size)
 					.min()
@@ -226,6 +227,7 @@ router
 		else{
 			let img_path = `${root_path}${folder}/gallery${i}.png`;
 			if(fs.existsSync(img_path)){
+				sharp.cache(false);
 				sharp(img_path)
 					.resize(size, size)
 					.min()
