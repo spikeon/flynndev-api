@@ -9,7 +9,7 @@
 			</div>
 			<div class="col-md-9">
 				<div class="projects">
-					<div class="circle-img img-fill project-img" *ngFor="let project of projects.projects" (click)="projects.open($event, project)" *ngIf="projects.isTagged(project)">
+					<div class="circle-img img-fill project-img" *ngFor="let project of projects.projects" (click)="projects.open($event, project)" [ngClass]="{'hidden':projects.isTagged(project)}">
 						<img  *ngIf="project.thumb" src="{{project.thumb}}/200" alt="placeholder" >
 						<div class="title">
 							<p>{{project.name}}</p>
