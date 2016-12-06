@@ -84,9 +84,9 @@ export class PortfolioApiService {
 	update	( type, object ) 		{ return this._put(object, type); }
 
 	loadStorage() {
-		this.getToken();
-		this.getUser();
-		this.checkToken();
+		this.loadToken();
+		this.loadUser();
+		//this.checkToken();
 	}
 
 	checkToken() {
@@ -149,11 +149,8 @@ export class PortfolioApiService {
 		localStorage.setItem('user', JSON.stringify(user));
 	}
 
-	getUser() {
-		if(this.user) return this.user;
-		let user = JSON.parse(localStorage.getItem('user'));
-		this.user = user;
-		return user;
+	loadUser() {
+		this.user = JSON.parse(localStorage.getItem('user'));
 	}
 
 	setToken(token) {
@@ -161,12 +158,8 @@ export class PortfolioApiService {
 		localStorage.setItem('token', token);
 	}
 
-	getToken() {
-		if(this.token) return this.token;
-
-		let token = localStorage.getItem('token');
-		this.token = token;
-		return token;
+	loadToken() {
+		this.token = localStorage.getItem('token');
 	}
 
 	login (event, username, password) {
