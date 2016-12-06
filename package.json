@@ -1,19 +1,19 @@
 {
-  "name": 			"flynndev",
-  "version": 		"1.0.0",
-  "description": 	"FlynnDev",
-  "main": 			"index.html",
+  "name": "flynndev",
+  "version": "1.0.0",
+  "description": "FlynnDev",
+  "main": "index.html",
   "scripts": {
-    "build": 		"apidoc -i routes/ -o api/ && rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
-    "deploy": 		"npm run build && git add . && git commit && git push live master",
-    "autodeploy": 	"npm run build && git add . && git commit -m 'Auto Deployment' && git push live master",
-	"devdeploy": 	"git add . && git commit -m 'Auto Deployment' && git push live master"
+    "build": "apidoc -i routes/ -o api/ && rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+    "deploy": "npm run build && git add . && git commit && git push live master",
+    "autodeploy": "npm run build && git add . && git commit -m 'Auto Deployment' && git push live master",
+    "devdeploy": "git add . && git commit -m 'Auto Deployment' && git push live master"
   },
-  "author": 		"Michael Flynn",
+  "author": "Michael Flynn",
   "licenses": [
     {
-      "type": 		"MIT",
-      "url": 		"https://github.com/angular/angular.io/blob/master/LICENSE"
+      "type": "MIT",
+      "url": "https://github.com/angular/angular.io/blob/master/LICENSE"
     }
   ],
   "dependencies": {
@@ -31,8 +31,10 @@
     "@types/node": "^6.0.45",
     "angular2-template-loader": "^0.4.0",
     "angulartics2": "1.4.2",
+    "apidoc": "0.16.1",
     "autoprefixer": "6.5.3",
     "awesome-typescript-loader": "^2.2.4",
+    "body-parser": "^1.15.2",
     "bootstrap-loader": "1.0.8",
     "bootstrap-sass": "3.3.7",
     "core-js": "^2.4.1",
@@ -49,7 +51,13 @@
     "imports-loader": "0.6.5",
     "jasmine-core": "^2.4.1",
     "jquery": "3.1.1",
+    "jsonwebtoken": "^7.1.9",
+    "minimatch": "3.0.3",
+    "morgan": "^1.7.0",
+    "multimatch": "2.1.0",
+    "mysql": "^2.12.0",
     "node-sass": "3.11.3",
+    "nodemon": "^1.11.0",
     "null-loader": "^0.1.1",
     "postcss": "5.2.5",
     "postcss-loader": "1.1.1",
@@ -61,30 +69,23 @@
     "rimraf": "^2.5.2",
     "rxjs": "5.0.0-beta.12",
     "sass-loader": "4.0.2",
+    "sharp": "0.16.2",
+    "showdown": "1.5.0",
     "style-loader": "0.13.1",
     "tether": "1.3.7",
+    "tslint": "4.0.2",
     "typescript": "^2.0.3",
     "url-loader": "0.5.7",
     "webpack": "1.13.3",
     "webpack-dev-middleware": "1.8.4",
     "webpack-dev-server": "1.16.2",
     "webpack-merge": "^0.14.0",
-    "zone.js": "^0.6.25",
-	"apidoc": "0.16.1",
-	"body-parser": "^1.15.2",
-	"jsonwebtoken": "^7.1.9",
-	"minimatch": "3.0.3",
-	"morgan": "^1.7.0",
-	"multimatch": "2.1.0",
-	"mysql": "^2.12.0",
-	"nodemon": "^1.11.0",
-	"sharp": "0.16.2",
-	"showdown": "1.5.0"
+    "zone.js": "^0.6.25"
   },
   "apidoc": {
-	"name": "Portfolio API",
-	"title": "Portfolio API",
-	"url": "http://flynndev.us/api"
+    "name": "Portfolio API",
+    "title": "Portfolio API",
+    "url": "http://flynndev.us/api"
   },
   "liveurl": "http://flynndev.us"
 }
