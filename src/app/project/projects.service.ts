@@ -26,9 +26,11 @@ export class ProjectsService {
 			projects	=> {
 				this.log.info("Got Projects");
 				this.projects = projects as Array<Project>;
+				this.log.info(this.featuredProjects);
 				for(let i in this.projects){
 					if(this.projects[i].featured) this.featuredProjects.push(this.projects[i]);
 				}
+				this.log.info(this.featuredProjects);
 			},
 			err		=> this.log.err('Failed to get Projects'),
 			()		=> this.log.info('Projects Complete')
