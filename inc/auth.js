@@ -18,13 +18,15 @@ module.exports 	= {
 			if(debug) console.log("Token Decoded");
 			if(debug) console.log(decoded);
 			req.decoded = err ? false : decoded;
+			next();
 		});
 		else {
 			if(debug) console.log("No Token Sent");
 			req.decoded = false;
+			next();
 		}
 
-		next();
+
 	},
 
 	Token : function(req,res,next){
