@@ -150,8 +150,7 @@ export class PortfolioApiService {
 	}
 
 	getUser() {
-		if(!this.user) return this.user;
-
+		if(this.user) return this.user;
 		let user = JSON.parse(localStorage.getItem('user'));
 		this.user = user;
 		return user;
