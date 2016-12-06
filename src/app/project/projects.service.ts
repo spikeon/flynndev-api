@@ -35,7 +35,7 @@ export class ProjectsService {
 			err		=> this.log.err('Failed to get Projects'),
 			()		=> this.log.info('Projects Complete')
 		);
-		this.api.list('projects','all').subscribe(
+		this.api._get('projects','all').subscribe(
 			( projects:Project ) => {
 				this.log.info("Got Projects Full");
 				for(let i in projects) this.fullProjectsById[projects[i].id] = projects[i];

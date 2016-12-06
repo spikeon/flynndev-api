@@ -78,7 +78,7 @@ export class PortfolioApiService {
 
 
 	get 	( type, id ) 			{ return this._get(type, id); }
-	list 	( ...type ) 			{ return this._get(...type); }
+	list 	( type ) 			    { return this._get(type); }
 	add 	( type, data = {} ) 	{ return this._post(data, type); }
 	del	    ( type, id ) 			{ return this._delete(type, id); }
 	update	( type, object ) 		{ return this._put(object, type); }
