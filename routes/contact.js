@@ -58,7 +58,7 @@ router
 
 		else {
 			sendmail({
-				from:       { name: "FlynnDev", address: 'no-reply@flynndev.us' },
+				from:       'FlynnDev <no-reply@flynndev.us>',
 				to:         'mflynn@flynndev.us',
 				subject:    'New Contact Form Submission',
 				replyTo:    { name, address },
