@@ -24,10 +24,19 @@ router
 	 *	{
 	 * 		"result" : true
 	 *	}
-	 * @apiErrorExample {json} Token Failed
-	 *	HTTP/1.1 200 OK
+	 * @apiErrorExample {json} Bad Input
+	 *	HTTP/1.1 400
 	 *	{
-	 * 		"error" : "Error Text"
+	 * 		"error" : "Error Text",
+	 * 	    "result": "false"
+	 *	}
+	 * @apiErrorExample {json} System Error
+	 *	HTTP/1.1 500
+	 *	{
+	 * 		"error" : "Error Sending Mail",
+	 * 	    "err"   : "Specific Error",
+	 *      "stack" : "Stack trace of Specific Error",
+	 * 	    "result": "false"
 	 *	}
 	 */
 	.post('/send', function(req, res){
@@ -57,7 +66,7 @@ router
 			}, function(err, reply) {
 				if(err) {
 					res.status(500).json({
-						error: "Error Sending File",
+						error: "Error Sending Mail",
 						err,
 						stack : err.stack,
 						result

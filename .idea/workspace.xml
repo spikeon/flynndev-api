@@ -100,10 +100,10 @@
       <file leaf-file-name="contact.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="559">
+              <caret line="83" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding>
-                <marker date="1481353478000" expanded="true" signature="1568:1860" ph="..." />
+                <marker date="1481353776000" expanded="true" signature="1814:2106" ph="..." />
               </folding>
             </state>
           </provider>
@@ -624,7 +624,7 @@
       <workItem from="1480944055062" duration="16289000" />
       <workItem from="1481175453566" duration="187000" />
       <workItem from="1481236993046" duration="2207000" />
-      <workItem from="1481272202758" duration="3100000" />
+      <workItem from="1481272202758" duration="3406000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -658,7 +658,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111166000" />
+    <option name="totallyTimeSpent" value="111472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -2081,10 +2081,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="559">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
-            <marker date="1481353478000" expanded="true" signature="1568:1860" ph="..." />
+            <marker date="1481353776000" expanded="true" signature="1814:2106" ph="..." />
           </folding>
         </state>
       </provider>
