@@ -70,3 +70,5 @@ router
 			});
 		}
 	});
+
+module.exports = router;
