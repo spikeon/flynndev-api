@@ -17,7 +17,8 @@ import {
 	HomeComponent,
 	PageNotFoundComponent,
 	ProtectedComponent,
-	FeaturedProjectsComponent
+	FeaturedProjectsComponent,
+	ContactComponent
 	}		from './index';
 
 import { LoggerService } from './logger.service';
@@ -26,6 +27,7 @@ import { ProjectsService } from "./project/projects.service";
 
 const appRoutes: Routes = [
 	{ path: '', component: HomeComponent },
+	{ path: 'contact', component: ContactComponent },
 	{ path: 'project', component: ProjectsComponent },
 	{ path: 'project/:id', component: ProjectComponent },
 	{ path: '**', component: PageNotFoundComponent }
@@ -47,7 +49,8 @@ const appRoutes: Routes = [
 		HomeComponent,
 		PageNotFoundComponent,
 		ProtectedComponent,
-		FeaturedProjectsComponent
+		FeaturedProjectsComponent,
+		ContactComponent
 	],
 	bootstrap: [
 		AppComponent

@@ -9,7 +9,7 @@ let skillRoutes		= require('./routes/skills');
 let userRoutes 		= require('./routes/users');
 let projectRoutes	= require('./routes/projects');
 let authRoutes		= require('./routes/auth');
-
+let contactRoutes   = require('./routes/contact');
 let authCheck		= require('./inc/auth');
 
 let port 			= process.env.PORT || config.port;
@@ -32,6 +32,7 @@ app.use('/auth', 			authRoutes);
 app.use('/skills', 			skillRoutes);
 app.use('/users',			userRoutes);
 app.use('/projects',		projectRoutes);
+app.use('/contact',         contactRoutes);
 
 app.use(errorHandler);
 

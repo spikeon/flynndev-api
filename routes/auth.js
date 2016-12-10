@@ -109,7 +109,7 @@ router
 	 * @apiErrorExample {json} Token Failed
 	 *	HTTP/1.1 200 OK
 	 *	{
-	 * 		"result" : true
+	 * 		"result" : false
 	 *	}
 	 */
 

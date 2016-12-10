@@ -1,6 +1,6 @@
-import { Http, Headers}	from '@angular/http';
-import { Injectable }	from '@angular/core';
-import { LoggerService }       from './logger.service';
+import { Http, Headers}	        from '@angular/http';
+import { Injectable }	        from '@angular/core';
+import { LoggerService }        from './logger.service';
 
 declare let jQuery: any;
 
@@ -179,6 +179,24 @@ export class PortfolioApiService {
 				},
 				() => {
 					this.log.info('Login Complete')
+				}
+			);
+
+	}
+
+	sendEmail (name:string, email:string, content:string){
+		this._post( {name, email, content}, 'contact', 'send' )
+			.subscribe(
+				data => {
+					this.log.info('Mail Sent');
+					this.log.info(data);
+				},
+				err => {
+					this.log.err('Mail Failed');
+					this.log.err(err);
+				},
+				() => {
+					this.log.info('Mail Complete')
 				}
 			);
 
