@@ -60,7 +60,7 @@ router
 			sendmail({
 				from:       'FlynnDev <no-reply@flynndev.us>',
 				to:         'mflynn@flynndev.us',
-				subject:    'New Contact Form Submission',
+				subject:    `New Contact From ${name}`,
 				replyTo:    { name, address },
 				text:       content,
 			}, function(err, reply) {
