@@ -1,5 +1,5 @@
 <div class="container">
-	<form #contactForm="ngForm" (ngSubmit)="sendMessage()" class="contact-form" *ngIf="showForm">
+	<form #contactForm="ngForm" (ngSubmit)="sendMessage()" class="contact-form" *ngIf=" ! submitted ">
 
 		<div class="form-group">
 			<label for="name">Name</label>
