@@ -24,6 +24,7 @@ import {
 import { LoggerService } from './logger.service';
 import { PortfolioApiService } from './portfolio-api.service';
 import { ProjectsService } from "./project/projects.service";
+import { FormsModule }   from '@angular/forms';
 
 const appRoutes: Routes = [
 	{ path: '', component: HomeComponent },
@@ -37,7 +38,8 @@ const appRoutes: Routes = [
 	imports: [
 		BrowserModule,
 		HttpModule,
-		RouterModule.forRoot(appRoutes)
+		RouterModule.forRoot(appRoutes),
+		FormsModule
 	],
 	declarations: [
 		AppComponent,
