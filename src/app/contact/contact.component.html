@@ -11,7 +11,7 @@
 
 		<div class="form-group">
 			<label for="email">Email address</label>
-			<input type="email" class="form-control" id="email" required [(ngModel)]="model.email" name="email" placeholder="Email"  #email="ngModel" >
+			<input type="email" class="form-control" id="email" required [(ngModel)]="model.email" name="email" placeholder="Email"  #email="ngModel" pattern="\S+@\S+\.\S+">
 			<div [hidden]="email.valid || email.pristine" class="alert alert-danger">
 				Email is required
 			</div>
