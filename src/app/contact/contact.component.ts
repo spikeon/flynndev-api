@@ -50,6 +50,7 @@ export class ContactComponent implements OnInit {
 		}
 		else {
 			this.api.sendEmail( this.model.name , this.model.email , this.model.content );
+			this.submitted = true;
 		}
 
 	}
