@@ -1,3 +1,34 @@
 <div class="container">
-	<button class="btn btn-primary" (click)="sendTestMessage()">Send Test Message</button>
+	<form #contactForm="ngForm" (ngSubmit)="sendMessage()" class="contact-form" *ngIf="showForm">
+
+		<div class="form-group">
+			<label for="name">Name</label>
+			<input type="text"  class="form-control" id="name" required [(ngModel)]="model.name" name="name"  placeholder="Name" #name="ngModel" >
+			<div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+				Name is required
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="email">Email address</label>
+			<input type="email" class="form-control" id="email" required [(ngModel)]="model.email" name="email" placeholder="Email"  #email="ngModel" >
+			<div [hidden]="email.valid || email.pristine" class="alert alert-danger">
+				Email is required
+			</div>
+
+		</div>
+
+		<div class="form-group">
+			<label for="content">Message</label>
+			<textarea class="form-control" name="content" id="content" required placeholder="Message..." [(ngModel)]="model.content" rows="3"  #content="ngModel"></textarea>
+			<div [hidden]="content.valid || content.pristine" class="alert alert-danger">
+				Message is required
+			</div>
+
+		</div>
+
+		<input type="submit" class="btn btn-primary" [disabled]="!contactForm.form.valid">Send Message</input>
+
+	</form>
+
 </div>
