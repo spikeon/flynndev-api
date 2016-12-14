@@ -78,8 +78,15 @@ export class ContactComponent implements OnInit {
 
 		}
 		else {
+
 			this.api.sendEmail( this.model.name , this.model.email , this.model.content );
+
 			this.submitted = true;
+
+			localStorage.removeItem( "message_name"     );
+			localStorage.removeItem( "message_email"    );
+			localStorage.removeItem( "message_content"  );
+
 		}
 
 	}
