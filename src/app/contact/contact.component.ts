@@ -9,8 +9,8 @@ import { Mail }                 from './mail';
 declare var jQuery: any;
 
 @Component({
-	selector: 'contact',
-	templateUrl: './contact.component.html'
+	selector:       'contact',
+	templateUrl:    './contact.component.html'
 })
 export class ContactComponent implements OnInit {
 
@@ -52,7 +52,13 @@ export class ContactComponent implements OnInit {
 	}
 
 	onModelChange ( $event ) : void {
-		alert(this.model.name);
+
+		// Save message to local storage
+
+		localStorage.setItem ( "message_name",      this.model.name     );
+		localStorage.setItem ( "message_email",     this.model.email    );
+		localStorage.setItem ( "message_content",   this.model.content  );
+
 	}
 
 	sendMessage ( ) : void {
