@@ -16,23 +16,46 @@ export class ContactComponent implements OnInit {
 
 	public submitted:boolean = false;
 
-	model = new Mail("","","");
+	model:Mail;
 
 	constructor( public api: PortfolioApiService, public log: LoggerService ) { }
 
-	ngOnInit(): void {
+	ngOnInit ( ) : void {
+
+		if (  this.hasMessage() ) this.loadMessage()
+		else this.newMessage();
 
 	}
 
-	newMessage(): void {
+	hasMessage ( ) {
+
+		return ( localStorage.getItem( "message_content" ) !== null );
+
+	}
+
+	loadMessage (  ) : void {
+
+		this.model = new Mail( localStorage.getItem( "message_name" ) , localStorage.getItem( "message_email" ) , localStorage.getItem( "message_content" ) );
+
+	}
+
+	newMessage ( ) : void {
+
 		this.model = new Mail("","","");
+
 	}
 
-	sendTestMessage(): void {
-		this.api.sendEmail("Test Dude", "test@test.com", "This is but a test of the test system.  \n Is this on a new line?")
+	sendTestMessage ( ) : void {
+
+		this.api.sendEmail("Test Dude", "test@test.com", "This is but a test of the test system.  \n Is this on a new line?");
+
 	}
 
-	sendMessage(): void {
+	onModelChange ( $event ) : void {
+		alert(this.model.name);
+	}
+
+	sendMessage ( ) : void {
 
 		let email_re = /\S+@\S+\.\S+/;
 
