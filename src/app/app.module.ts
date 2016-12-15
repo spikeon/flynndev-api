@@ -18,7 +18,8 @@ import {
 	PageNotFoundComponent,
 	ProtectedComponent,
 	FeaturedProjectsComponent,
-	ContactComponent
+	ContactComponent,
+	ContactSlideupComponent
 	}		from './index';
 
 import { LoggerService } from './logger.service';
@@ -52,7 +53,8 @@ const appRoutes: Routes = [
 		PageNotFoundComponent,
 		ProtectedComponent,
 		FeaturedProjectsComponent,
-		ContactComponent
+		ContactComponent,
+		ContactSlideupComponent
 	],
 	bootstrap: [
 		AppComponent

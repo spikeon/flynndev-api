@@ -14,6 +14,11 @@ declare var jQuery: any;
 })
 export class ContactComponent implements OnInit {
 
+	/* TODO: Place contact form in box that appears on every page, and stays open once opened, even if page is refreshed.
+	 * The box will have a tab that says "Contact Me" and when clicked it slides up
+	 * When the tab is clicked again it will slide down and stay down until clicked again, even if page is refreshed.
+	 */
+
 	public submitted:boolean = false;
 
 	model:Mail;
@@ -22,7 +27,7 @@ export class ContactComponent implements OnInit {
 
 	ngOnInit ( ) : void {
 
-		if (  this.hasMessage() ) this.loadMessage()
+		if (  this.hasMessage() ) this.loadMessage();
 		else this.newMessage();
 
 	}

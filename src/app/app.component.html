@@ -53,6 +53,7 @@
 		</form>
 	</div>
 </div>
+
 <div class="modal fade" tabindex="-1" role="dialog" id="registerModal" *ngIf="!api.hasUser()">
 	<div class="modal-dialog" role="document">
 		<form role="form" (submit)="api.register($event, registername.value, registerusername.value, registerpassword.value)">
@@ -85,3 +86,5 @@
 		</form>
 	</div>
 </div>
+
+<contact-slideup></contact-slideup>
