@@ -2,7 +2,7 @@
 	<h4 (click)="toggle()" >
 		Contact Me!
 	</h4>
-	<div class="contact-form" [hidden]="open">
+	<div class="contact-form" [hidden]="!open">
 		<contact></contact>
 	</div>
 </div>
