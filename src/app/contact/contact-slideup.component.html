@@ -1,6 +1,12 @@
 <div class="contact-window">
-	<h4>Contact Me!</h4>
-	<div class="contact-form">
+	<h4 (click)="toggle()" >
+		Contact Me!
+		<div class="pull-right">
+			<i class="fa fa-arrow-up" [hidden]="open"></i>
+			<i class="fa fa-arrow-down" [hidden]="!open"></i>
+		</div>
+	</h4>
+	<div class="contact-form" [hidden]="open">
 		<contact></contact>
 	</div>
 </div>

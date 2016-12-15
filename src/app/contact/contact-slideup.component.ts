@@ -12,9 +12,15 @@ declare var jQuery: any;
 })
 export class ContactSlideupComponent implements OnInit {
 
-	constructor( public api: PortfolioApiService, public log: LoggerService ) { }
+	constructor( public api : PortfolioApiService , public log : LoggerService ) { }
+
+	open : boolean;
 
 	ngOnInit(): void {
+		this.open = false;
+	}
 
+	toggle ( ) : void {
+		this.open = ! this.open;
 	}
 }
