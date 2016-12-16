@@ -66,6 +66,7 @@ export class ProjectsService {
 					this.currentProject = this.fullProjectsById[this.id];
 					this.loaded = true;
 					this.log.info(`Project ${this.currentProject.name} Opened Directly`);
+
 				}
 
 			},

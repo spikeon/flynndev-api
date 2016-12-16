@@ -284,6 +284,7 @@ div.circle-img {
 	}
   }
   .contact-form{
+	transition: visibility 0s, opacity 0.5s linear;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	.btn {
