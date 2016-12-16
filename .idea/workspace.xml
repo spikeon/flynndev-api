@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/contact/contact.component.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/contact/contact.component.ts" afterPath="$PROJECT_DIR$/src/app/contact/contact.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style.scss" afterPath="$PROJECT_DIR$/src/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.common.js" afterPath="$PROJECT_DIR$/config/webpack.common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contact.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -33,6 +32,16 @@
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/webpack.common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="44" column="102" lean-forward="true" selection-start-line="44" selection-start-column="102" selection-end-line="44" selection-end-column="102" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,16 +128,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="168" lean-forward="false" selection-start-line="34" selection-start-column="168" selection-end-line="34" selection-end-column="168" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -160,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/auth.js" />
         <option value="$PROJECT_DIR$/config.example.js" />
         <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/error-handler.js" />
@@ -211,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/style.scss" />
         <option value="$PROJECT_DIR$/src/app/contact/contact.component.scss" />
         <option value="$PROJECT_DIR$/src/app/contact/contact.component.ts" />
+        <option value="$PROJECT_DIR$/config/webpack.common.js" />
       </list>
     </option>
   </component>
@@ -669,7 +668,7 @@
       <workItem from="1481175453566" duration="187000" />
       <workItem from="1481236993046" duration="2207000" />
       <workItem from="1481272202758" duration="11726000" />
-      <workItem from="1481695917483" duration="4211000" />
+      <workItem from="1481695917483" duration="4469000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -703,7 +702,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124003000" />
+    <option name="totallyTimeSpent" value="124261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -1793,13 +1792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="64" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/user/users.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2133,6 +2125,14 @@
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="44" column="102" lean-forward="true" selection-start-line="44" selection-start-column="102" selection-end-line="44" selection-end-column="102" />
+          <folding />
         </state>
       </provider>
     </entry>
