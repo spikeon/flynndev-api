@@ -29,12 +29,12 @@ export class ProjectsService {
 
 		this.loaded = false;
 
-		console.log(this.route.snapshot);
-		if(this.route.snapshot.firstChild.component.toString() == "ProjectComponent"){
+		//console.log(this.route.snapshot);
+		if(this.route.snapshot.firstChild.url[0].path == "project"){
 			console.log("correct component");
+			this.id = this.route.snapshot.firstChild.params['id'];
+			console.log(this.id);
 		}
-		this.id = this.route.snapshot.firstChild.params['id'];
-		console.log(this.id);
 		this.init();
 
 	}
