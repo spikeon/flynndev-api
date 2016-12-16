@@ -28,9 +28,13 @@ export class ProjectsService {
 		) {
 
 		this.loaded = false;
-		console.log(this.route.snapshot);
-		this.id = this.route.snapshot.params['id'];
 
+		console.log(this.route.snapshot);
+		if(this.route.snapshot.component.toString() == "ProjectComponent"){
+			console.log("correct component");
+		}
+		this.id = this.route.snapshot.params['id'];
+		console.log(this.id);
 		this.init();
 
 	}
