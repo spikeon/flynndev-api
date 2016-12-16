@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/674f50d287a8c48dc19ba404d20fe713.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/89889688147bd7575d6327160d64e760.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/912ec66d7572ff821749319396470bde.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.be39a71d1d57e98fc2e8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.be39a71d1d57e98fc2e8.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/glyphicons-halflings-regular.a0180954d7d374e153899d0974b25225.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/b06871f281fee6b241d60582ae9369b9.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/e18bbf611f2a2e43afc071aa2f4e1512.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/f4769f9bdb7466be65088239c12046d1.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.be39a71d1d57e98fc2e8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.be39a71d1d57e98fc2e8.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.be39a71d1d57e98fc2e8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.be39a71d1d57e98fc2e8.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api_project.js" afterPath="$PROJECT_DIR$/api/api_project.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api_project.json" afterPath="$PROJECT_DIR$/api/api_project.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/contact/contact-slideup.component.html" afterPath="$PROJECT_DIR$/src/app/contact/contact-slideup.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/contact/contact.component.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/contact/contact.component.ts" afterPath="$PROJECT_DIR$/src/app/contact/contact.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style.scss" afterPath="$PROJECT_DIR$/src/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,14 +25,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contact.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contact.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-476">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,31 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-slideup.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact-slideup.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/contact/contact-slideup.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/auth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1815">
-              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/auth.js" />
         <option value="$PROJECT_DIR$/config.example.js" />
         <option value="$PROJECT_DIR$/db.js" />
@@ -217,14 +202,15 @@
         <option value="$PROJECT_DIR$/src/app/portfolio-api.service.ts" />
         <option value="$PROJECT_DIR$/routes/contact.js" />
         <option value="$PROJECT_DIR$/src/app/contact/mail.ts" />
-        <option value="$PROJECT_DIR$/src/style.scss" />
         <option value="$PROJECT_DIR$/src/app/contact/contact.component.html" />
-        <option value="$PROJECT_DIR$/src/app/contact/contact.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/src/app/contact/index.ts" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/contact/contact-slideup.component.ts" />
         <option value="$PROJECT_DIR$/src/app/contact/contact-slideup.component.html" />
+        <option value="$PROJECT_DIR$/src/style.scss" />
+        <option value="$PROJECT_DIR$/src/app/contact/contact.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/contact/contact.component.ts" />
       </list>
     </option>
   </component>
@@ -683,7 +669,7 @@
       <workItem from="1481175453566" duration="187000" />
       <workItem from="1481236993046" duration="2207000" />
       <workItem from="1481272202758" duration="11726000" />
-      <workItem from="1481695917483" duration="3801000" />
+      <workItem from="1481695917483" duration="4211000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -717,7 +703,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123593000" />
+    <option name="totallyTimeSpent" value="124003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -728,8 +714,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18114798" sideWeight="0.41358936" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18114798" sideWeight="0.41358936" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1765,13 +1751,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/inc/error-handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -2033,14 +2012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3555">
-          <caret line="237" column="1" lean-forward="false" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/contact/mail.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -2105,24 +2076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/contact/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
@@ -2146,6 +2099,40 @@
         <state relative-caret-position="75">
           <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/contact/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
