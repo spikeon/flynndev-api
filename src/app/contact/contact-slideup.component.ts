@@ -17,10 +17,16 @@ export class ContactSlideupComponent implements OnInit {
 	open : boolean;
 
 	ngOnInit(): void {
-		this.open = false;
+		this.loadState();
+	}
+
+	loadState() : void {
+		let current = localStorage.getItem("contact_state");
+		this.open = current == "Y" ? true : false;
 	}
 
 	toggle ( ) : void {
 		this.open = ! this.open;
+		localStorage.setItem("contact_state", this.open ? "Y" : "");
 	}
 }
