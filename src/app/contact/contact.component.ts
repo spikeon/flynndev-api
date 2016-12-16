@@ -11,9 +11,9 @@ declare var jQuery: any;
 @Component({
 	selector:       'contact',
 	templateUrl:    './contact.component.html',
-	styleUrls: [
-		'./contact.component.scss'
-	]
+//	styleUrls: [
+//		'./contact.component.scss'
+//	]
 })
 export class ContactComponent implements OnInit {
 
