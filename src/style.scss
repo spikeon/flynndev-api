@@ -259,7 +259,7 @@ div.circle-img {
   padding: 20px;
   border: 1px solid $darker-blue;
   border-bottom: 0px;
-  padding-left: 40px;
+  
 }
 h4{
   position: absolute;
@@ -270,5 +270,6 @@ h4{
   color: white;
   height: 40px;
   line-height: 40px;
-  
+  margin-top: 0px;
+  padding-left: 10px;
 }
