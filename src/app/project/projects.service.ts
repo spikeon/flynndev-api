@@ -29,12 +29,10 @@ export class ProjectsService {
 
 		this.loaded = false;
 
-		//console.log(this.route.snapshot);
 		if(this.route.snapshot.firstChild.url[0].path == "project"){
-			console.log("correct component");
 			this.id = this.route.snapshot.firstChild.params['id'];
-			console.log(this.id);
 		}
+
 		this.init();
 
 	}
@@ -56,6 +54,7 @@ export class ProjectsService {
 				this.log.info(this.featuredProjects);
 				this.loaded = true;
 				if ( this.id ) {
+					console.log(`Loading project for ${this.id}`);
 					this.currentProject = this.fullProjectsById[this.id];
 					this.log.info(`Project ${this.currentProject.name} Opened Directly`);
 				}
