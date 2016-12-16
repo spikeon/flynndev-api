@@ -30,10 +30,10 @@ export class ProjectsService {
 		this.loaded = false;
 
 		console.log(this.route.snapshot);
-		if(this.route.snapshot.component.toString() == "ProjectComponent"){
+		if(this.route.snapshot.firstChild.component.toString() == "ProjectComponent"){
 			console.log("correct component");
 		}
-		this.id = this.route.snapshot.params['id'];
+		this.id = this.route.snapshot.firstChild.params['id'];
 		console.log(this.id);
 		this.init();
 
