@@ -12,7 +12,7 @@ declare var jQuery: any;
 	selector:       'contact',
 	templateUrl:    './contact.component.html',
 	styleUrls: [
-		'./contact.component.scss'
+		'contact.component.css'
 	]
 })
 export class ContactComponent implements OnInit {
