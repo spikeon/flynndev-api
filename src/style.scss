@@ -249,11 +249,22 @@ div.circle-img {
 /********** Contact Form Modal **********/
 
 .contact-slideup {
-  background-color: $darker-blue;
+  border-radius: 4px;
   position: fixed;
   float: right;
   bottom: 0px;
   right: 25%;
-  color: white;
   width: 300px;
+  padding: 20px;
+  border: 2px solid $darker-blue;
+}
+h1{
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: $darker-blue;
+  color: white;
 }
