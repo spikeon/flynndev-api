@@ -52,10 +52,10 @@ export class ProjectsService {
 					}
 				}
 				this.log.info(this.featuredProjects);
-				this.loaded = true;
 				if ( this.id ) {
 					console.log(`Loading project for ${this.id}`);
 					this.currentProject = this.fullProjectsById[this.id];
+					this.loaded = true;
 					this.log.info(`Project ${this.currentProject.name} Opened Directly`);
 				}
 
