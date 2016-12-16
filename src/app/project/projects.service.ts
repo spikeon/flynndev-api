@@ -8,7 +8,7 @@ declare let jQuery: any;
 
 @Injectable()
 export class ProjectsService {
-
+	loaded:boolean;
 	projects: Array<Project> = [];
 	featuredProjects: Array<Project> = [];
 	fullProjectsById: Projects = {};
@@ -20,6 +20,7 @@ export class ProjectsService {
 		public api: PortfolioApiService,
 		public log: LoggerService,
 		private router: Router) {
+		this.loaded = false;
 		this.init();
 	}
 
@@ -38,6 +39,7 @@ export class ProjectsService {
 					}
 				}
 				this.log.info(this.featuredProjects);
+				this.loaded = true;
 			},
 			err		=> this.log.err('Failed to get Projects'),
 			()		=> this.log.info('Projects Complete')

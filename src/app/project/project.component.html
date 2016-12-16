@@ -1,4 +1,4 @@
-<div class="project">
+<div class="project" *ngIf="projects.loaded">
 	<div class="container ">
 		<div class="top">
 			<div *ngIf="projects.currentProject.thumb"  class=" circle-img img-fill project-head-img"> <img src="{{projects.currentProject.thumb}}/100"> </div>
