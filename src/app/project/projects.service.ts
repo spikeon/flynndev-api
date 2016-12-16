@@ -1,13 +1,14 @@
-import { Injectable }	            from '@angular/core';
+import {Injectable, OnInit, OnDestroy}                from '@angular/core';
 import { LoggerService }            from '../logger.service';
 import { PortfolioApiService }      from '../portfolio-api.service';
 import { Project, Projects }        from '../interfaces';
-import { Router }                   from "@angular/router";
+import {Router, ActivatedRoute, Params}                   from "@angular/router";
 
 declare let jQuery: any;
 
 @Injectable()
 export class ProjectsService {
+
 	loaded:boolean;
 	projects: Array<Project> = [];
 	featuredProjects: Array<Project> = [];
@@ -16,12 +17,22 @@ export class ProjectsService {
 	tags: Array<string> = [];
 	currentTags: Array<string> = [];
 
+	id: string;
+	private sub: any;
+
 	constructor (
 		public api: PortfolioApiService,
 		public log: LoggerService,
-		private router: Router) {
+		private router: Router,
+		private route: ActivatedRoute
+		) {
+
 		this.loaded = false;
+		console.log(this.route.snapshot);
+		this.id = this.route.snapshot.params['id'];
+
 		this.init();
+
 	}
 
 	init():void{
@@ -40,6 +51,11 @@ export class ProjectsService {
 				}
 				this.log.info(this.featuredProjects);
 				this.loaded = true;
+				if ( this.id ) {
+					this.currentProject = this.fullProjectsById[this.id];
+					this.log.info(`Project ${this.currentProject.name} Opened Directly`);
+				}
+
 			},
 			err		=> this.log.err('Failed to get Projects'),
 			()		=> this.log.info('Projects Complete')
