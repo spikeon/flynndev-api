@@ -1,4 +1,5 @@
-
+$blue : #337ab7;
+$darker-blue: #286090;
 body {
   padding-top: 70px;
   font-family: "serenity",sans-serif;
@@ -23,9 +24,9 @@ nav.navbar {
   .navbar-brand{
 	font-family: "coquette",fantasy;
 	font-weight:bold;
-	color:#337ab7;
+	color:$blue;
 	&:hover{
-	  color: #286090;
+	  color: $darker-blue;
 	}
 	font-size: 24px;
   }
@@ -234,10 +235,19 @@ div.circle-img {
   min-height:		100%
 }
 
+
+/********** Contact Form **********/
+
 .ng-valid[required], .ng-valid.required  {
   border-left: 5px solid #42A948; /* green */
 }
 
 .ng-invalid:not(form)  {
   border-left: 5px solid #a94442; /* red */
+}
+
+/********** Contact Form Modal **********/
+
+contact-slideup {
+  background-color: $darker-blue;
 }

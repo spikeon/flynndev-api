@@ -1,55 +1,52 @@
-<div class="container">
+<form #contactForm="ngForm" (ngSubmit)="sendMessage()" class="contact-form" *ngIf=" ! submitted ">
 
-	<form #contactForm="ngForm" (ngSubmit)="sendMessage()" class="contact-form" *ngIf=" ! submitted ">
+	<div class="form-group">
 
-		<div class="form-group">
+		<label for="name">Name</label>
 
-			<label for="name">Name</label>
+		<input type="text"  class="form-control" id="name" required [(ngModel)]=" model.name " (ngModelChange)="onModelChange()" name="name"  placeholder="Name" #name="ngModel" >
 
-			<input type="text"  class="form-control" id="name" required [(ngModel)]=" model.name " (ngModelChange)="onModelChange()" name="name"  placeholder="Name" #name="ngModel" >
-
-			<div [hidden]=" name.valid || name.pristine " class="alert alert-danger">
-				Name is required
-			</div>
-
+		<div [hidden]=" name.valid || name.pristine " class="alert alert-danger">
+			Name is required
 		</div>
-
-		<div class="form-group">
-
-			<label for="email">Email address</label>
-
-			<input type="email" class="form-control" id="email" required [(ngModel)]="model.email " (ngModelChange)="onModelChange()" name="email" placeholder="Email"  #email="ngModel" pattern="\S+@\S+\.\S+">
-
-			<div [hidden]=" email.valid || email.pristine " class="alert alert-danger">
-
-				Email is invalid
-
-			</div>
-
-		</div>
-
-		<div class="form-group">
-
-			<label for="content">Message</label>
-
-			<textarea class="form-control" name="content" id="content" required placeholder="Message..." [(ngModel)]=" model.content " (ngModelChange)="onModelChange()" rows="3"  #content="ngModel"></textarea>
-
-			<div [hidden]="content.valid || content.pristine" class="alert alert-danger">
-
-				Message is required
-
-			</div>
-
-		</div>
-
-		<input type="submit" class="btn btn-primary" [disabled]=" ! contactForm.form.valid " value="Send Message">
-
-	</form>
-
-	<div class="thank-you well well-lg" *ngIf=" submitted ">
-
-		Thanks!
 
 	</div>
 
+	<div class="form-group">
+
+		<label for="email">Email address</label>
+
+		<input type="email" class="form-control" id="email" required [(ngModel)]="model.email " (ngModelChange)="onModelChange()" name="email" placeholder="Email"  #email="ngModel" pattern="\S+@\S+\.\S+">
+
+		<div [hidden]=" email.valid || email.pristine " class="alert alert-danger">
+
+			Email is invalid
+
+		</div>
+
+	</div>
+
+	<div class="form-group">
+
+		<label for="content">Message</label>
+
+		<textarea class="form-control" name="content" id="content" required placeholder="Message..." [(ngModel)]=" model.content " (ngModelChange)="onModelChange()" rows="3"  #content="ngModel"></textarea>
+
+		<div [hidden]="content.valid || content.pristine" class="alert alert-danger">
+
+			Message is required
+
+		</div>
+
+	</div>
+
+	<input type="submit" class="btn btn-primary" [disabled]=" ! contactForm.form.valid " value="Send Message">
+
+</form>
+
+<div class="thank-you well well-lg" *ngIf=" submitted ">
+
+	Thanks!
+
 </div>
+
