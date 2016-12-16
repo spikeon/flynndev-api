@@ -248,6 +248,12 @@ div.circle-img {
 
 /********** Contact Form Modal **********/
 
-contact-slideup {
+.contact-slideup {
   background-color: $darker-blue;
+  position: fixed;
+  float: right;
+  bottom: 0px;
+  right: 25%;
+  color: white;
+  width: 300px;
 }
