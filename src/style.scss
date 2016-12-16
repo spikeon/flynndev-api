@@ -264,6 +264,10 @@ div.circle-img {
   background-color: #eee;
   
   h4 {
+	font-family: "serenity", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -274,6 +278,10 @@ div.circle-img {
 	line-height: 40px;
 	margin-top: 0px;
 	padding-left: 10px;
+	i {
+	  margin: 12px;
+	  margin-right: 20px;
+	}
   }
   .contact-form{
 	padding-top: 10px;

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/contact/contact-slideup.component.html" afterPath="$PROJECT_DIR$/src/app/contact/contact-slideup.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style.scss" afterPath="$PROJECT_DIR$/src/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="279" column="21" lean-forward="false" selection-start-line="279" selection-start-column="21" selection-end-line="279" selection-end-column="21" />
+            <state relative-caret-position="295">
+              <caret line="269" column="0" lean-forward="true" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-slideup.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact-slideup.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/contact/contact-slideup.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+              <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -196,9 +197,9 @@
         <option value="$PROJECT_DIR$/src/app/contact/contact.component.ts" />
         <option value="$PROJECT_DIR$/config/webpack.common.js" />
         <option value="$PROJECT_DIR$/src/app/contact/contact.component.html" />
-        <option value="$PROJECT_DIR$/src/style.scss" />
         <option value="$PROJECT_DIR$/src/app/contact/contact-slideup.component.ts" />
         <option value="$PROJECT_DIR$/src/app/contact/contact-slideup.component.html" />
+        <option value="$PROJECT_DIR$/src/style.scss" />
       </list>
     </option>
   </component>
@@ -657,7 +658,7 @@
       <workItem from="1481175453566" duration="187000" />
       <workItem from="1481236993046" duration="2207000" />
       <workItem from="1481272202758" duration="11726000" />
-      <workItem from="1481695917483" duration="8125000" />
+      <workItem from="1481695917483" duration="8338000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -691,11 +692,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127917000" />
+    <option name="totallyTimeSpent" value="128130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18114798" sideWeight="0.58641064" order="0" side_tool="false" content_ui="combo" />
@@ -2104,14 +2105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="279" column="21" lean-forward="false" selection-start-line="279" selection-start-column="21" selection-end-line="279" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/contact/contact-slideup.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -2123,7 +2116,15 @@
     <entry file="file://$PROJECT_DIR$/src/app/contact/contact-slideup.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+          <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="269" column="0" lean-forward="true" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
           <folding />
         </state>
       </provider>

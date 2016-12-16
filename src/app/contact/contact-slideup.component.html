@@ -2,7 +2,7 @@
 	<h4 (click)="toggle()" >
 		Contact Me!
 
-			<i [ngClass]="{'fa' : true , 'pull-right' : true, 'fa-caret-up' : open , 'fa-caret-down' : ! open }"></i>
+			<i [ngClass]="{'fa' : true , 'pull-right' : true, 'fa-caret-up' : ! open , 'fa-caret-down' : open }"></i>
 
 	</h4>
 	<div class="contact-form" [hidden]="!open">
