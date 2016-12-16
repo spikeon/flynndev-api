@@ -52,13 +52,6 @@ export class ProjectsService {
 					}
 				}
 				this.log.info(this.featuredProjects);
-				if ( this.id ) {
-					console.log(`Loading project for ${this.id}`);
-					this.currentProject = this.fullProjectsById[this.id];
-					this.loaded = true;
-					this.log.info(`Project ${this.currentProject.name} Opened Directly`);
-				}
-
 			},
 			err		=> this.log.err('Failed to get Projects'),
 			()		=> this.log.info('Projects Complete')
@@ -67,6 +60,14 @@ export class ProjectsService {
 			( projects:Project ) => {
 				this.log.info("Got Projects Full");
 				for(let i in projects) this.fullProjectsById[projects[i].id] = projects[i];
+
+				if ( this.id ) {
+					console.log(`Loading project for ${this.id}`);
+					this.currentProject = this.fullProjectsById[this.id];
+					this.loaded = true;
+					this.log.info(`Project ${this.currentProject.name} Opened Directly`);
+				}
+
 			},
 			err		=> this.log.err('Failed to get Projects Full'),
 			()		=> this.log.info('Projects Full Complete')
