@@ -42,7 +42,7 @@ module.exports = {
 			},
 			{
 				test: /\.scss$/,
-				loaders: ['style-loader', 'css-loader?modules&importLoaders=1&sourceMap', 'postcss-loader?sourceMap', 'sass-loader?sourceMap']
+				loaders: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
 			},
 			{
 	          test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
