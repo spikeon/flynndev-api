@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style.scss" afterPath="$PROJECT_DIR$/src/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="261" column="25" lean-forward="false" selection-start-line="261" selection-start-column="25" selection-end-line="261" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="260" column="22" lean-forward="false" selection-start-line="260" selection-start-column="22" selection-end-line="260" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -658,7 +657,7 @@
       <workItem from="1481175453566" duration="187000" />
       <workItem from="1481236993046" duration="2207000" />
       <workItem from="1481272202758" duration="11726000" />
-      <workItem from="1481695917483" duration="7375000" />
+      <workItem from="1481695917483" duration="7525000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -692,7 +691,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127167000" />
+    <option name="totallyTimeSpent" value="127317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -2123,8 +2122,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="261" column="25" lean-forward="false" selection-start-line="261" selection-start-column="25" selection-end-line="261" selection-end-column="25" />
+        <state relative-caret-position="340">
+          <caret line="260" column="22" lean-forward="false" selection-start-line="260" selection-start-column="22" selection-end-line="260" selection-end-column="22" />
           <folding />
         </state>
       </provider>
