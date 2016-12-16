@@ -40,6 +40,13 @@ module.exports = {
 				include: helpers.root('src', 'app'),
 				loader: 'raw'
 			},
+
+
+			//{
+			//	test: /component\.scss$/,
+			//	loaders: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
+			//},
+
 			{
 				test: /\.scss$/,
 				loaders: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
