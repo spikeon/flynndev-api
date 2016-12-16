@@ -42,10 +42,10 @@ module.exports = {
 			},
 
 
-			//{
-			//	test: /component\.scss$/,
-			//	loaders: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
-			//},
+			{
+				test: /component\.scss$/,
+				loaders: ['raw-loader', 'style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
+			},
 
 			{
 				test: /\.scss$/,
