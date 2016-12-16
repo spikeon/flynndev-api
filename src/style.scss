@@ -263,16 +263,20 @@ div.circle-img {
   border-bottom: 0px;
   background-color: #eee;
   
-}
-h4{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  background-color: $darker-blue;
-  color: white;
-  height: 40px;
-  line-height: 40px;
-  margin-top: 0px;
-  padding-left: 10px;
+  h4 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: $darker-blue;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 0px;
+	padding-left: 10px;
+  }
+  .contact-form{
+	padding-top: 20px;
+	padding-bottom: 20px;
+  }
 }
