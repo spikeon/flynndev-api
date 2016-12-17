@@ -51,7 +51,7 @@ export class ProjectsService {
 			projects	=> {
 				this.log.info("Got Projects");
 				this.projects = projects as Array<Project>;
-				this.log.info(this.projects);
+				// this.log.info(this.projects);
 				for(let i in this.projects){
 					if(this.projects[i].featured) this.featuredProjects.push(this.projects[i]);
 					if(this.projects[i].tags){
@@ -69,11 +69,12 @@ export class ProjectsService {
 			( projects:Project ) => {
 				this.log.info("Got Projects Full");
 				for(let i in projects) this.fullProjectsById[projects[i].id] = projects[i];
+				this.loaded = true;
 
 				if ( this.id ) {
 					console.log(`Loading project for ${this.id}`);
 					this.currentProject = this.fullProjectsById[this.id];
-					this.loaded = true;
+
 					this.log.info(`Project ${this.currentProject.name} Opened Directly`);
 
 				}
@@ -91,6 +92,7 @@ export class ProjectsService {
 		e.preventDefault();
 		this.log.info(`Project ${project.name} Clicked`);
 		this.currentProject = this.fullProjectsById[project.id];
+		// this.log.info(this.currentProject);
 		this.router.navigate(['/project', project.id]);
 	}
 
