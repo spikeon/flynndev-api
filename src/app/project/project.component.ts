@@ -12,7 +12,8 @@ declare let hljs: any;
 
 @Component({
 	selector: 'project',
-	templateUrl: './project.component.html'
+	templateUrl: './project.component.html',
+	styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent implements OnInit, AfterViewInit {
 	@ViewChild('codeoutput') code:ElementRef;

@@ -1,0 +1,19 @@
+@import '../../config';
+
+.projects_outer{
+  background-color: #eee;
+  margin-top: -20px;
+  padding-bottom: 25px;
+}
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  
+  justify-content: center;
+  .project-img{
+	margin: 10px;
+	@include circle-image(200px);
+  }
+}

@@ -1,0 +1,23 @@
+@import "../config";
+
+nav.navbar {
+  .navbar-brand{
+	font-family: "coquette",fantasy;
+	font-weight:bold;
+	color:$blue;
+	&:hover{
+	  color: $darker-blue;
+	}
+	font-size: 24px;
+  }
+  .navbar-right {
+	margin-left: 30px;
+  }
+  .userinfo {
+	font-size: 1.2em;
+	i {
+	  font-size: 1.2em;
+	  margin-right: 10px;
+	}
+  }
+}

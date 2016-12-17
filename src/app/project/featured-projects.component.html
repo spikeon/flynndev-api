@@ -4,7 +4,7 @@
 			<button class="pull-right btn-default btn" (click)="projects.openAll($event)" >View All</button>
 		</h2>
 		<div class="projects">
-			<div class="circle-img img-fill project-img" *ngFor="let project of projects.featuredProjects" (click)="projects.open($event, project)">
+			<div class="project-img" *ngFor="let project of projects.featuredProjects" (click)="projects.open($event, project)">
 				<img  *ngIf="project.thumb" src="{{project.thumb}}/200" alt="placeholder" >
 				<div class="title">
 					<p>{{project.name}}</p>
