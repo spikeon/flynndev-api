@@ -8,7 +8,8 @@ declare var jQuery: any;
 
 @Component({
 	selector: 'users',
-	templateUrl: './users.component.html'
+	templateUrl: './users.component.html',
+	styleUrls: [ './users.component.scss' ]
 })
 export class UsersComponent implements OnInit {
 	users = [];

@@ -8,7 +8,8 @@ declare let jQuery: any;
 
 @Component({
 	selector: '[user]',
-	templateUrl: './user.component.html'
+	templateUrl: './user.component.html',
+	styleUrls: [ './user.component.scss' ]
 })
 export class UserComponent {
 	@Input( ) user: any;
