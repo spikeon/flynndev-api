@@ -8,7 +8,8 @@ declare var jQuery: any;
 
 @Component({
 	selector: 'contact-slideup',
-	templateUrl: './contact-slideup.component.html'
+	templateUrl: './contact-slideup.component.html',
+	styleUrls: [ './contact-slideup.component.scss' ]
 })
 export class ContactSlideupComponent implements OnInit {
 
