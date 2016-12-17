@@ -18,7 +18,6 @@ export class ProjectsService {
 	currentTags: Array<string> = [];
 
 	id: string;
-	private sub: any;
 
 	constructor (
 		public api: PortfolioApiService,
@@ -38,6 +37,8 @@ export class ProjectsService {
 				Using a service for this form of data-retreival was my own idea, I'm not going to be able to find
 				references to it on google in the future, hence this note.
 		 */
+
+		console.log(this.route.snapshot);
 
 		if(this.route.snapshot.firstChild.url[0].path == "project"){
 			this.id = this.route.snapshot.firstChild.params['id'];
