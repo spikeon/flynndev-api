@@ -1,0 +1,45 @@
+@import "../../config";
+
+.contact-slideup {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  position: fixed;
+  float: right;
+  bottom: 0px;
+  right: 25%;
+  width: 300px;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  border: 1px solid $darker-blue;
+  border-bottom: 0px;
+  background-color: #eee;
+  
+  h4 {
+	font-family: "serenity", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: $darker-blue;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 0px;
+	padding-left: 10px;
+	i {
+	  margin: 12px;
+	  margin-right: 20px;
+	}
+  }
+  .contact-form {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	.btn {
+	  margin-bottom: 20px;
+	}
+  }
+}
