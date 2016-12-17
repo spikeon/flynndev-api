@@ -74,7 +74,7 @@ module.exports = {
 
 		],
 		postcss:[autoprefixer],
-		sassResources: path.resolve(__dirname, "./node_modules/bootstrap/scss"),
+		// sassResources: path.resolve(__dirname, "./node_modules/bootstrap/scss"),
 		node: { global: 'window', progress: false, crypto: 'empty', module: false, clearImmediate: false, setImmediate: false }
 
 	};

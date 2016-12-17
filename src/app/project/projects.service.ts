@@ -29,6 +29,16 @@ export class ProjectsService {
 
 		this.loaded = false;
 
+		/*
+			NOTE:
+				This is VITAL when using a service instead of the component to load data.  When the router sends the
+				viewer to this page that's when it sets the current project.  When the page is loaded directly you
+				need to account for that.
+
+				Using a service for this form of data-retreival was my own idea, I'm not going to be able to find
+				references to it on google in the future, hence this note.
+		 */
+
 		if(this.route.snapshot.firstChild.url[0].path == "project"){
 			this.id = this.route.snapshot.firstChild.params['id'];
 		}
