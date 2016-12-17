@@ -48,7 +48,7 @@ module.exports = {
 			{
 				test: /\.scss$/,
 				include: helpers.root('src', 'app'),
-				loaders: ['raw', 'sass']
+				loaders: ['raw', 'postcss', 'sass']
 			},
 			{
 	          test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,

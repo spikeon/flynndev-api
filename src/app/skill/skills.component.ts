@@ -6,7 +6,8 @@ import { LoggerService }               from '../logger.service';
 
 @Component({
 	selector: 'skills',
-	templateUrl: './skills.component.html'
+	templateUrl: './skills.component.html',
+	styleUrls: [ './skills.component.scss' ]
 })
 export class SkillsComponent implements OnInit {
 	max: number;
