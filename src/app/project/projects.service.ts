@@ -84,11 +84,11 @@ export class ProjectsService {
 			()		=> this.log.info('Projects Full Complete')
 		);
 	}
-	openAll(e){
+	openAll(e) : void {
 		e.preventDefault();
 		this.router.navigate(['/project']);
 	}
-	open(e, project:Project):void{
+	open(e, project:Project) : void{
 		e.preventDefault();
 		this.log.info(`Project ${project.name} Clicked`);
 		this.currentProject = this.fullProjectsById[project.id];
@@ -96,7 +96,7 @@ export class ProjectsService {
 		this.router.navigate(['/project', project.id]);
 	}
 
-	addTag(tag){
+	addTag(tag) : void {
 		if(this.tags.indexOf(tag) == -1) {
 			this.tags.push(tag);
 			this.tags.sort();
@@ -104,19 +104,18 @@ export class ProjectsService {
 
 	}
 
-	toggleTag(e, tag:string):void{
+	toggleTag(e, tag:string) : void {
 		e.preventDefault();
 		let i = this.currentTags.indexOf(tag);
 		if (i === -1) this.currentTags.push(tag);
 		else this.currentTags.splice( i, 1);
 	}
 
-	tagStatus(tag:string){
-		if(this.currentTags.indexOf(tag) === -1) return false;
-		return true;
+	tagStatus ( tag:string ) : boolean {
+		return this.currentTags.indexOf(tag) !== -1;
 	}
 
-	isTagged(project){
+	isTagged(project) : boolean {
 
 		if(this.currentTags.length == 0) return true;
 		else{
