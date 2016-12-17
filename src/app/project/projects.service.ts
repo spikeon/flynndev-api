@@ -38,9 +38,7 @@ export class ProjectsService {
 				references to it on google in the future, hence this note.
 		 */
 
-		console.log(this.route.snapshot);
-
-		if(this.route.snapshot.firstChild.url[0].path == "project"){
+		if(this.route.snapshot.firstChild.url.length > 0 &&  this.route.snapshot.firstChild.url[0].path == "project"){
 			this.id = this.route.snapshot.firstChild.params['id'];
 		}
 
