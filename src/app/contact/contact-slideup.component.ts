@@ -23,7 +23,7 @@ export class ContactSlideupComponent implements OnInit {
 
 	loadState() : void {
 		let current = localStorage.getItem("contact_state");
-		this.open = current == "Y" ? true : false;
+		this.open = current == "Y";
 	}
 
 	toggle ( ) : void {
