@@ -42,7 +42,13 @@ module.exports = {
 			},
 			{
 				test: /\.scss$/,
+				exclude: helpers.root('src', 'app'),
 				loaders: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
+			},
+			{
+				test: /\.scss$/,
+				include: helpers.root('src', 'app'),
+				loaders: ['raw', 'sass']
 			},
 			{
 	          test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
