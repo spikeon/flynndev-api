@@ -19,13 +19,18 @@ import {
 	ProtectedComponent,
 	FeaturedProjectsComponent,
 	ContactComponent,
-	ContactSlideupComponent
+	ContactSlideupComponent,
+	NavComponent,
+	LoginModalComponent,
+	RegisterModalComponent,
+	ModalsComponent
 	}		from './index';
 
 import { LoggerService } from './logger.service';
 import { PortfolioApiService } from './portfolio-api.service';
 import { ProjectsService } from "./project/projects.service";
 import { FormsModule }   from '@angular/forms';
+
 
 const appRoutes: Routes = [
 	{ path: '', component: HomeComponent },
@@ -54,7 +59,11 @@ const appRoutes: Routes = [
 		ProtectedComponent,
 		FeaturedProjectsComponent,
 		ContactComponent,
-		ContactSlideupComponent
+		ContactSlideupComponent,
+		NavComponent,
+		LoginModalComponent,
+		RegisterModalComponent,
+		ModalsComponent
 	],
 	bootstrap: [
 		AppComponent
