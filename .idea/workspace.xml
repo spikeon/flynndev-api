@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="" />
+    <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/project/project.component.ts" afterPath="$PROJECT_DIR$/src/app/project/project.component.ts" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,8 +26,8 @@
       <file leaf-file-name="project.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/project/project.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="47" column="74" lean-forward="false" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+            <state relative-caret-position="514">
+              <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -205,8 +207,8 @@
         <option value="$PROJECT_DIR$/src/app/project/project.component.scss" />
         <option value="$PROJECT_DIR$/config/api_config.js" />
         <option value="$PROJECT_DIR$/src/app/portfolio-api.service.ts" />
-        <option value="$PROJECT_DIR$/src/app/project/project.component.ts" />
         <option value="$PROJECT_DIR$/src/app/project/projects.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/project/project.component.ts" />
       </list>
     </option>
   </component>
@@ -601,7 +603,7 @@
       <workItem from="1482297978405" duration="14000" />
       <workItem from="1482384882453" duration="2281000" />
       <workItem from="1486427407214" duration="528000" />
-      <workItem from="1490167104701" duration="5576000" />
+      <workItem from="1490167104701" duration="5707000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -635,7 +637,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149236000" />
+    <option name="totallyTimeSpent" value="149367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -2051,8 +2053,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/project/project.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="47" column="74" lean-forward="false" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+        <state relative-caret-position="514">
+          <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding />
         </state>
       </provider>
