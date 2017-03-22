@@ -3,7 +3,7 @@
 		<div class="top">
 			<div *ngIf="projects.currentProject.thumb"  class=" circle-img img-fill project-head-img"> <img src="{{projects.currentProject.thumb}}/100"> </div>
 			<h2>{{projects.currentProject.name}}</h2>
-			<a *ngIf="projects.currentProject.npm" class="btn btn-default" href="{{projects.currentProject.github}}"><i class="fa fa-github"></i> View on GitHub</a>
+			<a *ngIf="projects.currentProject.npm" class="btn btn-default" href="{{projects.currentProject.npm}}">View on NPM</a>
 			<a *ngIf="projects.currentProject.github" class="btn btn-default" href="{{projects.currentProject.github}}"><i class="fa fa-github"></i> View on GitHub</a>
 			<a *ngIf="projects.currentProject.apidoc" class="btn btn-default" href="{{projects.currentProject.apidoc}}">View ApiDoc</a>
 			<a *ngIf="projects.currentProject.url" class="btn btn-primary" href="{{projects.currentProject.url}}">View Live</a>
