@@ -12,7 +12,7 @@ export class PortfolioApiService {
 	public loginmessage;
 	public registererror;
 	public registermessage;
-	public apiUrl = "http://flynndev.us:44562";
+	public apiUrl = "http://api.flynndev.us";
 
 	constructor ( public http: Http, public log: LoggerService ) {
 		this.resetAlerts();
