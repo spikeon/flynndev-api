@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/674f50d287a8c48dc19ba404d20fe713.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/89889688147bd7575d6327160d64e760.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/912ec66d7572ff821749319396470bde.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.8d1a8b59a19713d5ed86.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.8d1a8b59a19713d5ed86.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/glyphicons-halflings-regular.a0180954d7d374e153899d0974b25225.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/b06871f281fee6b241d60582ae9369b9.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/e18bbf611f2a2e43afc071aa2f4e1512.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/f4769f9bdb7466be65088239c12046d1.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.8d1a8b59a19713d5ed86.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.8d1a8b59a19713d5ed86.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.8d1a8b59a19713d5ed86.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.8d1a8b59a19713d5ed86.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/project/project.component.html" afterPath="$PROJECT_DIR$/src/app/project/project.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api_project.js" afterPath="$PROJECT_DIR$/api/api_project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api_project.json" afterPath="$PROJECT_DIR$/api/api_project.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/project/project.component.scss" afterPath="$PROJECT_DIR$/src/app/project/project.component.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +50,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="project.component.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/project/project.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_config.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/project/project.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="129" lean-forward="true" selection-start-line="5" selection-start-column="129" selection-end-line="5" selection-end-column="129" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,7 +113,7 @@
       <file leaf-file-name="projects.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/projects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
+            <state relative-caret-position="-1872">
               <caret line="79" column="65" lean-forward="false" selection-start-line="79" selection-start-column="65" selection-end-line="79" selection-end-column="65" />
               <folding />
             </state>
@@ -181,11 +217,11 @@
         <option value="$PROJECT_DIR$/src/app/modal/index.ts" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/ABOUT.md" />
-        <option value="$PROJECT_DIR$/src/app/project/project.component.scss" />
         <option value="$PROJECT_DIR$/src/app/interfaces.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes/projects.js" />
         <option value="$PROJECT_DIR$/src/app/project/project.component.html" />
+        <option value="$PROJECT_DIR$/src/app/project/project.component.scss" />
       </list>
     </option>
   </component>
@@ -580,7 +616,7 @@
       <workItem from="1482297978405" duration="14000" />
       <workItem from="1482384882453" duration="2281000" />
       <workItem from="1486427407214" duration="528000" />
-      <workItem from="1490167104701" duration="2584000" />
+      <workItem from="1490167104701" duration="3065000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -614,10 +650,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146244000" />
+    <option name="totallyTimeSpent" value="146725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18114798" sideWeight="0.55243725" order="0" side_tool="false" content_ui="combo" />
@@ -1670,13 +1707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_config.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1949,14 +1979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/project/project.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1989,14 +2011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="79" column="65" lean-forward="false" selection-start-line="79" selection-start-column="65" selection-end-line="79" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/project/projects.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -2013,6 +2027,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1872">
+          <caret line="79" column="65" lean-forward="false" selection-start-line="79" selection-start-column="65" selection-end-line="79" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/project/project.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/project/project.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -2021,10 +2051,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/project/project.component.html">
+    <entry file="file://$PROJECT_DIR$/src/_config.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="129" lean-forward="true" selection-start-line="5" selection-start-column="129" selection-end-line="5" selection-end-column="129" />
+        <state relative-caret-position="360">
+          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/project/project.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding />
         </state>
       </provider>
