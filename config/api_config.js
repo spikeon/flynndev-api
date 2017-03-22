@@ -12,7 +12,7 @@ module.exports = {
 		'/var/projects/',
 		'/var/node/'
 	],
-	'web_root' : 'http://flynndev.us:44562/',
+	'web_root' : 'http://api.flynndev.us/',
 	'ignore' : [
 		'projects',
 		'node_modules',
