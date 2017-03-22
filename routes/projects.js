@@ -8,7 +8,7 @@ let fs                  = require('fs');
 let path                = require('path');
 let multimatch          = require('multimatch');
 let showdown            = require('showdown');
-let sd                  = new showdown.Converter({tables:true, simplifiedAutoLink: true});
+let sd                  = new showdown.Converter({tables:true, simplifiedAutoLink: true, literalMidWordUnderscores: true, simpleLineBreaks: true});
 let sharp               = require('sharp');
 let requireUncached     = require('../inc/require-uncached');
 let walkSync            = require('../inc/walk-sync');
@@ -76,6 +76,7 @@ let buildProject = function(folder, all = false) {
 		url     :   info.liveurl,
 		apidoc  :   info.apidoc && info.apidoc.url ? info.apidoc.url : "",
 		github  :   info.githuburl ? info.githuburl : "",
+		npm     :   info.npmurl ? info.npmurl : "",
 		name    :   info.description ? info.description : folder,
 		files   :   all ? walkSync(full_folder, [], ignores, full_folder) : [],
 		gallery :   gallery,
