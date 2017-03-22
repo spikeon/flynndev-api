@@ -10,6 +10,7 @@ declare let jQuery: any;
 export class ProjectsService {
 
 	loaded:boolean;
+	on_load = () => {};
 	projects: Array<Project> = [];
 	featuredProjects: Array<Project> = [];
 	fullProjectsById: Projects = {};
@@ -70,6 +71,7 @@ export class ProjectsService {
 				this.log.info("Got Projects Full");
 				for(let i in projects) this.fullProjectsById[projects[i].id] = projects[i];
 				this.loaded = true;
+				this.on_load();
 
 				if ( this.id ) {
 					console.log(`Loading project for ${this.id}`);
