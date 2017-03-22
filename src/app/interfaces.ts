@@ -8,8 +8,10 @@ export interface Project {
 	files?: Array<string>;
 	gallery?:Array<string>;
 	about?:string;
+	readme?:string;
 	tags?:Array<string>;
 	featured:boolean;
+	portfolio_hide?:boolean;
 }
 export interface Projects {
 	[index:string] : Project

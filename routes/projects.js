@@ -80,6 +80,7 @@ let buildProject = function(folder, all = false) {
 		files   :   all ? walkSync(full_folder, [], ignores, full_folder) : [],
 		gallery :   gallery,
 		about   :   all ? getProjectMd('ABOUT.md', full_folder) : "",
+		readme  :   all ? getProjectMd('README.md', full_folder) : "",
 		tags    :   info.tags ? info.tags : [],
 		featured:   info.featured ? true : false,
 	};

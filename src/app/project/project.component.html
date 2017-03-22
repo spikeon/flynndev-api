@@ -26,7 +26,8 @@
 	<div class="container">
 		<ul class="nav nav-tabs" role="tablist">
 			<li role="presentation" *ngIf="projects.currentProject.about" [ngClass]="{'active' : projects.currentProject.about}"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
-			<li role="presentation"  [ngClass]="{'active' : ! projects.currentProject.about }"><a href="#files" aria-controls="files" role="tab" data-toggle="tab">Files</a></li>
+			<li role="presentation" *ngIf="projects.currentProject.readme" [ngClass]="{'active' : ! projects.currentProject.about}"><a href="#readme" aria-controls="readme" role="tab" data-toggle="tab">Readme</a></li>
+			<li role="presentation"  [ngClass]="{'active' : ! projects.currentProject.about && ! projects.currentProject.readme }"><a href="#files" aria-controls="files" role="tab" data-toggle="tab">Files</a></li>
 		</ul>
 		<div class="tab-content">
 
@@ -36,7 +37,16 @@
 					<div [innerHtml]="projects.currentProject.about"></div>
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="files"  [ngClass]="{'active' : ! projects.currentProject.about }">
+
+			<div role="tabpanel" class="tab-pane" id="readme" *ngIf="projects.currentProject.readme"  [ngClass]="{'active' : ! projects.currentProject.about}">
+				<div class="readme" *ngIf="projects.currentProject.readme">
+					<h2>About</h2>
+					<div [innerHtml]="projects.currentProject.readme"></div>
+				</div>
+			</div>
+
+
+			<div role="tabpanel" class="tab-pane" id="files"  [ngClass]="{'active' : ! projects.currentProject.about && ! projects.currentProject.readme }">
 				<div class="files" *ngIf="api.hasUser()">
 					<div class="row">
 						<div class="fileslist col-md-3">
