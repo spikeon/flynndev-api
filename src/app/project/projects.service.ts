@@ -102,6 +102,9 @@ export class ProjectsService {
 	get taglist():Array<string> {
 		let ret = [];
 		for(let tag of this.tags) if(this.tag_counts[tag] > 1) ret.push(tag);
+		console.log(ret);
+		console.log(this.tags);
+		console.log(this.tag_counts);
 		return ret;
 	}
 
