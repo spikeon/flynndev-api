@@ -2,7 +2,7 @@ import {Injectable, OnInit, OnDestroy}                from '@angular/core';
 import { LoggerService }            from '../logger.service';
 import { PortfolioApiService }      from '../portfolio-api.service';
 import { Project, Projects }        from '../interfaces';
-import {Router, ActivatedRoute, Params}                   from "@angular/router";
+import { Router, ActivatedRoute, Params }                   from "@angular/router";
 
 declare let jQuery: any;
 

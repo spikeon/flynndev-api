@@ -28,7 +28,7 @@ else
 	echo "$name" >> "$repos"
 
 	repodir="/var/repo/$name.git"
-	projectdir="/var/www/projects/$name"
+	projectdir="/var/node/$name"
 
 	mkdir "$repodir"
 	mkdir "$projectdir"

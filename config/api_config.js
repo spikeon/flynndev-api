@@ -10,7 +10,8 @@ module.exports = {
 	'loginTime' 	: '43800m',
 	'projects_root' : [
 		'/var/projects/',
-		'/var/node/'
+		'/var/node/',
+		'/var/portfolio'
 	],
 	'web_root' : 'http://api.flynndev.us/',
 	'ignore' : [
