@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-md-2">
 				<div class="list-group">
-					<div class="list-group-item" *ngFor="let tag of projects.tags" (click)="projects.toggleTag($event, tag)" [ngClass]="{'active':projects.tagStatus(tag)}">{{tag}}</div>
+					<div class="list-group-item" *ngFor="let tag of projects.taglist" (click)="projects.toggleTag($event, tag)" [ngClass]="{'active':projects.tagStatus(tag)}">{{tag}}</div>
 				</div>
 			</div>
 			<div class="col-md-10">
