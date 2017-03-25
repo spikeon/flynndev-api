@@ -111,7 +111,7 @@ export class ProjectsService {
 	addTag(tag) : void {
 		if(this.tags.indexOf(tag) == -1) {
 			this.tags.push(tag);
-			if(!this.tag_counts[tag]) this.tag_counts[tag] = 0;
+			if(!this.tag_counts.hasOwnProperty(tag)) this.tag_counts[tag] = 0;
 			this.tag_counts[tag]++;
 			this.tags.sort();
 		}
