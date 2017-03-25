@@ -11,7 +11,7 @@ module.exports = {
 	'projects_root' : [
 		'/var/projects/',
 		'/var/node/',
-		'/var/portfolio'
+		'/var/portfolio/'
 	],
 	'web_root' : 'http://api.flynndev.us/',
 	'ignore' : [
