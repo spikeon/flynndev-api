@@ -13,11 +13,6 @@ echo -n "Enter repo name and press [ENTER]: "
 read name
 echo
 
-echo -n "Enter repo main .js file and press [ENTER]: "
-read app
-echo
-
-
 grep -i "$name" "$repos"
 
 if  [ $? == 0 ]; then
