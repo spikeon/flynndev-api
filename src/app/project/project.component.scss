@@ -14,9 +14,6 @@ $top_spacing : 20px;
 
 	@media only screen and (max-width : 480px) {
 		flex-direction: column;
-		> * {
-			margin-bottom: $top_spacing;
-		}
 	}
 
 
@@ -31,10 +28,14 @@ $top_spacing : 20px;
 		display:none;
 		flex-grow: 0;
 		@media only screen and (max-width : 480px) { @include circle-image(200px); }
+		margin-bottom: $top_spacing;
 	}
 
 	h2 {
 		flex-grow: 1;
+		@media only screen and (max-width : 480px) {
+			margin-bottom: $top_spacing;
+		}
 	}
 
 	.buttons {
