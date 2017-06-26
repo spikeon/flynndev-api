@@ -9,14 +9,14 @@
 			<i class="fa fa-sign-out"></i>
 			Logout
 		</button>
-		<button *ngIf="api.isAdmin()" class="btn navbar-btn navbar-right" [ngClass]="{'btn-primary': log.show , 'btn-secondary': ! log.show }" (click)="log.toggle()" alt="Toggle Console Log">
+		<button *ngIf="api.isAdmin()" class="btn navbar-btn navbar-right hidden-phone hidden-tablet hidden-print" [ngClass]="{'btn-primary': log.show , 'btn-secondary': ! log.show }" (click)="log.toggle()" alt="Toggle Console Log">
 			<i class="fa fa-cogs"></i>
 		</button>
 		<button *ngIf="!api.token" type="button" class="btn btn-primary navbar-btn navbar-right" data-toggle="modal" data-target="#loginModal">
 			<i class="fa fa-sign-in"></i>
 			Login
 		</button>
-		<p *ngIf="api.token" class="navbar-text navbar-right userinfo">
+		<p *ngIf="api.token" class="navbar-text navbar-right userinfo hidden-phone">
 			<i class="fa fa-user"></i> {{api.user.name}}
 		</p>
 

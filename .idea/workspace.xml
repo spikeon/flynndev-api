@@ -2,8 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/locales/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/locales/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/locales/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/list.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/lodash.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-Splus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-aea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-agc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-cbm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-cl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-erl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-fs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-lasso.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-lassoscript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-latex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-lgt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-ll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-logtalk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-ls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-lsp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-nemerle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-rkt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-rust.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-s.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-scm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-ss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-swift.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-vbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-vhd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-xquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-yml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/app.ce5870a836667157e82b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/app.ce5870a836667157e82b.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/polyfills.ce5870a836667157e82b.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.efff44ffe87db2ef56ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.efff44ffe87db2ef56ca.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.efff44ffe87db2ef56ca.js.map" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/polyfills.efff44ffe87db2ef56ca.js" afterPath="$PROJECT_DIR$/dist/polyfills.ce5870a836667157e82b.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/vendor.efff44ffe87db2ef56ca.js" afterPath="$PROJECT_DIR$/dist/vendor.ce5870a836667157e82b.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/vendor.efff44ffe87db2ef56ca.js.map" afterPath="$PROJECT_DIR$/dist/vendor.ce5870a836667157e82b.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/project/projects.service.ts" afterPath="$PROJECT_DIR$/src/app/project/projects.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api_project.js" afterPath="$PROJECT_DIR$/api/api_project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api_project.json" afterPath="$PROJECT_DIR$/api/api_project.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss" afterPath="$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/nav/nav.component.html" afterPath="$PROJECT_DIR$/src/app/nav/nav.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/nav/nav.component.scss" afterPath="$PROJECT_DIR$/src/app/nav/nav.component.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/project/project.component.scss" afterPath="$PROJECT_DIR$/src/app/project/project.component.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,93 +74,46 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="flynndev" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="projects.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/projects.js">
+      <file leaf-file-name="contact-slideup.component.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1839">
-              <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="featured-projects.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/project/featured-projects.component.html">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/project/projects.component.html">
+      <file leaf-file-name="nav.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.service.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/project/projects.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/project/projects.component.ts">
+      <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="featured-projects.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/project/featured-projects.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api_config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/api_config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/project/project.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -113,19 +122,63 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+            <state relative-caret-position="285">
+              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_portfolio.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new_portfolio.sh">
+      <file leaf-file-name="frontend_server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend_server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pm2.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pm2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2625">
+              <caret line="5436" column="73" lean-forward="false" selection-start-line="5436" selection-start-column="73" selection-end-line="5436" selection-end-column="73" />
+              <folding>
+                <marker date="1498467860000" expanded="true" signature="213304:213312" ph="{&quot;version&quot;: &quot;0.6.26&quot;...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,8 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss" />
-        <option value="$PROJECT_DIR$/src/app/contact/contact.component.ts" />
         <option value="$PROJECT_DIR$/src/app/contact/contact.component.scss" />
         <option value="$PROJECT_DIR$/src/app/skill/skills.component.scss" />
         <option value="$PROJECT_DIR$/src/app/skill/skills.component.ts" />
@@ -183,12 +234,10 @@
         <option value="$PROJECT_DIR$/src/app/user/users.component.scss" />
         <option value="$PROJECT_DIR$/src/app/user/users.component.ts" />
         <option value="$PROJECT_DIR$/src/app/nav/index.ts" />
-        <option value="$PROJECT_DIR$/src/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/src/app/app.component.scss" />
         <option value="$PROJECT_DIR$/src/app/nav/nav.component.ts" />
         <option value="$PROJECT_DIR$/src/app/modal/nav.component.ts" />
         <option value="$PROJECT_DIR$/src/app/modal/nav.component.scss" />
-        <option value="$PROJECT_DIR$/src/app/nav/nav.component.scss" />
         <option value="$PROJECT_DIR$/src/app/index.ts" />
         <option value="$PROJECT_DIR$/src/app/modal/login-modal.component.html" />
         <option value="$PROJECT_DIR$/src/app/modal/register-modal.component.ts" />
@@ -203,7 +252,6 @@
         <option value="$PROJECT_DIR$/src/app/interfaces.ts" />
         <option value="$PROJECT_DIR$/routes/projects.js" />
         <option value="$PROJECT_DIR$/src/app/project/project.component.html" />
-        <option value="$PROJECT_DIR$/src/app/project/project.component.scss" />
         <option value="$PROJECT_DIR$/src/app/portfolio-api.service.ts" />
         <option value="$PROJECT_DIR$/src/app/project/project.component.ts" />
         <option value="$PROJECT_DIR$/new_project.sh" />
@@ -211,8 +259,13 @@
         <option value="$PROJECT_DIR$/new_portfolio.sh" />
         <option value="$PROJECT_DIR$/config/api_config.js" />
         <option value="$PROJECT_DIR$/src/app/project/projects.component.html" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app/project/projects.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/project/project.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/nav/nav.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/nav/nav.component.html" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss" />
       </list>
     </option>
   </component>
@@ -225,6 +278,7 @@
     <exe-path />
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -233,7 +287,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -258,98 +312,45 @@
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flynndev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="FlynnDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlynnDev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlynnDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlynnDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlynnDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlynnDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlynnDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlynnDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlynnDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlynnDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="nav" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlynnDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlynnDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -363,13 +364,12 @@
     <property name="typescript-compiler-editor-notification" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
     <property name="javascript.nodejs.core.library.configured.version" value="7.1.0" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="js-tslint-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js-tslint-package" value="$PROJECT_DIR$/node_modules/tslint" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -398,55 +398,13 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="false" name="autodeploy" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="autodeploy" />
-      </scripts>
-      <node-interpreter value="project" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="deploy" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="deploy" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="devdeploy" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="devdeploy" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -485,15 +443,6 @@
       <option name="filePath" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -513,6 +462,51 @@
       <test-directory />
       <recursive>false</recursive>
       <method />
+    </configuration>
+    <configuration name="autodeploy" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="autodeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="devdeploy" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="devdeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="npm.autodeploy" />
@@ -567,6 +561,12 @@
       <workItem from="1490246322694" duration="3737000" />
       <workItem from="1490310220471" duration="613000" />
       <workItem from="1490420818422" duration="3921000" />
+      <workItem from="1492851003091" duration="37000" />
+      <workItem from="1493016592726" duration="539000" />
+      <workItem from="1493187608674" duration="906000" />
+      <workItem from="1493515774719" duration="2433000" />
+      <workItem from="1495837320694" duration="1005000" />
+      <workItem from="1498463675102" duration="3451000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -600,992 +600,43 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160254000" />
+    <option name="totallyTimeSpent" value="168625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18114798" sideWeight="0.53914326" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18114798" sideWeight="0.46085674" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18062139" sideWeight="0.4856008" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18062139" sideWeight="0.51439923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/karma/config.tpl.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/typescript/Gulpfile.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/typescript/Gulpfile.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/ReplaySubject.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/SubjectSubscription.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Observer.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/AsyncSubject.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/ReplaySubject.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Scheduler.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/OuterSubscriber.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/SubjectSubscription.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Observable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Subscription.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Rx.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Rx.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/AsyncSubject.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Notification.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Subscription.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Subject.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Notification.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/MiscJSDoc.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Subscriber.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Operator.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/BehaviorSubject.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/InnerSubscriber.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Subject.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Operator.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Observable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Observer.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/BehaviorSubject.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Scheduler.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/InnerSubscriber.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/MiscJSDoc.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/OuterSubscriber.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/Subscriber.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/instance.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/deps.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/cache.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/checker.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/entry.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/checker-runtime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/index.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/entry.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/helpers.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/paths-plugin.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/index.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/paths-plugin.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/checker.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/checker-runtime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/helpers.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/deps.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/instance.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/host.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/cache.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/host.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/not.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isArray.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isScheduler.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/assign.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isNumeric.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/Immediate.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/noop.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/tryCatch.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/assign.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/errorObject.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/noop.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/EmptyError.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/AnimationFrame.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/toSubscriber.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/Map.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isDate.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/toSubscriber.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/subscribeToResult.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isFunction.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/EmptyError.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isPromise.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/UnsubscriptionError.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/errorObject.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/not.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isDate.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/root.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/FastMap.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isObject.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/ObjectUnsubscribedError.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/applyMixins.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/AnimationFrame.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/Map.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isNumeric.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/ObjectUnsubscribedError.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isScheduler.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/MapPolyfill.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/ArgumentOutOfRangeError.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/subscribeToResult.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/root.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/UnsubscriptionError.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/MapPolyfill.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isFunction.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/applyMixins.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isObject.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/ArgumentOutOfRangeError.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/Immediate.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isPromise.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/isArray.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/FastMap.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/util/tryCatch.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/symbol/rxSubscriber.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/symbol/iterator.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/symbol/rxSubscriber.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/symbol/observable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/symbol/iterator.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/symbol/observable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/SubscriptionLog.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/TestMessage.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/TestMessage.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/SubscriptionLoggable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/SubscriptionLog.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/TestScheduler.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/ColdObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/ColdObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/HotObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/SubscriptionLoggable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/HotObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/testing/TestScheduler.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/distinct.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/skip.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/timeout.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/pairwise.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/count.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/windowWhen.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/delay.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/cache.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/startWith.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/let.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/concatMap.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/skipUntil.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/debounce.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/race.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/multicast.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/mergeMap.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/onErrorResumeNext.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/windowToggle.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/sampleTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/single.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/min.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/throttleTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/scan.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/timestamp.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/pluck.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/repeat.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/concatMap.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/observeOn.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/defaultIfEmpty.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/publishReplay.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/throttle.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/concat.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/switchMapTo.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/scan.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/max.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/mergeMapTo.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/windowCount.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/expand.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/windowWhen.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/switch.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/onErrorResumeNext.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/throttle.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/repeatWhen.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/mergeMapTo.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/merge.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/switch.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/filter.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/let.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/distinctUntilKeyChanged.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/takeLast.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/takeLast.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/dematerialize.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/combineAll.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/debounce.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/take.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/zip.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/timeoutWith.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/elementAt.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/multicast.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/takeWhile.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/groupBy.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/finally.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/partition.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/timestamp.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/first.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/retry.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/single.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/distinctUntilChanged.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/exhaust.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/pairwise.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/takeUntil.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/share.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/publishBehavior.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/buffer.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/toArray.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/combineLatest.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/concat.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/isEmpty.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/repeat.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/subscribeOn.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/publishReplay.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/mergeMap.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/materialize.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/distinctUntilKeyChanged.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/windowTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/bufferCount.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/elementAt.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/delayWhen.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/first.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/switchMap.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/bufferTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/concatMapTo.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/catch.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/reduce.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/audit.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/timeInterval.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/delayWhen.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/bufferWhen.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/concatAll.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/map.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/switchMapTo.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/publishLast.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/delay.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/do.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/windowToggle.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/buffer.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/auditTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/count.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/window.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/concatAll.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/expand.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/max.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/min.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/last.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/sample.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/switchMap.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/take.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/toArray.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/withLatestFrom.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/takeWhile.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/findIndex.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/distinctKey.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/withLatestFrom.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/auditTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/every.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/bufferTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/retryWhen.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/sequenceEqual.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/do.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/bufferToggle.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/cache.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/catch.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/window.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/retry.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/concatMapTo.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/subscribeOn.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/debounceTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/publishBehavior.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/dematerialize.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/find.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/bufferCount.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/finally.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/findIndex.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/ignoreElements.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/skipWhile.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/bufferToggle.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/exhaustMap.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/publish.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/skip.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/skipWhile.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/map.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/distinctKey.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/windowTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/publishLast.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/toPromise.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/timeoutWith.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/pluck.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/observeOn.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/materialize.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/toPromise.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/reduce.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/startWith.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/windowCount.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/every.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/race.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/takeUntil.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/sampleTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/mergeScan.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/sample.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/zipAll.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/distinctUntilChanged.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/mergeScan.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/sequenceEqual.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/exhaustMap.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/share.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/ignoreElements.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/debounceTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/defaultIfEmpty.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/last.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/exhaust.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/mapTo.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/combineLatest.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/repeatWhen.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/bufferWhen.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/mergeAll.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/find.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/publish.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/mergeAll.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/merge.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/timeInterval.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/filter.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/combineAll.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/isEmpty.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/skipUntil.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/audit.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/timeout.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/partition.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/retryWhen.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/groupBy.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/zip.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/zipAll.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/mapTo.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/distinct.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/operator/throttleTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AsyncAction.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/VirtualTimeScheduler.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/animationFrame.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/queue.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AsapScheduler.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/animationFrame.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AnimationFrameScheduler.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AsyncScheduler.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/QueueScheduler.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/QueueScheduler.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AnimationFrameAction.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AsapScheduler.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/asap.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AsyncScheduler.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AsapAction.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AsapAction.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AnimationFrameScheduler.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/QueueAction.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AsyncAction.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/VirtualTimeScheduler.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/asap.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/async.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/AnimationFrameAction.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/Action.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/Action.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/queue.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/async.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/scheduler/QueueAction.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/IntervalObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/EmptyObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/bindCallback.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/RangeObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/pairs.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/FromEventObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/forkJoin.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/fromEventPattern.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ErrorObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ArrayObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/TimerObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/fromPromise.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/EmptyObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ConnectableObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/interval.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/FromEventPatternObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/PairsObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/timer.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/bindNodeCallback.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/merge.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/bindCallback.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/TimerObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/SubscribeOnObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/IfObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/timer.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/DeferObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/concat.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/zip.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/using.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/FromEventPatternObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/forkJoin.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/BoundNodeCallbackObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/GenerateObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/range.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ScalarObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ArrayLikeObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/combineLatest.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/NeverObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/MulticastObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ConnectableObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/zip.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/never.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ScalarObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/throw.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/FromObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/empty.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/if.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/defer.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/fromEventPattern.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/PairsObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/IteratorObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/bindNodeCallback.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/interval.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/combineLatest.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/concat.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/DeferObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/throw.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/BoundCallbackObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/BoundNodeCallbackObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/MulticastObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/range.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/merge.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/GenerateObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/of.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/PromiseObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/UsingObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/fromPromise.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/empty.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/from.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/PromiseObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/FromEventObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/pairs.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/NeverObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/RangeObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/fromEvent.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ErrorObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/BoundCallbackObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/defer.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/SubscribeOnObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/IteratorObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/of.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ForkJoinObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/IntervalObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ForkJoinObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/UsingObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/never.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/IfObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ArrayObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/ArrayLikeObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/fromEvent.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/FromObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/from.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/if.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/using.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/node/fs.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/node/node.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/node/events.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/node/fs.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/node/events.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/node/node.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/common/timers.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/common/utils.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/common/utils.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/common/timers.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/property-descriptor.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/websocket.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/define-property.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/browser.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/define-property.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/register-element.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/event-target.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/event-target.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/websocket.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/register-element.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/property-descriptor.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/browser/browser.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/jasmine/jasmine.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/jasmine/jasmine.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/fake-async-test.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/long-stack-trace.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/sync-test.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/task-tracking.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/async-test.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/proxy.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/sync-test.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/task-tracking.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/fake-async-test.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/async-test.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/wtf.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/wtf.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/proxy.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/zone.js/lib/zone-spec/long-stack-trace.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/watch-type-errors.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/checker.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/utils.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/index.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/without-sourcemap.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/declaration.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/declaration.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/without-sourcemap.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/watch-type-errors.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/typeRoots.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/checker.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/initialFiles.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/salsa.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/utils.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/babel.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/react.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/initialFiles.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/index.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/react.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/salsa.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/typeRoots.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/babel.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/distinct.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/skip.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/timeout.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/pairwise.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/count.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/windowWhen.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/delay.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/cache.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/startWith.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/let.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/concatMap.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/skipUntil.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/debounce.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/race.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/multicast.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/mergeMap.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/onErrorResumeNext.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/windowToggle.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/sampleTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/single.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/min.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/throttleTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/scan.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/timestamp.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/pluck.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/repeat.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/concatMap.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/observeOn.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/defaultIfEmpty.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/publishReplay.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/throttle.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/concat.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/switchMapTo.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/scan.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/max.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/mergeMapTo.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/windowCount.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/expand.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/windowWhen.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/switch.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/onErrorResumeNext.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/throttle.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/repeatWhen.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/mergeMapTo.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/merge.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/switch.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/filter.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/let.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/distinctUntilKeyChanged.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/takeLast.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/takeLast.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/dematerialize.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/combineAll.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/debounce.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/take.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/zip.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/timeoutWith.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/elementAt.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/multicast.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/takeWhile.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/groupBy.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/finally.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/partition.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/timestamp.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/first.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/retry.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/single.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/distinctUntilChanged.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/exhaust.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/pairwise.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/takeUntil.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/share.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/publishBehavior.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/buffer.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/toArray.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/combineLatest.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/concat.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/isEmpty.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/repeat.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/subscribeOn.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/publishReplay.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/mergeMap.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/materialize.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/distinctUntilKeyChanged.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/windowTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/bufferCount.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/elementAt.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/delayWhen.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/first.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/switchMap.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/bufferTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/concatMapTo.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/catch.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/reduce.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/audit.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/timeInterval.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/delayWhen.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/bufferWhen.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/concatAll.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/map.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/switchMapTo.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/publishLast.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/delay.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/do.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/windowToggle.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/buffer.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/auditTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/count.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/window.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/concatAll.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/expand.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/max.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/min.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/last.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/sample.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/switchMap.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/take.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/toArray.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/withLatestFrom.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/takeWhile.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/findIndex.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/distinctKey.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/withLatestFrom.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/auditTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/every.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/bufferTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/retryWhen.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/sequenceEqual.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/do.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/bufferToggle.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/cache.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/catch.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/window.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/retry.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/concatMapTo.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/subscribeOn.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/debounceTime.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/publishBehavior.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/dematerialize.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/find.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/bufferCount.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/finally.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/findIndex.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/ignoreElements.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/skipWhile.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/bufferToggle.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/exhaustMap.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/publish.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/skip.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/skipWhile.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/map.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/distinctKey.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/windowTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/publishLast.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/toPromise.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/timeoutWith.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/pluck.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/observeOn.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/materialize.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/toPromise.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/reduce.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/startWith.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/windowCount.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/every.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/race.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/takeUntil.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/sampleTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/mergeScan.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/sample.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/zipAll.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/distinctUntilChanged.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/mergeScan.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/sequenceEqual.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/exhaustMap.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/share.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/ignoreElements.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/debounceTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/defaultIfEmpty.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/last.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/exhaust.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/mapTo.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/combineLatest.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/repeatWhen.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/bufferWhen.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/mergeAll.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/find.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/publish.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/mergeAll.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/merge.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/timeInterval.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/filter.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/combineAll.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/isEmpty.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/skipUntil.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/audit.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/timeout.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/partition.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/retryWhen.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/groupBy.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/zip.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/zipAll.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/mapTo.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/distinct.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/operator/throttleTime.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/generate.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/forkJoin.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/empty.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/timer.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/zip.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/zip.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/of.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/fromEvent.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/interval.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/concat.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/concat.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/generate.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/using.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/onErrorResumeNext.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/bindNodeCallback.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/bindCallback.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/race.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/defer.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/using.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/throw.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/onErrorResumeNext.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/defer.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/fromEventPattern.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/pairs.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/range.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/of.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/if.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/combineLatest.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/merge.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/never.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/fromEventPattern.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/timer.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/interval.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/bindCallback.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/bindNodeCallback.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/merge.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/fromEvent.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/from.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/range.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/forkJoin.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/fromPromise.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/fromPromise.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/never.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/if.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/empty.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/combineLatest.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/pairs.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/throw.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/race.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/from.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/dom/webSocket.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/dom/ajax.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/dom/AjaxObservable.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/dom/ajax.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/dom/webSocket.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/dom/AjaxObservable.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/dom/MiscJSDoc.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/dom/WebSocketSubject.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/dom/MiscJSDoc.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/observable/dom/WebSocketSubject.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/index.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/index.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/dom/ajax.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/dom/ajax.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/dom/webSocket.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/rxjs/src/add/observable/dom/webSocket.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/tsx/basic.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/tsx/basic.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/babel/babel.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/basic/basic.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/react/index.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/react/index.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/salsa/index.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/errors/with-type-errors.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/errors/with-type-errors.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/checker/to-check.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/checker/to-check.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/typeRoots/index.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/typeRoots/index.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/declaration/iface.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/declaration/iface.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/declaration/basic.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/declaration/basic.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/models/Message-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/models/Message-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/models/Product-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/models/Base.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/models/Base.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/models/Product.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/models/Message.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/models/Product.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/models/Message.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/models/Product-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/MessageStore.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/ProductStore-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/UIStore-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/ProductPersister-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/SettingsStore.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/SettingsStore.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/ProductPersister.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/ProductStore.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/SettingsStore-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/UIStore.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/SettingsStore-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/ProductPersister-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/ProductPersister.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/ProductStore.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/UIStore-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/MessageStore-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/ProductStore-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/MessageStore.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/MessageStore-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/stores/UIStore.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/helpers/fileUpload.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/helpers/fileUpload.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/constants/child-selection.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/constants/data-type.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/constants/env.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/constants/element-selection.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/constants/element-selection.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/constants/data-type.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/constants/env.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/constants/child-selection.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/App-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/App.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/App.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/App-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/test/setup/setup-mocha.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/test/setup/setup-mobx.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/test/setup/setup-sandbox.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/test/setup/StorageShim.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/test/setup/StorageShim.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/test/setup/setup-dom.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/test/setup/setup-dom.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/test/setup/setup-mobx.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/test/setup/setup-sandbox.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/test/setup/setup-mocha.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/230/awesome-typescript-loader-dts-issue/Client/src/main.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/230/awesome-typescript-loader-dts-issue/Client/src/main.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/utils/ioc/index.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/utils/ioc/IocContainer.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/utils/ioc/IocContainer.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/utils/ioc/index.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Button.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Modal-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/FileDialog-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Form-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Form-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Button.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/FileDialog.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Modal-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/FileDialog.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Button-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Form.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/index.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/FileDialog-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Modal.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Form.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Modal.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/index.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/ui/Button-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/EditorPage.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/ProductListPage-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/ProductListPage-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/EditorPage-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/EditorPage.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/ProductListPage.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/LeftPane.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/RightPane.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/ProductListPage.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/EditorPage-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/RightPane.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/pages/LeftPane.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/TopMenu-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/TopMenu-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/PaneResizer-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/TopMenu.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/PaneResizer.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/TopMenu.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/PaneResizer.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/PaneResizer-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/messages/MessageList.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/messages/MessageList-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/messages/MessageList.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/messages/MessageItem-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/messages/MessageItem-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/messages/MessageItem.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/messages/MessageItem.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/messages/MessageList-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductCreationForm-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductCreationForm.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductList.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductList-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/RemoveProductModal-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/RemoveProductModal.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductList.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductListItem-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductListItem.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/RemoveProductModal.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductList-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/RemoveProductModal-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductListItem.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductCreationForm.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductCreationForm-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/products/ProductListItem-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/initialFiles/Client/src/main.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/src/test/fixtures/initialFiles/Client/src/main.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/index.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/ProductTreeNode.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/TreeView.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/TreeView-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/TreeView-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/TreeView.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/RulesScriptTreeNode.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/ProductTreeNode.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/index.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/TagsScriptTreeNode.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/TagsScriptTreeNode.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/TreeNode.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/TreeNode.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/tree/RulesScriptTreeNode.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/search/Search.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/search/index.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/search/index.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/search/Search-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/search/Search-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/search/Search.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/validation/ValidationMessageList.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/validation/ValidationMessageIndicator-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/validation/ValidationMessageList.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/validation/ValidationMessageIndicator.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/validation/ValidationMessageList-spec.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/validation/ValidationMessageList-spec.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/validation/index.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/validation/ValidationMessageIndicator.js" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/validation/index.js.map" />
-        <option value="$PROJECT_DIR$/../mindbody-homework-angular/node_modules/awesome-typescript-loader/issues/product-designer/src/components/editor/validation/ValidationMessageIndicator-spec.js" />
-      </list>
-    </option>
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1628,76 +679,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modal/login-modal.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modal/login-modal.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modal/register-modal.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modal/modals.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vendor.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/modal/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1712,44 +693,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ABOUT.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ABOUT.md" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/src/app/project/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend_server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend_server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1841,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1849,15 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1865,15 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1881,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2730">
           <caret line="182" column="14" lean-forward="false" selection-start-line="168" selection-start-column="12" selection-end-line="182" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#53#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1891,15 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/project/project.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1907,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1915,15 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/project/project.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1931,15 +839,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="56" lean-forward="false" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_portfolio.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1947,15 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1839">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1963,9 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1973,16 +867,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/app/project/featured-projects.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/project/projects.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="171" column="23" lean-forward="false" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/project/project.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/project/projects.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/project/projects.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/project/project.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1995,29 +971,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/project/projects.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/project/featured-projects.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/project/projects.service.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        <state relative-caret-position="705">
+          <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
           <folding>
-            <element signature="e#0#75#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="5436" column="73" lean-forward="false" selection-start-line="5436" selection-start-column="73" selection-end-line="5436" selection-end-column="73" />
+          <folding>
+            <marker date="1498467860000" expanded="true" signature="213304:213312" ph="{&quot;version&quot;: &quot;0.6.26&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pm2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

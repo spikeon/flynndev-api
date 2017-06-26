@@ -1,139 +1,138 @@
 @import '../../config';
 
-.project{
-  padding-bottom: 50px;
-  .top{
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	margin-bottom: 20px;
-	.circle-img{
-	  flex-grow: 0;
-	  margin-right: 20px;
-	  @include circle-image(100px);
-	}
-	h2{
-	  flex-grow: 1;
-	}
-	.btn{
-	  flex-grow: 0;
-	  margin-left: 20px;
-	}
-  }
-  
-  .about, .readme {
+.project {
 	padding-bottom: 50px;
-	
-	table{
-	  border: 1px solid #ccc;
-	  th, td{
-		border: 1px solid #ccc;
-		border-collapse: collapse;
-		padding-left: 10px;
-		padding-right: 10px;
-	  }
-	  td:nth-child(2){
-		background: #f6f6f6;
-	  }
-	}
-  }
-  
-  .gallery {
-	.gallery-current {
-	  
-	  height: 500px;
-	  overflow: hidden;
-	  border: 3px solid #ccc;
-	  border-radius: 4px;
-	  
-	  img {
-		width: 100%;
-	  }
-	}
-	
-	.gallery-list {
-	  
-	  margin-top: 10px;
-	  border: 3px solid #ccc;
-	  border-radius: 4px;
-	  background-color: #ccc;
-	  display: flex;
-	  align-items: center;
-	  flex-wrap: wrap;
-	  
-	  .gallery-item{
-		
-		margin: 10px;
-		@include circle-image(100px);
-	  
-		&.active{
-		  border-color: #cb7832;
+	.top {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		margin-bottom: 20px;
+		.circle-img {
+			flex-grow: 0;
+			margin-right: 20px;
+			@include circle-image(100px);
 		}
-	  }
-	}
-  }
-  .protected {
-	margin-top: 20px;
-	i{
-	  margin-left: 15px;
-	  margin-right: 15px;
-	  font-size: 1.1em;
-	}
-  }
-  .files {
-	
-	
-	
-	.fileslist {
-	  
-	  overflow: scroll;
-	  padding-top: 10px;
-	  padding-bottom: 20px;
-	  
-	  a {
-		
-		display: block;
-		background-color: #bbb;
-		color: #000;
-		border-radius: 4px;
-		margin-top: 10px;
-		padding: 10px;
-		border: 1px solid #aaa;
-		line-height: 16px;
-		
-		&:hover {
-		  background-color: #ddd;
-		  border-color: #eee;
-		  text-decoration: none;
+		h2 {
+			flex-grow: 1;
 		}
-		
-		&.active {
-		  text-decoration: none;
-		  color: #fff;
-		  background-color: #2b2b2b;
-		  border-color: #3b3b3b;
+		.btn {
+			flex-grow: 0;
+			margin-left: 20px;
 		}
-	  }
 	}
-	
-	h5 {
-	  font-family: "serenity",sans-serif;
-	  margin-top: 20px;
-	  font-weight: bold;
-	  padding: 10px;
-	  line-height: 16px;
-	  border-radius: 4px;
-	  background-color: #2b2b2b;
-	  border-color: #3b3b3b;
-	  color: #fff;
+
+	.about, .readme {
+		padding-bottom: 50px;
+
+		table {
+			border: 1px solid #ccc;
+			th, td {
+				border: 1px solid #ccc;
+				border-collapse: collapse;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			td:nth-child(2) {
+				background: #f6f6f6;
+			}
+		}
 	}
-	
-	pre.code {
-	  padding: 0;
-	  code {
-		padding: 10px;
-	  }
+
+	.gallery {
+		.gallery-current {
+
+			max-height: 700px;
+			overflow: hidden;
+			border: 3px solid #ccc;
+			border-radius: 4px;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.gallery-list {
+
+			margin-top: 10px;
+			border: 3px solid #ccc;
+			border-radius: 4px;
+			background-color: #ccc;
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			.gallery-item {
+
+				margin: 10px;
+				@include circle-image(100px);
+
+				&.active {
+					border-color: #cb7832;
+				}
+			}
+		}
 	}
-	
-  }
+	.protected {
+		margin-top: 20px;
+		i {
+			margin-left: 15px;
+			margin-right: 15px;
+			font-size: 1.1em;
+		}
+	}
+	.files {
+
+		.fileslist {
+
+			overflow: scroll;
+			padding-top: 10px;
+			padding-bottom: 20px;
+
+			a {
+
+				display: block;
+				background-color: #bbb;
+				color: #000;
+				border-radius: 4px;
+				margin-top: 10px;
+				padding: 10px;
+				border: 1px solid #aaa;
+				line-height: 16px;
+
+				&:hover {
+					background-color: #ddd;
+					border-color: #eee;
+					text-decoration: none;
+				}
+
+				&.active {
+					text-decoration: none;
+					color: #fff;
+					background-color: #2b2b2b;
+					border-color: #3b3b3b;
+				}
+			}
+		}
+
+		h5 {
+			font-family: "serenity", sans-serif;
+			margin-top: 20px;
+			font-weight: bold;
+			padding: 10px;
+			line-height: 16px;
+			border-radius: 4px;
+			background-color: #2b2b2b;
+			border-color: #3b3b3b;
+			color: #fff;
+		}
+
+		pre.code {
+			padding: 0;
+			code {
+				padding: 10px;
+			}
+		}
+
+	}
 }
