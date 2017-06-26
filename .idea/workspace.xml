@@ -2,64 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/locales/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/locales/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/locales/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/list.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/lodash.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-Splus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-aea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-agc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-cbm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-cl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-erl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-lasso.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-lassoscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-latex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-lgt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-ll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-logtalk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-ls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-lsp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-nemerle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-rkt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-rust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-s.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-scm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-ss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-swift.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-vbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-vhd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-xquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-yml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/app.ce5870a836667157e82b.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/app.ce5870a836667157e82b.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/polyfills.ce5870a836667157e82b.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.efff44ffe87db2ef56ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.efff44ffe87db2ef56ca.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.efff44ffe87db2ef56ca.js.map" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/polyfills.efff44ffe87db2ef56ca.js" afterPath="$PROJECT_DIR$/dist/polyfills.ce5870a836667157e82b.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/vendor.efff44ffe87db2ef56ca.js" afterPath="$PROJECT_DIR$/dist/vendor.ce5870a836667157e82b.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/vendor.efff44ffe87db2ef56ca.js.map" afterPath="$PROJECT_DIR$/dist/vendor.ce5870a836667157e82b.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api_project.js" afterPath="$PROJECT_DIR$/api/api_project.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api_project.json" afterPath="$PROJECT_DIR$/api/api_project.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss" afterPath="$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/nav/nav.component.html" afterPath="$PROJECT_DIR$/src/app/nav/nav.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/nav/nav.component.scss" afterPath="$PROJECT_DIR$/src/app/nav/nav.component.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/project/project.component.scss" afterPath="$PROJECT_DIR$/src/app/project/project.component.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contact-slideup.component.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact-slideup.component.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,8 +47,8 @@
       <file leaf-file-name="nav.component.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,18 +57,18 @@
       <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="165">
+              <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="6" column="74" lean-forward="false" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -143,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/pm2.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -154,9 +99,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2625">
               <caret line="5436" column="73" lean-forward="false" selection-start-line="5436" selection-start-column="73" selection-end-line="5436" selection-end-column="73" />
-              <folding>
-                <marker date="1498467860000" expanded="true" signature="213304:213312" ph="{&quot;version&quot;: &quot;0.6.26&quot;...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -261,11 +204,11 @@
         <option value="$PROJECT_DIR$/src/app/project/projects.component.html" />
         <option value="$PROJECT_DIR$/src/app/project/projects.service.ts" />
         <option value="$PROJECT_DIR$/src/app/project/project.component.scss" />
-        <option value="$PROJECT_DIR$/src/app/nav/nav.component.scss" />
-        <option value="$PROJECT_DIR$/src/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/nav/nav.component.html" />
+        <option value="$PROJECT_DIR$/src/app/nav/nav.component.scss" />
       </list>
     </option>
   </component>
@@ -566,7 +509,7 @@
       <workItem from="1493187608674" duration="906000" />
       <workItem from="1493515774719" duration="2433000" />
       <workItem from="1495837320694" duration="1005000" />
-      <workItem from="1498463675102" duration="3451000" />
+      <workItem from="1498463675102" duration="3852000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -600,7 +543,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168625000" />
+    <option name="totallyTimeSpent" value="169026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -971,22 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -1005,28 +932,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="5436" column="73" lean-forward="false" selection-start-line="5436" selection-start-column="73" selection-end-line="5436" selection-end-column="73" />
-          <folding>
-            <marker date="1498467860000" expanded="true" signature="213304:213312" ph="{&quot;version&quot;: &quot;0.6.26&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pm2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1039,10 +948,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="5436" column="73" lean-forward="false" selection-start-line="5436" selection-start-column="73" selection-end-line="5436" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="74" lean-forward="false" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
           <folding />
         </state>
       </provider>

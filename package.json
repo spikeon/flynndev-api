@@ -5,9 +5,9 @@
   "main": "index.html",
   "scripts": {
     "build": "apidoc -i routes/ -o api/ && rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
-    "deploy": "npm run build && git add . && git commit && git push live master",
-    "autodeploy": "npm run build && git add . && git commit -m 'Auto Deployment' && git push live master",
-    "devdeploy": "git add . && git commit -m 'Auto Deployment' && git push live master"
+    "deploy": "npm run build && git add . && git commit && git push origin master",
+    "autodeploy": "npm run build && git add . && git commit -m 'Auto Deployment' && git push origin master",
+    "devdeploy": "git add . && git commit -m 'Auto Deployment' && git push origin master"
   },
   "author": "Michael Flynn",
   "licenses": [
