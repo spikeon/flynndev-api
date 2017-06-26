@@ -3,6 +3,7 @@
 	<div class="container ">
 		<div class="top">
 			<div *ngIf="projects.currentProject.thumb"  class=" circle-img img-fill project-head-img"> <img src="{{projects.currentProject.thumb}}/100"> </div>
+			<div *ngIf="projects.currentProject.thumb"  class=" mobile-circle-img img-fill project-head-img"> <img src="{{projects.currentProject.thumb}}/100"> </div>
 			<h2>{{projects.currentProject.name}}</h2>
 			<a *ngIf="projects.currentProject.npm" class="btn btn-default" href="{{projects.currentProject.npm}}">View on NPM</a>
 			<a *ngIf="projects.currentProject.github" class="btn btn-default" href="{{projects.currentProject.github}}"><i class="fa fa-github"></i> View on GitHub</a>

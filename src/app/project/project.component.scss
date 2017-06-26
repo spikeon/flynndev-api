@@ -13,7 +13,7 @@
 	@media only screen and (max-width : 480px) {
 		flex-direction: column;
 		> * {
-			padding-bottom: 20px;
+			margin-bottom: 20px;
 		}
 	}
 
@@ -24,11 +24,19 @@
 		@include circle-image(100px);
 
 		@media only screen and (max-width : 480px) {
+			display:none;
 			margin-right: 0;
+		}
+	}
+
+	.mobile-circle-img {
+		display:none;
+		flex-grow: 0;
+		@media only screen and (max-width : 480px) {
 			@include circle-image(200px);
 		}
-
 	}
+
 	h2 {
 		flex-grow: 1;
 	}
