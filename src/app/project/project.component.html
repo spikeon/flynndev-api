@@ -1,4 +1,5 @@
 <div class="project" *ngIf="projects.loaded">
+
 	<div class="container ">
 		<div class="top">
 			<div *ngIf="projects.currentProject.thumb"  class=" circle-img img-fill project-head-img"> <img src="{{projects.currentProject.thumb}}/100"> </div>
@@ -24,12 +25,15 @@
 			</div>
 		</div>
 	</div>
+
 	<div class="container">
+
 		<ul class="nav nav-tabs" role="tablist">
 			<li role="presentation" *ngIf="projects.currentProject.about" [ngClass]="{'active' : projects.currentProject.about}"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
 			<li role="presentation" *ngIf="projects.currentProject.readme" [ngClass]="{'active' : ! projects.currentProject.about}"><a href="#readme" aria-controls="readme" role="tab" data-toggle="tab">Readme</a></li>
 			<li role="presentation"  [ngClass]="{'active' : ! projects.currentProject.about && ! projects.currentProject.readme }"><a href="#files" aria-controls="files" role="tab" data-toggle="tab">Files</a></li>
 		</ul>
+
 		<div class="tab-content">
 
 			<div role="tabpanel" class="tab-pane" id="about" *ngIf="projects.currentProject.about"  [ngClass]="{'active' : projects.currentProject.about}">
@@ -61,7 +65,9 @@
 				</div>
 				<protected *ngIf="!api.hasUser()"></protected>
 			</div>
+
 		</div>
+
 	</div>
 
 </div>
