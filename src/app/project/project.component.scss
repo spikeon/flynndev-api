@@ -4,46 +4,59 @@
 	padding-bottom: 50px;
 }
 
+$top_spacing : 20px;
+
 .top {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	margin-bottom: 20px;
+	margin-bottom: $top_spacing;
 
 	@media only screen and (max-width : 480px) {
 		flex-direction: column;
 		> * {
-			margin-bottom: 20px;
+			margin-bottom: $top_spacing;
 		}
 	}
 
 
-	.circle-img {
+	.head-img {
 		flex-grow: 0;
-		margin-right: 20px;
+		margin-right: $top_spacing;
 		@include circle-image(100px);
-
-		@media only screen and (max-width : 480px) {
-			display:none;
-			margin-right: 0;
-		}
+		@media only screen and (max-width : 480px) { display:none; }
 	}
 
-	.mobile-circle-img {
+	.mobile-img {
 		display:none;
 		flex-grow: 0;
-		@media only screen and (max-width : 480px) {
-			@include circle-image(200px);
-		}
+		@media only screen and (max-width : 480px) { @include circle-image(200px); }
 	}
 
 	h2 {
 		flex-grow: 1;
 	}
-	.btn {
+
+	.buttons {
 		flex-grow: 0;
-		margin-left: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		@media only screen and (max-width : 480px) {
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		.btn {
+			margin-left: $top_spacing;
+			@media only screen and (max-width : 480px) {
+				margin-left: 0;
+				margin-bottom: $top_spacing;
+			}
+		}
 	}
+
+
 }
 
 .about, .readme {
