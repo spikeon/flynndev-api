@@ -2,12 +2,15 @@
 
 body {
   padding-top: 70px;
+  @media only screen and (max-width : 480px) {
+    padding-bottom: 50px;
+  }
   font-family: "serenity",sans-serif;
   font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "coquette",fantasy;
+  font-family: "serenity", sans-serif;
   font-weight: 600;
   * {
 	font-family: "serenity", sans-serif;
