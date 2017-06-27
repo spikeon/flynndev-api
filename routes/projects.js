@@ -77,7 +77,7 @@ let buildProject = function(folder, all = false) {
 		apidoc  :   info.apidoc && info.apidoc.url ? info.apidoc.url : "",
 		github  :   info.githuburl ? info.githuburl : "",
 		npm     :   info.npmurl ? info.npmurl : "",
-		name    :   info.description ? info.description : folder,
+		name    :   info.title ? info.title : (info.description ? info.description : folder),
 		files   :   all ? walkSync(full_folder, [], ignores, full_folder) : [],
 		gallery :   gallery,
 		about   :   all ? getProjectMd('ABOUT.md', full_folder) : "",

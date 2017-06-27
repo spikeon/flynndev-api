@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/674f50d287a8c48dc19ba404d20fe713.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/89889688147bd7575d6327160d64e760.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/912ec66d7572ff821749319396470bde.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.76c8c90d0e0985b73991.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.76c8c90d0e0985b73991.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets/glyphicons-halflings-regular.a0180954d7d374e153899d0974b25225.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/b06871f281fee6b241d60582ae9369b9.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/e18bbf611f2a2e43afc071aa2f4e1512.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/f4769f9bdb7466be65088239c12046d1.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.76c8c90d0e0985b73991.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.76c8c90d0e0985b73991.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.76c8c90d0e0985b73991.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vendor.76c8c90d0e0985b73991.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/project/project.component.scss" afterPath="$PROJECT_DIR$/src/app/project/project.component.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style.scss" afterPath="$PROJECT_DIR$/src/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api_project.js" afterPath="$PROJECT_DIR$/api/api_project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api_project.json" afterPath="$PROJECT_DIR$/api/api_project.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/projects.js" afterPath="$PROJECT_DIR$/routes/projects.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,6 +39,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="projects.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/projects.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1011">
+              <caret line="79" column="92" lean-forward="false" selection-start-line="79" selection-start-column="92" selection-end-line="79" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".projectignores" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.projectignores">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="contact-slideup.component.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/contact/contact-slideup.component.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,26 +74,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/nav/nav.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="74" lean-forward="false" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -84,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api_project.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/api_project.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,16 +134,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2625">
-              <caret line="5436" column="73" lean-forward="false" selection-start-line="5436" selection-start-column="73" selection-end-line="5436" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -189,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/ABOUT.md" />
         <option value="$PROJECT_DIR$/src/app/interfaces.ts" />
-        <option value="$PROJECT_DIR$/routes/projects.js" />
         <option value="$PROJECT_DIR$/src/app/portfolio-api.service.ts" />
         <option value="$PROJECT_DIR$/src/app/project/project.component.ts" />
         <option value="$PROJECT_DIR$/new_project.sh" />
@@ -207,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/app/project/project.component.html" />
         <option value="$PROJECT_DIR$/src/app/project/project.component.scss" />
         <option value="$PROJECT_DIR$/src/style.scss" />
+        <option value="$PROJECT_DIR$/routes/projects.js" />
       </list>
     </option>
   </component>
@@ -261,34 +276,12 @@
             <path>
               <item name="FlynnDev" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlynnDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlynnDev" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlynnDev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlynnDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlynnDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlynnDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlynnDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="nav" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlynnDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlynnDev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -507,7 +500,7 @@
       <workItem from="1493187608674" duration="906000" />
       <workItem from="1493515774719" duration="2433000" />
       <workItem from="1495837320694" duration="1005000" />
-      <workItem from="1498463675102" duration="7147000" />
+      <workItem from="1498463675102" duration="8368000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -541,7 +534,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172321000" />
+    <option name="totallyTimeSpent" value="173542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -628,20 +621,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/modal/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modal/login-modal.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ABOUT.md" />
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/src/app/project/index.ts">
@@ -859,14 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="171" column="23" lean-forward="false" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/project/projects.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -993,6 +964,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api_project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.projectignores">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1011">
+          <caret line="79" column="92" lean-forward="false" selection-start-line="79" selection-start-column="92" selection-end-line="79" selection-end-column="92" />
           <folding />
         </state>
       </provider>
