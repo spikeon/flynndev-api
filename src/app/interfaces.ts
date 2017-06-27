@@ -4,6 +4,7 @@ export interface Project {
 	url?:string;
 	apidoc?:string;
 	github?:string;
+	wordpress?:string;
 	name:string;
 	files?: Array<string>;
 	gallery?:Array<string>;

@@ -76,6 +76,7 @@ let buildProject = function(folder, all = false) {
 		url     :   info.liveurl,
 		apidoc  :   info.apidoc && info.apidoc.url ? info.apidoc.url : "",
 		github  :   info.githuburl ? info.githuburl : "",
+		wordpress : info.wordpressurl ? info.wordpressurl : "",
 		npm     :   info.npmurl ? info.npmurl : "",
 		name    :   info.title ? info.title : (info.description ? info.description : folder),
 		files   :   all ? walkSync(full_folder, [], ignores, full_folder) : [],
