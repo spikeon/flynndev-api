@@ -61,9 +61,6 @@ let buildProject = function(folder, all = false) {
 
 	if(info.portfolio_hide === true) return false;
 
-	if(info.restricted)
-
-
 	let ignores = fs.existsSync(full_folder + '/.projectignores') ? config.ignore.concat(getProjectFile('.projectignores', full_folder).split("\n")) : config.ignore;
 
 	let gallery = [];

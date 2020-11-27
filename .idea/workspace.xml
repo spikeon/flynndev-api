@@ -21,94 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api_project.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api_project.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_project.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/api/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/api/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/locale.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/locale.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/pt_br.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/pt_br.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/zh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/locales/zh_cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/locales/zh_cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/utils/handlebars_helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils/handlebars_helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/utils/send_sample_request.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils/send_sample_request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/bootstrap-responsive.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/bootstrap-responsive.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/diff_match_patch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/diff_match_patch.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/handlebars.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/handlebars.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/list.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/list.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/lodash.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/lodash.custom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/lodash.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/lodash.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/path-to-regexp/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/path-to-regexp/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/path-to-regexp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/path-to-regexp/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/polyfill.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/polyfill.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-apollo.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-apollo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-basic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-clj.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-clj.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-css.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-css.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-dart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-erlang.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-erlang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-go.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-go.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-hs.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-hs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-lisp.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-lisp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-llvm.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-llvm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-lua.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-lua.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-matlab.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-matlab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-ml.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-ml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-mumps.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-mumps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-n.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-pascal.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-pascal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-proto.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-proto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-r.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-r.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-rd.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-rd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-scala.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-scala.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-sql.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-sql.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-tcl.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-tcl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-tex.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-tex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-vb.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-vb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-vhdl.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-vhdl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-wiki.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-wiki.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-xq.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-xq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/lang-yaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/lang-yaml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/prettify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/prettify/run_prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/prettify/run_prettify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/require.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/require.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/vendor/webfontloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/vendor/webfontloader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/674f50d287a8c48dc19ba404d20fe713.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/89889688147bd7575d6327160d64e760.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/912ec66d7572ff821749319396470bde.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.28c46cec4c675c3878dd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.28c46cec4c675c3878dd.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/glyphicons-halflings-regular.a0180954d7d374e153899d0974b25225.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/b06871f281fee6b241d60582ae9369b9.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/e18bbf611f2a2e43afc071aa2f4e1512.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/f4769f9bdb7466be65088239c12046d1.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.28c46cec4c675c3878dd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.28c46cec4c675c3878dd.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendor.28c46cec4c675c3878dd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendor.28c46cec4c675c3878dd.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/project/project.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/project.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,9 +30,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="flynndev" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -275,9 +185,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.autodeploy" />
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.devdeploy" />
         <item itemvalue="npm.start" />
       </list>
@@ -324,7 +234,7 @@
       <workItem from="1495837320694" duration="1005000" />
       <workItem from="1498463675102" duration="9662000" />
       <workItem from="1498561639728" duration="444000" />
-      <workItem from="1606513627042" duration="2470000" />
+      <workItem from="1606513627042" duration="2926000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -383,22 +293,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Making console log turn itself off when login state changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="773" key="GridCell.Tab.0.bottom" timestamp="1606515994662">
+    <state width="1419" height="773" key="GridCell.Tab.0.bottom" timestamp="1606516306015">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.bottom/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606515994662" />
-    <state width="1419" height="773" key="GridCell.Tab.0.center" timestamp="1606515994662">
+    <state width="1419" height="773" key="GridCell.Tab.0.bottom/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516306015" />
+    <state width="1419" height="773" key="GridCell.Tab.0.center" timestamp="1606516306014">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.center/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606515994662" />
-    <state width="1419" height="773" key="GridCell.Tab.0.left" timestamp="1606515994662">
+    <state width="1419" height="773" key="GridCell.Tab.0.center/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516306014" />
+    <state width="1419" height="773" key="GridCell.Tab.0.left" timestamp="1606516306014">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.left/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606515994662" />
-    <state width="1419" height="773" key="GridCell.Tab.0.right" timestamp="1606515994662">
+    <state width="1419" height="773" key="GridCell.Tab.0.left/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516306014" />
+    <state width="1419" height="773" key="GridCell.Tab.0.right" timestamp="1606516306015">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.right/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606515994662" />
+    <state width="1419" height="773" key="GridCell.Tab.0.right/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516306015" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
