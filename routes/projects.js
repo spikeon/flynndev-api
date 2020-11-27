@@ -70,6 +70,8 @@ let buildProject = function(folder, all = false) {
 		if(galleryurl) gallery.push(galleryurl);
 	}
 
+	let showFiles = info.unrestrictedFiles || all;
+
 	let project     = {
 		id      :   folder,
 		thumb   :   fs.existsSync(`${full_folder}/thumb.png`) ? `${config.web_root}projects/${folder}/thumb` : "",
@@ -79,12 +81,13 @@ let buildProject = function(folder, all = false) {
 		wordpress : info.wordpressurl ? info.wordpressurl : "",
 		npm     :   info.npmurl ? info.npmurl : "",
 		name    :   info.title ? info.title : (info.description ? info.description : folder),
-		files   :   info.unrestrictedFiles || all ? walkSync(full_folder, [], ignores, full_folder) : [],
+		files   :   showFiles ? walkSync(full_folder, [], ignores, full_folder) : [],
 		gallery :   gallery,
 		about   :   all ? getProjectMd('ABOUT.md', full_folder) : "",
 		readme  :   all ? getProjectMd('README.md', full_folder) : "",
 		tags    :   info.tags ? info.tags : [],
 		featured:   info.featured ? true : false,
+		show_files: showFiles
 	};
 
 	return project;
