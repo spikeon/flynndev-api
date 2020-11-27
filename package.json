@@ -89,7 +89,7 @@
   },
   "liveurl": "http://flynndev.us",
   "featured": true,
-  "unrestrictedFiles": true,
+  "unrestrictedfiles": true,
   "tags": [
     "Angular2",
     "Bootstrap",
