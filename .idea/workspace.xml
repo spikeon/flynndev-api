@@ -22,8 +22,6 @@
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/interfaces.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/project/project.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/project.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +234,7 @@
       <workItem from="1495837320694" duration="1005000" />
       <workItem from="1498463675102" duration="9662000" />
       <workItem from="1498561639728" duration="444000" />
-      <workItem from="1606513627042" duration="3262000" />
+      <workItem from="1606513627042" duration="4689000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -295,22 +293,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Making console log turn itself off when login state changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="773" key="GridCell.Tab.0.bottom" timestamp="1606516582011">
+    <state width="1419" height="773" key="GridCell.Tab.0.bottom" timestamp="1606516920596">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.bottom/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516582011" />
-    <state width="1419" height="773" key="GridCell.Tab.0.center" timestamp="1606516582011">
+    <state width="1419" height="773" key="GridCell.Tab.0.bottom/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516920596" />
+    <state width="1419" height="773" key="GridCell.Tab.0.center" timestamp="1606516920596">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.center/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516582011" />
-    <state width="1419" height="773" key="GridCell.Tab.0.left" timestamp="1606516582011">
+    <state width="1419" height="773" key="GridCell.Tab.0.center/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516920596" />
+    <state width="1419" height="773" key="GridCell.Tab.0.left" timestamp="1606516920596">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.left/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516582011" />
-    <state width="1419" height="773" key="GridCell.Tab.0.right" timestamp="1606516582011">
+    <state width="1419" height="773" key="GridCell.Tab.0.left/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516920596" />
+    <state width="1419" height="773" key="GridCell.Tab.0.right" timestamp="1606516920596">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.right/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516582011" />
+    <state width="1419" height="773" key="GridCell.Tab.0.right/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606516920596" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
