@@ -70,8 +70,6 @@ let buildProject = function(folder, all = false) {
 		if(galleryurl) gallery.push(galleryurl);
 	}
 
-	let showFiles = all || info.unrestrictedfiles;
-
 	let project     = {
 		id      :   folder,
 		thumb   :   fs.existsSync(`${full_folder}/thumb.png`) ? `${config.web_root}projects/${folder}/thumb` : "",
@@ -87,7 +85,7 @@ let buildProject = function(folder, all = false) {
 		readme  :   all ? getProjectMd('README.md', full_folder) : "",
 		tags    :   info.tags ? info.tags : [],
 		featured:   info.featured ? true : false,
-		show_files: showFiles
+		unrestricted_files: info.unrestrictedfiles ? true : false
 	};
 
 	return project;

@@ -21,8 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/interfaces.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/project/project.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/project.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +236,7 @@
       <workItem from="1495837320694" duration="1005000" />
       <workItem from="1498463675102" duration="9662000" />
       <workItem from="1498561639728" duration="444000" />
-      <workItem from="1606513627042" duration="5202000" />
+      <workItem from="1606513627042" duration="6778000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -266,7 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1479978948723</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Trying this">
+      <created>1606519125023</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606519125023</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Trying this">
+      <created>1606519538477</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606519538477</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,29 +306,30 @@
     <MESSAGE value="Fixing token headers on initial login" />
     <MESSAGE value="Adding Toggleable Console Logger" />
     <MESSAGE value="Making console log turn itself off when login state changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making console log turn itself off when login state changes" />
+    <MESSAGE value="Trying this" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying this" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="773" key="GridCell.Tab.0.bottom" timestamp="1606518365336">
+    <state width="1419" height="773" key="GridCell.Tab.0.bottom" timestamp="1606520353046">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.bottom/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606518365336" />
-    <state width="1419" height="773" key="GridCell.Tab.0.center" timestamp="1606518365333">
+    <state width="1419" height="773" key="GridCell.Tab.0.bottom/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606520353046" />
+    <state width="1419" height="773" key="GridCell.Tab.0.center" timestamp="1606520353046">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.center/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606518365333" />
-    <state width="1419" height="773" key="GridCell.Tab.0.left" timestamp="1606518365332">
+    <state width="1419" height="773" key="GridCell.Tab.0.center/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606520353046" />
+    <state width="1419" height="773" key="GridCell.Tab.0.left" timestamp="1606520353046">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.left/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606518365332" />
-    <state width="1419" height="773" key="GridCell.Tab.0.right" timestamp="1606518365334">
+    <state width="1419" height="773" key="GridCell.Tab.0.left/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606520353046" />
+    <state width="1419" height="773" key="GridCell.Tab.0.right" timestamp="1606520353046">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state width="1419" height="773" key="GridCell.Tab.0.right/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606518365334" />
-    <state x="-1847" y="-1402" key="Vcs.Push.Dialog.v2" timestamp="1606518664705">
+    <state width="1419" height="773" key="GridCell.Tab.0.right/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606520353046" />
+    <state x="-1847" y="-1402" key="Vcs.Push.Dialog.v2" timestamp="1606519540961">
       <screen x="-2160" y="-2400" width="1440" height="2529" />
     </state>
-    <state x="-1847" y="-1402" key="Vcs.Push.Dialog.v2/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606518664705" />
+    <state x="-1847" y="-1402" key="Vcs.Push.Dialog.v2/0.0.2560.1410/-2160.-2400.1440.2529@-2160.-2400.1440.2529" timestamp="1606519540961" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

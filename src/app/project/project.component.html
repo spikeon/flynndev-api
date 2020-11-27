@@ -56,7 +56,7 @@
 
 
 			<div role="tabpanel" class="tab-pane" id="files"  [ngClass]="{'active' : ! projects.currentProject.about && ! projects.currentProject.readme }">
-				<div class="files" *ngIf="projects.currentProject.show_files">
+				<div class="files" *ngIf="projects.currentProject.unrestricted_files ||  api.hasUser()">
 					<div class="row">
 						<div class="fileslist col-md-3">
 							<a *ngFor="let file of projects.currentProject.files" href="#" [ngClass]="{active: file == currentFile}" (click)="openFile($event, file)">{{file.path}}</a>
@@ -67,7 +67,7 @@
 						</div>
 					</div>
 				</div>
-				<protected *ngIf="!projects.currentProject.show_files"></protected>
+				<protected *ngIf="!projects.currentProject.unrestricted_files && !api.hasUser()"></protected>
 			</div>
 
 		</div>

@@ -13,7 +13,7 @@ export interface Project {
 	tags?:Array<string>;
 	featured:boolean;
 	portfolio_hide?:boolean;
-	show_files?:boolean
+	unrestricted_files?:boolean
 }
 export interface Projects {
 	[index:string] : Project
