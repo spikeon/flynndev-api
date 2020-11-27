@@ -70,7 +70,7 @@ let buildProject = function(folder, all = false) {
 		if(galleryurl) gallery.push(galleryurl);
 	}
 
-	let showFiles = all || info.unrestrictedfiles === true;
+	let showFiles = all || info.unrestrictedfiles;
 
 	let project     = {
 		id      :   folder,
