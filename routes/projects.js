@@ -61,6 +61,9 @@ let buildProject = function(folder, all = false) {
 
 	if(info.portfolio_hide === true) return false;
 
+	if(info.restricted)
+
+
 	let ignores = fs.existsSync(full_folder + '/.projectignores') ? config.ignore.concat(getProjectFile('.projectignores', full_folder).split("\n")) : config.ignore;
 
 	let gallery = [];
@@ -79,7 +82,7 @@ let buildProject = function(folder, all = false) {
 		wordpress : info.wordpressurl ? info.wordpressurl : "",
 		npm     :   info.npmurl ? info.npmurl : "",
 		name    :   info.title ? info.title : (info.description ? info.description : folder),
-		files   :   all ? walkSync(full_folder, [], ignores, full_folder) : [],
+		files   :   info.unrestrictedFiles || all ? walkSync(full_folder, [], ignores, full_folder) : [],
 		gallery :   gallery,
 		about   :   all ? getProjectMd('ABOUT.md', full_folder) : "",
 		readme  :   all ? getProjectMd('README.md', full_folder) : "",

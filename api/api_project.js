@@ -1,1 +1,16 @@
-define({  "name": "Portfolio API",  "title": "Portfolio API",  "url": "http://flynndev.us/api",  "version": "1.0.0",  "description": "FlynnDev",  "sampleUrl": false,  "apidoc": "0.2.0",  "generator": {    "name": "apidoc",    "time": "2017-06-27T11:15:59.404Z",    "url": "http://apidocjs.com",    "version": "0.16.1"  }});
+define({
+  "name": "Portfolio API",
+  "title": "Portfolio API",
+  "url": "http://flynndev.us/api",
+  "version": "1.0.0",
+  "description": "FlynnDev",
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2020-11-27T22:26:36.002Z",
+    "url": "https://apidocjs.com",
+    "version": "0.25.0"
+  }
+});

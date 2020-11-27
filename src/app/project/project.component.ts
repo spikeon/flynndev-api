@@ -34,10 +34,15 @@ export class ProjectComponent implements OnInit, AfterViewInit {
 		/* TODO: Figure out how to make this work if it ISN'T loaded"; */
 		if( this.projects.loaded ) {
 
-			if (this.api.hasUser()) this.changeFile(this.projects.currentProject.files.length > 0 ? this.projects.currentProject.files[0] : {
-				name: '404',
-				content: " /* Sorry, this project doesn't have any files currently */ "
-			});
+			const showFiles = this.projects.currentProject.files.length > 0 || this.api.hasUser();
+
+			if (showFiles) this.changeFile(this.projects.currentProject.files.length > 0 ?
+				this.projects.currentProject.files[0] :
+				{
+					name: '404',
+					content: " /* Sorry, this project doesn't have any files currently */ "
+				}
+			);
 			this.changeImage(this.projects.currentProject.gallery[0]);
 		}
 	}
