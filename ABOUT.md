@@ -1,4 +1,5 @@
-This is the project file for the website you are currently using.
+This is the project file for the website you are currently using.  The frontend server is no longer active as it has been
+replaced by the Flynndev - React project.  
 
 Please, take a look at the files and see how it runs!
 
