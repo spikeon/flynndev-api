@@ -142,7 +142,7 @@ router
 	 *	]
 	 */
 	.get('/all',  function(req, res){
-		res.json(getProjects(false));
+		res.json(getProjects(true));
 	})
 
 
