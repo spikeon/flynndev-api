@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="" />
+    <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/gallery1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABOUT.md" beforeDir="false" afterPath="$PROJECT_DIR$/ABOUT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/projects.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +242,7 @@
       <workItem from="1607375750954" duration="589000" />
       <workItem from="1607590823530" duration="9000" />
       <workItem from="1609407147867" duration="7241000" />
-      <workItem from="1609826848695" duration="2338000" />
+      <workItem from="1609826848695" duration="2814000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -323,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609843770130</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fixing apidoc link">
+      <created>1609843864656</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609843864656</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +361,8 @@
     <MESSAGE value="Trying this" />
     <MESSAGE value="Moving to React" />
     <MESSAGE value="Expanding About for portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expanding About for portfolio" />
+    <MESSAGE value="Fixing apidoc link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing apidoc link" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
