@@ -2,3 +2,4 @@ dist
 api_config.js
 *.psd
 api
+.repos
