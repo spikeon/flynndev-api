@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gallery1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABOUT.md" beforeDir="false" afterPath="$PROJECT_DIR$/ABOUT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -242,7 +240,7 @@
       <workItem from="1607375750954" duration="589000" />
       <workItem from="1607590823530" duration="9000" />
       <workItem from="1609407147867" duration="7241000" />
-      <workItem from="1609826848695" duration="2814000" />
+      <workItem from="1609826848695" duration="3220000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -335,7 +333,35 @@
       <option name="project" value="LOCAL" />
       <updated>1609843864656</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fixing some logic in API when serving files">
+      <created>1609844284943</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609844284943</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding json gallery image">
+      <created>1609844370077</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609844370077</updated>
+    </task>
+    <task id="LOCAL-00016" summary="adding json gallery image">
+      <created>1609844486842</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609844486842</updated>
+    </task>
+    <task id="LOCAL-00017" summary="adding json gallery image">
+      <created>1609844574291</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609844574291</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +388,9 @@
     <MESSAGE value="Moving to React" />
     <MESSAGE value="Expanding About for portfolio" />
     <MESSAGE value="Fixing apidoc link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing apidoc link" />
+    <MESSAGE value="Fixing some logic in API when serving files" />
+    <MESSAGE value="adding json gallery image" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding json gallery image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
