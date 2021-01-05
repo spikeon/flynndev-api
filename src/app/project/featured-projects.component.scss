@@ -10,10 +10,9 @@
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
-  
   justify-content: center;
-  .project-img{
-	margin: 10px;
-	@include circle-image(200px);
-  }
+}
+.project-img{
+  margin: 10px;
+  @include circle-image(200px);
 }

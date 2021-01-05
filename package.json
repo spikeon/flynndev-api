@@ -1,7 +1,7 @@
 {
   "name": "flynndev",
   "version": "1.0.0",
-  "description": "FlynnDev",
+  "description": "FlynnDev - API",
   "main": "index.html",
   "scripts": {
     "build": "apidoc -i routes/ -o api/ && rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
@@ -87,7 +87,7 @@
     "title": "Portfolio API",
     "url": "http://flynndev.us/api"
   },
-  "liveurl": "http://flynndev.us",
+  "liveurl": "http://flynndev.us:17580",
   "featured": true,
   "unrestrictedfiles": true,
   "tags": [
