@@ -79,7 +79,7 @@ let buildProject = function(folder, all = false) {
 		wordpress : info.wordpressurl ? info.wordpressurl : "",
 		npm     :   info.npmurl ? info.npmurl : "",
 		name    :   info.title ? info.title : (info.description ? info.description : folder),
-		files   :   all ? [] : (info.unrestrictedfiles ? walkSync(full_folder, [], ignores, full_folder) : []),
+		files   :   all ? [] : walkSync(full_folder, [], ignores, full_folder),
 		gallery :   gallery,
 		about   :   all ? getProjectMd('ABOUT.md', full_folder) : "",
 		readme  :   all ? getProjectMd('README.md', full_folder) : "",
