@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e9e8eb61-44e4-4c20-a4b1-520035e9eca2" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,7 +237,7 @@
       <workItem from="1607375750954" duration="589000" />
       <workItem from="1607590823530" duration="9000" />
       <workItem from="1609407147867" duration="7241000" />
-      <workItem from="1609826848695" duration="1775000" />
+      <workItem from="1609826848695" duration="2338000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Typos">
       <created>1479975142648</created>
@@ -304,7 +302,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609827107647</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Expanding About for portfolio">
+      <created>1609843626360</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609843626360</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Expanding About for portfolio">
+      <created>1609843690303</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609843690303</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Expanding About for portfolio">
+      <created>1609843770130</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609843770130</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +348,8 @@
     <MESSAGE value="Making console log turn itself off when login state changes" />
     <MESSAGE value="Trying this" />
     <MESSAGE value="Moving to React" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moving to React" />
+    <MESSAGE value="Expanding About for portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expanding About for portfolio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

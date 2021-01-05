@@ -85,7 +85,7 @@
   "apidoc": {
     "name": "Portfolio API",
     "title": "Portfolio API",
-    "url": "http://flynndev.us/api"
+    "url": "http://flynndev.us:17580/api"
   },
   "liveurl": "http://flynndev.us:17580",
   "featured": true,
